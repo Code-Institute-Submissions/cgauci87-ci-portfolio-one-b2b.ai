@@ -102,7 +102,6 @@ a {
     }
 
 nav {
-    order: 1;
     z-index: 500;
 }
 
@@ -124,25 +123,32 @@ nav {
     background-blend-mode:multiply;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 35% 35%; /*mq*/
-    width: 100%;
-    height: 100vh;
-    max-height: 100%;
-    order: 2;
+    background-position: 20% 20%; /*mq*/
     margin: 0;
-    padding:0%
+    padding:0%;
+    max-width: 100%;
+    width: 100%;
+    max-height: 150%;
   }
-
 
   .intro h1 {
     color:rgb(18, 42, 49);
     background-color: slategrey ;
     vertical-align: middle;
     text-align:center;
-    padding-top: 1%; /*mq*/
-    font-size: 78px; /*mq*/
     font-weight: 800;
-    letter-spacing: 42px;  /*mq*/
+    order: 1;
+    padding: 2%;
+    font-size: calc( 52px + (24 - 16) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc( 36px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    line-height:  calc( 42px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    place-self: start; /*new*/
+    align-content:space-around;/*new*/
+    }
+
+  .line-1{
+    place-self: start center; /*new*/
+    align-content:space-between; /*new*/
   }
 
   .line-wrapper-1 .line-1 {
@@ -155,18 +161,16 @@ nav {
     text-align: center;
     overflow: hidden;
     transform: translateY(-10%);
-    position: absolute;
-    display: flex;
-    font-size: 48px;
-    padding-left: 1%;
-    padding-right: 1%;
+    margin-top: 0.5%;
+    padding-bottom: 0.5%;
     white-space:pre-line;
     text-align: center;
-    word-spacing: 5px; /*mq*/
-    font-size: 38px; /*mq*/
-    line-height: 38px; /*mq*/
-    height: 9vh; /* mq */
-    margin-top: 0.7%; /* mq */
+    font-size: calc( 18px + (24 - 16) * (100vw - 400px) / (800 - 400) );   /*new*/
+    line-height:  calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    height: 10vh; /* mq */
+    max-height: 150%;
+    order: 2;
+    height: 100%;
   }	
 
   .goto-btn {
@@ -216,9 +220,12 @@ nav {
   z-index:0;
   height: 4.7vh; /*mq*/
   margin-top: 16%; /*mq*/
+  order: 3;
 }
 
 .line-wrapper-2 .line-2 {
+  position: absolute;
+  display: block;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
   background-color: rgb(25,25,25);
@@ -229,8 +236,6 @@ nav {
   white-space: nowrap;
   overflow: hidden;
   transform: translateY(-50%);
-  position: absolute;
-  display: flex;
   padding-left: 1%;
   padding-right: 1%;
   padding-bottom: 2.5%;
@@ -238,7 +243,10 @@ nav {
   font-size: 30px; /*mq*/
   word-spacing: 20px; /*mq*/
   height: 4vh; /*mq*/
+  max-height: 8vh;
+  order: 4;
 }	
+
 
   /* Typewriter Animation */
   .anim-typewriter{
@@ -269,6 +277,7 @@ nav {
     animation: animateWaves 100s linear infinite;
     height: 10vh; /*mq*/
     margin-top: 36.8%; /*mq*/
+    order: 5;
   }
 
   @keyframes animateWaves {
@@ -302,7 +311,6 @@ nav {
 
 
 .footer {
-	order: 3;
 	padding: 1rem;
 	border-top: 1px solid #ccc;
 	background-color: #fff;
@@ -393,11 +401,10 @@ nav {
         flex-direction: row;
 		width: 100%;
 		height: 50px;
-		top: 20;
+		top: 0;
 		left: 0;
 		right: 0;
 		z-index: 100;
-        order: 1;
 	}
     
     a { 
@@ -406,7 +413,6 @@ nav {
 
 
     .main {
-        order: 2;
         margin-top: 10%;
     }
 
