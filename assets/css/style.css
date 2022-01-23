@@ -40,9 +40,11 @@ body {
 
 .nav-links a {
     display: inline-block;
-    padding: 13px 10px 13px 10px;
+    padding: 9px 10px 13px 10px;
     text-decoration: none;
     color: #ccc;
+    font-size: 18px;
+    letter-spacing: 2px;
 }
 
     
@@ -92,18 +94,211 @@ a:hover {
     z-index: 200;
     width:fit-content;
     height: fit-content;
-    padding-left: 4%;
+    padding: 4px;
 }
+
+a { 
+    color: white; text-decoration: none; 
+    }
 
 nav {
     order: 1;
     z-index: 500;
 }
 
-.intro {
-	order: 2;
-	background-color: rgba(127, 221, 252, 0.5);
+
+
+/*==========main======*/
+.main {
+   max-width: 100%;
+   max-height: 100vh;
 }
+
+/*===================*/
+
+  /* ---------------------->INTRO<----------------------------*/
+
+  .intro {
+    background-color: rgb(18, 42, 49);
+    background-image: url("/assets/images/intro_img.png");
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 35% 35%; /*mq*/
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    order: 2;
+    margin: 0;
+    padding:0%
+  }
+
+
+  .intro h1 {
+    color:rgb(18, 42, 49);
+    background-color: slategrey ;
+    vertical-align: middle;
+    text-align:center;
+    padding-top: 1%; /*mq*/
+    font-size: 78px; /*mq*/
+    font-weight: 800;
+    letter-spacing: 42px;  /*mq*/
+  }
+
+  .line-wrapper-1 .line-1 {
+    color: rgba(255,255,255,.75);
+    font-family: 'Anonymous Pro', monospace;  
+    background-color: rgb(25,25,25);
+    box-sizing: border-box;
+    width: 100%;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    overflow: hidden;
+    transform: translateY(-10%);
+    position: absolute;
+    display: flex;
+    font-size: 48px;
+    padding-left: 1%;
+    padding-right: 1%;
+    white-space:pre-line;
+    text-align: center;
+    word-spacing: 5px; /*mq*/
+    font-size: 38px; /*mq*/
+    line-height: 38px; /*mq*/
+    height: 9vh; /* mq */
+    margin-top: 0.7%; /* mq */
+  }	
+
+  .goto-btn {
+  transition: box-shadow 0.5ms ease-in-out, color 0.9ms ease-in-out;
+  box-sizing: border-box;
+  appearance: none;  
+  background-color: rgb(18, 42, 49);
+  border: 3px solid;
+  border-radius: 0.6em;
+  border-color: rgba(67, 242, 224, 1);;
+  color: whitesmoke;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding-top: 0.5%;
+  padding-right: 0.2%;
+  padding-bottom: 0.5%;
+  padding-left: 0.6%;
+  margin: 0 auto;
+  position: relative;
+  z-index:2;
+  }
+
+  .goto-btn-txt {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 18px; /*mq*/
+    letter-spacing: 10px; /*mq*/
+  }
+
+.goto-btn:hover {
+  filter:saturate(10);
+}
+
+.section-footer { 
+  position: absolute;
+  width: 100%;
+  background: rgb(18, 42, 49,.3);
+  justify-content: center; 
+  align-items: center;
+  z-index:0;
+  height: 4.7vh; /*mq*/
+  margin-top: 16%; /*mq*/
+}
+
+.line-wrapper-2 .line-2 {
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);
+  box-sizing: border-box;
+  width: 100%;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  position: absolute;
+  display: flex;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 2.5%;
+  margin-top: 35.5%; /*mq*/
+  font-size: 30px; /*mq*/
+  word-spacing: 20px; /*mq*/
+  height: 4vh; /*mq*/
+}	
+
+  /* Typewriter Animation */
+  .anim-typewriter{
+    animation: typewriter 1s steps(44) 1s 1 normal both,
+               blinkTextCursor 1000ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 80%;}
+    to{width: 100%;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+
+  /* spikes animation*/
+  .spike {
+    position: relative;
+    width: 100%;
+    background: url("../images/spikes_anim_img.png");
+    background-repeat: repeat;
+    background-size: 1000px 100px;
+  }  
+
+  .spike#spike1 {
+    opacity: 0.3;
+    animation: animateWaves 100s linear infinite;
+    height: 10vh; /*mq*/
+    margin-top: 36.8%; /*mq*/
+  }
+
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-position-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-position-x: 0px;
+    }
+  }
+  
+  
+  
+/*==================================================================*/
+
+
+
+
+
+
+
 
 
 .footer {
@@ -210,11 +405,9 @@ nav {
     }
 
 
-    .intro {
+    .main {
         order: 2;
-		padding: 2rem;
-		border-right: 1px solid #ccc;
-        margin-top: 5%;
+        margin-top: 10%;
     }
 
         .footer {
