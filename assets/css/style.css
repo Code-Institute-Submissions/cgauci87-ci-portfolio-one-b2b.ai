@@ -19,6 +19,7 @@ html {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #333;
 	background-color: #eee;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -26,6 +27,7 @@ body {
 	line-height: 1.8;
 	padding: 0;
 	margin: 0;
+  overflow: hidden;
 }
 
 
@@ -36,27 +38,6 @@ body {
 	grid-template: auto 1fr minmax(1rem, auto) auto / 100%;
 	min-height: 100vh;
 }
-
-
-.nav-links a {
-    display: inline-block;
-    padding: 9px 10px 13px 10px;
-    text-decoration: none;
-    color: #ccc;
-    font-size: 18px;
-    letter-spacing: 2px;
-}
-
-    
-a:hover {
-    background-color: rgba(127, 221, 252, 0.3);
-    cursor: pointer;
-  }
-
-
-.nav > .nav-btn {
-    display: none;
-  }
   
   .header--inner {  /*heading-2  if you replace the below properties ?*/
     background-color: rgb(18, 42, 49);
@@ -72,39 +53,60 @@ a:hover {
 
 /*=================================================================*/
 
-
+nav {
+  z-index: 500;
+}
 
 .nav-links { 
     background-color: rgb(18, 42, 49);
     position: fixed;
     flex-direction: row;
     width: 100%;
-    height: 50px;
     text-align: end;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
+    vertical-align:middle;
 }
 
-#ai-logo {
-    margin-top: 0;
+
+.nav-links a {
+  display: inline-block;
+  padding: 12px 10px 13px 10px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: calc( 10px + (6 - 4) * (100vw - 400px) / (800 - 400) );   /*new*/
+  letter-spacing: calc( 1px + (0.4 - 0.2) * (100vw - 400px) / (800 - 400) )   /*new*/;
+  font-weight: 600; /*wip*/
+}
+
+
+.nav > .nav-btn {
+  display: none;
+}
+
+#ai-logo { 
     position: relative;
     display: flex;
     z-index: 200;
     width:fit-content;
     height: fit-content;
     padding: 4px;
+    font-size: calc(16px + (12 - 10) * (100vw - 400px) / (800 - 400) );   /*new*/
+    font-weight: 600; /*wip*/
+    vertical-align: middle;
+    padding: 12px 10px 13px 10px;
 }
 
 a { 
     color: white; text-decoration: none; 
     }
-
-nav {
-    z-index: 500;
-}
-
+    a:hover {
+      background-color: rgba(127, 221, 252, 0.3);
+      cursor: pointer;
+    }
+    
 
 
 /*==========main======*/
@@ -120,10 +122,11 @@ nav {
   .intro {
     background-color: rgb(18, 42, 49);
     background-image: url("/assets/images/intro_img.png");
+    background-attachment:fixed;
     background-blend-mode:multiply;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 20% 20%; /*mq*/
+    background-position: 0 30px;
     margin: 0;
     padding:0%;
     max-width: 100%;
@@ -132,27 +135,26 @@ nav {
   }
 
   .intro h1 {
-    color:rgb(18, 42, 49);
-    background-color: slategrey ;
+    color:rgba(18, 42, 49, .8);
+    background-color: slategrey;
     vertical-align: middle;
     text-align:center;
     font-weight: 800;
     order: 1;
-    padding: 2%;
-    font-size: calc( 52px + (24 - 16) * (100vw - 400px) / (800 - 400) );   /*new*/
+    padding-top: 1.2%;
+    padding-bottom: 1%;
+    padding-left: 2.5%;
+    font-size: calc( 48px + (22 - 12) * (100vw - 400px) / (800 - 400) );   /*new*/
     letter-spacing: calc( 36px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
-    line-height:  calc( 42px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
-    place-self: start; /*new*/
-    align-content:space-around;/*new*/
+    line-height:  calc( 52px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    place-self: center; /*new*/
+    align-content:space-between;/*new*/
     }
 
-  .line-1{
-    place-self: start center; /*new*/
-    align-content:space-between; /*new*/
-  }
+
 
   .line-wrapper-1 .line-1 {
-    color: rgba(255,255,255,.75);
+    color: rgba(255,255,255,.75);    font-size: calc( 14px + (24 - 16) * (100vw - 400px) / (800 - 400) );   /*new*/
     font-family: 'Anonymous Pro', monospace;  
     background-color: rgb(25,25,25);
     box-sizing: border-box;
@@ -165,8 +167,8 @@ nav {
     padding-bottom: 0.5%;
     white-space:pre-line;
     text-align: center;
-    font-size: calc( 18px + (24 - 16) * (100vw - 400px) / (800 - 400) );   /*new*/
-    line-height:  calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-size: calc( 14px + (24 - 16) * (100vw - 400px) / (800 - 400) );   /*new*/
+    line-height:  calc( 12px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
     height: 10vh; /* mq */
     max-height: 150%;
     order: 2;
@@ -197,14 +199,11 @@ nav {
 
   .goto-btn-txt {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
     text-align: center;
     text-transform: uppercase;
-    line-height: 1;
     font-weight: 700;
-    font-size: 18px; /*mq*/
-    letter-spacing: 10px; /*mq*/
+    font-size: calc( 10px + (2 - 1) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc( 5px + (2 - 1) * (100vw - 400px) / (800 - 400) ); /*new*/
   }
 
 .goto-btn:hover {
@@ -212,39 +211,37 @@ nav {
 }
 
 .section-footer { 
-  position: absolute;
   width: 100%;
   background: rgb(18, 42, 49,.3);
   justify-content: center; 
   align-items: center;
   z-index:0;
-  height: 4.7vh; /*mq*/
-  margin-top: 16%; /*mq*/
-  order: 3;
+  height: auto; /*mq*/
+  order: 3; /*wip*/
+  margin-top: -5%;
 }
 
 .line-wrapper-2 .line-2 {
-  position: absolute;
-  display: block;
-  color: rgba(255,255,255,.75);
+  color: rgba(255,255,255,.20);
   font-family: 'Anonymous Pro', monospace;  
-  background-color: rgb(25,25,25);
+  background-color: rgba(25,25,25, 0.3);
   box-sizing: border-box;
-  width: 100%;
   border-right: 2px solid rgba(255,255,255,.75);
-  text-align: center;
-  white-space: nowrap;
   overflow: hidden;
   transform: translateY(-50%);
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-bottom: 2.5%;
-  margin-top: 35.5%; /*mq*/
-  font-size: 30px; /*mq*/
-  word-spacing: 20px; /*mq*/
-  height: 4vh; /*mq*/
-  max-height: 8vh;
   order: 4;
+  font-size: calc( 16px + (4 - 2) * (80vw - 40px) / (800 - 400) );   /*new*/
+  word-spacing:  calc( 160px + (80 - 40) * (80vw - 40px) / (800 - 400) ); /*new*/
+  height: 4vh; /* mq */
+  max-height: 150%;
+  min-height: 50%;
+  width: 100%;
+  max-width: 150%;
+  min-width: 50%;
+  order: 2;
+  height: 100%;
+  white-space: pre-line;
+  margin-top: 9%;
 }	
 
 
@@ -276,8 +273,7 @@ nav {
     opacity: 0.3;
     animation: animateWaves 100s linear infinite;
     height: 10vh; /*mq*/
-    margin-top: 36.8%; /*mq*/
-    order: 5;
+    margin-top: 18%; /*mq*/
   }
 
   @keyframes animateWaves {
