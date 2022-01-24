@@ -213,14 +213,17 @@ a {
 }
 
 .section-footer { 
+  position: relative;
   width: 100%;
   background: rgb(18, 42, 49,.3);
   justify-content: center; 
   align-items: center;
   z-index:0;
-  height: auto;
+  height:fit-content;
+  max-height: 100%;
   order: 4;
   margin-top: -20%;
+  z-index: 1;
 }
 
 .line-wrapper-2 .line-2 {
@@ -261,9 +264,10 @@ a {
   .spike {
     position: relative;
     width: 100%;
-    background: url("../images/spikes_anim_img.png");
+    background: url("/assets/images/spikes_anim_img.png");
     background-repeat: repeat;
     background-size: cover;
+    z-index: 2;
   }  
 
   .spike#spike1 {
@@ -271,7 +275,7 @@ a {
     animation: animateWaves 100s linear infinite;
     height: 40vh; /*mq*/
     width: 100%;
-    min-height: 100%;
+    max-height: 100%;
   }
 
   @keyframes animateWaves {
@@ -301,6 +305,7 @@ a {
 
 /*==========================ai-101 section=========================wip==============*/
 .ai-101 {
+  position: relative;
   background-color: rgba(176, 221, 236, 0.966);
   background-image: url("../images/ai_101_bg.png");
   background-attachment:fixed;
@@ -313,6 +318,7 @@ a {
   max-width: 100%;
   width: 100%;
   max-height: 150%;
+  z-index: 3;
 }
 
 #ai-img-1 ,  #ai-img-2 {
@@ -322,7 +328,7 @@ a {
 .section-header{
   position: relative;
   display: inline;
-  z-index: 3;
+  z-index: 4;
   }
 
 .section-header h2{
@@ -364,7 +370,7 @@ margin-top: 0.5%;
   }
 
   .ai-101-a {
-    margin-top: 0%;
+    margin-top: -5%;
   }
   
  .ai-101-d {
@@ -467,7 +473,6 @@ margin-top: 0.5%;
    width: 100%;
    white-space: nowrap;
    position: relative;
-   z-index: 30;
    margin-right: 10.6%; /* mq */
    margin-top: -4%;
    }
@@ -513,7 +518,6 @@ margin-top: 0.5%;
   height: 5vh;
   opacity: 0.3;
   filter:invert(100%);
-  z-index: 20;
   }
 
   .audio-player:hover {
@@ -540,7 +544,6 @@ margin-top: 0.5%;
     font-size: 14px;  /*mq*/
     letter-spacing: 5px;  /*mq*/
     position: absolute;
-    z-index: 600;
   }
 
 
@@ -553,7 +556,6 @@ margin-top: 0.5%;
     letter-spacing: 5px;  /*mq*/
     margin-top: -1%; /*mq*/
     margin-left: 90.8%; /*mq*/
-    z-index: 600;
   } 
 
   .ai-101 img {
@@ -561,15 +563,26 @@ margin-top: 0.5%;
   }
 
   .form2-wrapper { /*wip*/
-    margin: 0;
+    position: absolute;
+    display: inline-block;
+    order: 4;
+    margin-top: 30%;
+    padding-top: 2.5%;
   }
+
+  .form2-wrapper img {
+    padding-bottom: 5%;
+  }
+
 
   #graphical-img { 
   filter:saturate(20%);
   position: relative;
   min-width: 100%;
-  max-height: 10vh;
+  max-height: 20vh;
+  margin-top: -10%;
   }
+
 
 /*=====================================================end============================================================= */
 
@@ -652,7 +665,6 @@ margin-top: 0.5%;
 		top: 0;
 		left: 0;
 		right: 0;
-		z-index: 100;
 	}
     
     a { 
