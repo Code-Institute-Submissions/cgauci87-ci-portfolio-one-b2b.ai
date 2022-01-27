@@ -10,24 +10,32 @@
 </head>
 <body>
     <div class="intro-wrapper">
-        <header class="nav">
-                <a class="nav-title" href="index.html"> <i class="fas fa-briefcase"></i>b2b.ai</a>
-                <div class="nav-btn">
-                    <input type="checkbox" id="nav-check">
-                    <label for="nav-check">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
-                    </div>		
-                <div class="nav-links">
-                    <a href="index.html">Intro</a>
-                    <a href="#ai-101">AI-101</a>
-                    <a href="#industries">Industries</a> 
-                    <a href="#podcasts">Podcasts</a>
-                    <a href="#subscribe">Subscribe</a>
-                    <a href="#contact">Contact</a>
+        <header>
+            <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                <div class="nav-title">
+                    <a href="#home">
+                        <h2 id="ai-logo"><i class="fas fa-briefcase"></i>b2b.ai</h2>
+                    </a>
                 </div>
+                </div>
+                <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                </div>			
+                <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#ai-101">AI-101</a>
+                <a href="#industries">Industries</a> 
+                <a href="#podcasts">Podcasts</a>
+                <a href="#subscribe">Subscribe</a>
+                <a href="#contact">Contact</a>
+                </div>
+            </div>
         </header>
 
         <main class="main-intro">
@@ -73,14 +81,11 @@
                                      <div class="box author">
                                           <div class="box profile-photo">
                                             <img alt="Chris Gauci"
-                                            src="assets/images/profile_photo.png"><span>Chris Gauci</span>
-                                          </div>
-
-                                           <div class="box aside">
-                                            <aside><span>Admin</span>
-                                                <span>Updated Dec 03, 2021</span>
+                                            src="assets/images/profile_photo.png"><p id="author-name">Chris <br> Gauci</p>
+                                            <aside>Admin<span> | </span>
+                                                Updated Dec 03, 2021
                                             </aside>
-                                           </div>
+                                          </div>
                                       </div>
 
                                       <div class="box audio">
@@ -97,43 +102,6 @@
                                      </div>
                      </div>
                 </header>
-
-             <!--
-                            <header class="section-header"><h2>AI-101 <i class=" read fas fa-clock"> 1 min read</i></h2>
-					<div id="ai101-heading-2">
-						<div class="author">
-							<img alt="Chris Gauci" class="profile-photo"
-							src="assets/images/profile_photo.png"><span>Chris Gauci</span>
-						    <aside><span>Admin</span>
-							<span>Updated Dec 03, 2021</span>
-						    </aside>
-				    	</div>
-
-                        <div class="audio-player">
-                            <audio controls id="ai-101-audio">
-                            <source src="assets/audio/article_ai101_audio.mp3" type="audio/mpeg">
-                            Your browser does not support the audio tag.
-                            </audio>
-                           <span id="listen-in"><i class="far fa-hand-pointer"></i> Listen to this article</span>
-                       </div>
-
-			    	</div>
-             </header>
-
-             -->
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <div class="ai-101-container">
 						<article>
 							
@@ -190,7 +158,12 @@
             </div> <!--wrapper div closes-->
 
     </section>
+    
+    <section class="industries" id="industries">
 
+
+        
+    </section>
     <script src="https://kit.fontawesome.com/45477b65ad.js" crossorigin="anonymous"></script>
 </body>
 </html>
