@@ -124,7 +124,7 @@ a {
 /*===================*/
 
   .intro {
-    background-color: rgb(18, 42, 49);
+    background-color:rgba(18, 42, 49, 1);
     background-image: url("/assets/images/intro_img.png");
     background-attachment:fixed;
     background-blend-mode:multiply;
@@ -140,7 +140,7 @@ a {
 
   .intro h1 {
     color:rgba(18, 42, 49, .8);
-    background-color: slategrey;
+    background-color:  rgba(235, 244, 247, .4);
     vertical-align: middle;
     text-align:center;
     font-weight: 800;
@@ -306,7 +306,7 @@ a {
 
 
 
-/*==========================ai-101 section=========================wip==============*/
+/*==========================ai-101 section======================================*/
 
   
 /*==========main======*/
@@ -330,7 +330,6 @@ a {
   z-index: 3;
 }
 
-/*section header wip*/
 
 	.section-header-wrapper{
 		display: grid;
@@ -618,7 +617,7 @@ margin-top: 0.5%;
 
 
 .industries{
-  background: rgba(14, 16, 31, 0.7);
+  background: rgba(18, 42, 49, 1);
   color: #fff;
   font-weight: 300;
   letter-spacing: .03rem;
@@ -626,8 +625,23 @@ margin-top: 0.5%;
   margin: 0 auto;	
   height: 100vh;
 }
+
+
 #adjust-header {
-  padding-top: 3.5%;
+  background-color: rgba(235, 244, 247, .4);
+  height: 18vh;
+  width: 70%;
+  padding-left: 30%;
+  vertical-align: middle;
+  font-size: calc( 20px + (14 - 7) * (100vw - 400px) / (800 - 400) ); 
+  padding-top: 4%;
+}
+
+#industry-icon {
+  float:right;
+  font-size: 64px;
+  margin-top: -6.2%;
+  margin-right: 12%;  
 }
 
 /* GRID */
@@ -637,7 +651,7 @@ display: grid;
 padding: 2.5px 2.5px;
 min-height: 100%;
 grid-template-columns: auto auto auto auto;
-margin-bottom: -15.7%; /* mq */
+margin-top: 2%;
 }
 
 .grid {
