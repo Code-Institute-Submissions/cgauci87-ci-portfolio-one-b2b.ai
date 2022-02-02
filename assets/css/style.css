@@ -379,7 +379,7 @@ a {
 	}
 
 
-  #author-name {
+  .author-name {
     border-bottom: 1.25px solid rgba(127, 221, 252, 0.932);
   }
 
@@ -449,7 +449,7 @@ a {
     padding-top: 0%;
    } 
 
-   #header-img {
+   .header-img {
     filter: opacity(.3);
     width: 460px;
     height: 18vh;
@@ -604,11 +604,6 @@ margin-top: 0.5%;
     width: 100%;
     display: flex;
     }
-
-
-  .image-container {
-    max-height: auto;
-  }
 
 
   .image-container img {
@@ -808,7 +803,7 @@ filter: invert(100);
   z-index: 1000;
 }
 
-.article-heading > h1{
+.article-heading > h2{
 color: whitesmoke;
 text-align: center;
 max-width: 100%;
@@ -828,7 +823,7 @@ padding-top: 3.2%;
 }
 
 
-.article-header-wrapper > #author-name {
+.article-header-wrapper > .author-name {
   border-bottom: 1.25px solid rgba(127, 221, 252, 0.932);
 }
 
@@ -863,7 +858,7 @@ grid-column: 3 / 4;
 grid-row: 1;
 }
 
-#article-audio {
+.article-audio {
  max-width: 200px;
  max-height: 3vh;
  }
@@ -879,7 +874,7 @@ grid-row: 1;
  }
 
 
- .article-header-wrapper > #header-img {
+ .article-header-wrapper > .header-img {
   filter: opacity(.3);
   width: 460px;
   height: 10vh;
@@ -1052,7 +1047,7 @@ display: none;
 
 #popup-article-healthph:target, #popup-article-healthph:target + .cover{
 display:block;
-opacity:2;
+opacity: 1;
 }
 
 
@@ -1061,7 +1056,7 @@ opacity:2;
 
 #popup-article-bankfin:target, #popup-article-bankfin:target + .cover{
 display:block;
-opacity:2;
+opacity: 1;
 }
 
 /* ecom===============POP-UP ARTICLE=============ecom */
@@ -1069,7 +1064,7 @@ opacity:2;
 
 #popup-article-ecom:target, #popup-article-ecom:target + .cover{
 display:block;
-opacity:2;
+opacity: 1;
 }
 
 /* manufacturing===============POP-UP ARTICLE=============manufacturing */
@@ -1077,7 +1072,7 @@ opacity:2;
 
 #popup-article-mnf:target, #popup-article-mnf:target + .cover{
 display:block;
-opacity:2;
+opacity: 1;
 }
 
 /*==========================================================================================*/
