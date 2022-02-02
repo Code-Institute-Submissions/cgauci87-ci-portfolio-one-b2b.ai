@@ -449,7 +449,7 @@ a {
     padding-top: 0%;
    } 
 
-   .header-img {
+   .section-header-wrapper >.header-img {
     filter: opacity(.3);
     width: 460px;
     height: 18vh;
@@ -679,8 +679,10 @@ background-repeat: no-repeat;
 background-size:cover;
 background-blend-mode:overlay;
 }
+
 #healthph:hover {
 background-blend-mode:normal;
+opacity: .7;
 }
 
 #bankfin {
@@ -692,6 +694,7 @@ background-blend-mode:overlay;
 
 #bankfin:hover {
 background-blend-mode:normal;
+opacity: .7;
 }
 
 #retailecom {
@@ -700,8 +703,10 @@ background-repeat: no-repeat;
 background-size: cover;
 background-blend-mode:overlay;
 }
+
 #retailecom:hover {
 background-blend-mode:normal;
+opacity: .7;
 }
 
 #manufacturing {
@@ -713,6 +718,7 @@ background-blend-mode:overlay;
 
 #manufacturing:hover {
 background-blend-mode: normal;
+opacity: .7;
 }
 
 .item {
@@ -727,6 +733,7 @@ background: rgba(0,0,0,0.6);
 
 .grid h3 {
 text-align: center;
+font-family:Arial, Helvetica, sans-serif;
 font-size: calc( 14px + (8 - 4) * (100vw - 400px) / (800 - 400) ); /*new*/
 font-weight:600;
 background-color: inherit;
@@ -760,6 +767,7 @@ position: absolute;
 bottom: 8px;
 right: 16px;
 background: rgba(0,0,0,0.6);
+font-family:Arial, Helvetica, sans-serif;
 font-size: calc( 9px + (4 - 2) * (100vw - 400px) / (800 - 400) ); /*new*/
 font-weight: 600;
 }
@@ -963,6 +971,7 @@ border-bottom-left-radius: 50px;
 width: 412px;
 height: 87.75%;
 margin: 0 auto;
+filter: brightness(.5);
 }
 
 .article-p1 p { 
@@ -1015,7 +1024,7 @@ color: black;
   padding-top: 2.5%;
 }
 
-.article-p2 b { /*wip*/
+.article-p2 b {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -1034,6 +1043,7 @@ padding-right: 3%;
 margin-top:  5%;
 width: 100%;
 height: 27vh;
+filter: brightness(.5);
 }
 
 
