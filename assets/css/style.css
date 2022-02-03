@@ -1213,7 +1213,6 @@ iframe:hover {
   padding: 0;
   width: 100%;
   height: 100vh;
-  font-family: sans-serif;
   color: #ffffff;
   background-image: url("../images/subscribe_bg.png");
   background-color: rgb(18, 42, 49);
@@ -1273,7 +1272,7 @@ iframe:hover {
   width: 100%;
   height: 70px;
   font-size: calc( 18px + (14 - 12) * (100vw - 400px) / (800 - 400) ); /*new*/
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   border-radius: 5px;
   border-bottom-left-radius: 0px;
@@ -1331,14 +1330,25 @@ iframe:hover {
   height: 100vh;
   box-sizing: border-box;
   color: #fff;
-  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
-    "sans-serif";
-  background-image: url("../images/contact-bg.png");
+  background-image: url("../images/contact_bg.png");
   background-color: rgb(18, 42, 49);
   background-blend-mode:multiply;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: -10% -10%; /*mq*/
+  background-position: -10% -15%; /*mq*/
+}
+
+#header-contact {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-top: 3.8%; 
+  text-align: center;
+  height: 18vh;
+}
+
+#header-contact > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc( 20px + (14 - 7) * (100vw - 400px) / (800 - 400) );
 }
 
 .contact-container {
@@ -1356,9 +1366,9 @@ iframe:hover {
 }
 
 .contact-container form * {
-  font-size: 20px;
+  font-size: calc( 18px + (14 - 12) * (100vw - 400px) / (800 - 400) ); /*new*/
   letter-spacing: 0.075em;
-  font-weight: 300;
+  font-weight: 500;
   cursor: pointer;
   text-decoration: none;
 }
@@ -1425,7 +1435,7 @@ form .field textarea {
 }
 
 #send-btn {
-  margin-left: 84.4%;
+  width: 100%;
   background: #0e101f;
   color: white;
 }
@@ -1433,6 +1443,69 @@ form .field textarea {
 #send-btn:hover {
 filter:invert(100);
 }
+
+/*======================================================================*/
+
+
+
+/*---------->footer<--------------------------- */
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: rgb(18, 42, 49);
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -7%;
+  z-index: 900;
+}
+
+.social-icon, .social-icon__item{
+  list-style:none;
+  display: inline-block;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display:inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: calc( 14px + (12 - 8) * (100vw - 400px) / (800 - 400) ); /*new*/
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+/* ========================================================*/
+
+
 
 
 /*==============================================================================================================*/
