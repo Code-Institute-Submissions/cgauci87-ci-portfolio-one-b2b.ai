@@ -1321,19 +1321,118 @@ iframe:hover {
 
 /*===============================================================================================*/
 
+/*contact section*/
 
 
+.contact {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+    "sans-serif";
+  background-image: url("../images/contact-bg.png");
+  background-color: rgb(18, 42, 49);
+  background-blend-mode:multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -10% -10%; /*mq*/
+}
 
+.contact-container {
+  margin-left: 22%;
+  margin-top: 5%;
+  width: 70%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
 
+.contact-container form {
+  width: 100%;
+  margin: 0;
+}
 
+.contact-container form * {
+  font-size: 20px;
+  letter-spacing: 0.075em;
+  font-weight: 300;
+  cursor: pointer;
+  text-decoration: none;
+}
 
+.contact-container form .field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
 
+.contact-container form .field label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, rgba(33, 141, 165, 1), rgba(39, 89, 89, 1));
+  width: 100%;
+  height: 64px;
+  transition: width 333ms ease-in-out;
+  text-align: center;
+  padding: 18px 0;
+}
 
+.contact-container form .field input[type="text"], .field input[type="email"],
+form .field textarea {
+  border: none;
+  width: 100%;
+  height: 64px;
+  margin: 0;
+  padding-left: 19.5%;
+  color: #313a3d;
+}
 
+.contact-container form #msg {
+  height: 64px;
+  resize: none;
+  transition: all 333ms ease-in-out;
+  padding-top: 18px;
+}
+.contact-container form textarea:focus#msg,
+.contact-container form textarea:not(:placeholder-shown)#msg {
+  height: 20vh;
+}
+.contact-container form input[type="text"]:focus + label,
+.contact-container form input[type="text"]:not(:placeholder-shown) + label,
+.contact-container form input[type="email"]:focus + label,
+.contact-container form input[type="email"]:not(:placeholder-shown) + label,
+.contact-container form textarea:focus + label,
+.contact-container form textarea:not(:placeholder-shown) + label,
+.contact-container form .field:hover label {
+  width: 18%;
+}
+.contact-container form input[type="submit"] {
+  background: linear-gradient(90deg, rgba(255,255,255,.75), rgba(127, 221, 252, 0.932));
+  -webkit-appearance: none;
+  border: none;
+  position: relative;
+  padding: 13px 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact-container form input[type="submit"]:hover,
+.contact-container form input[type="submit"]:focus {
+  background: rgb(18, 42, 49);  
+  color: whitesmoke;
+}
 
+#send-btn {
+  margin-left: 84.4%;
+  background: #0e101f;
+  color: white;
+}
 
-
-
+#send-btn:hover {
+filter:invert(100);
+}
 
 
 /*==============================================================================================================*/
