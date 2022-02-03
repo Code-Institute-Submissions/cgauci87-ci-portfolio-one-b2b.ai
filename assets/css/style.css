@@ -633,7 +633,7 @@ margin-top: 0.5%;
 }
 
 
-#adjust-header {
+#header-industries {
   background-color: rgba(235, 244, 247, .4);
   height: 18vh;
   width: 70%;
@@ -1208,9 +1208,6 @@ iframe:hover {
 
 /*=======================================================================================================================*/
 
-
-
-
 .subscribe {
   margin: 0;
   padding: 0;
@@ -1226,12 +1223,36 @@ iframe:hover {
   background-position: 40% 20%; /*mq*/
 }
 
-
-.subscribe-form h1 {
+#header-subscribe {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding-top: 3.8%; 
   text-align: center;
-  margin-top: 8.5%;
-  margin-bottom: 3%;
-  font-size: 42px;
+  height: 18vh;
+}
+
+.subscribe-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr );
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#header-subscribe > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc( 20px + (14 - 7) * (100vw - 400px) / (800 - 400) );
+}
+
+
+.subscribe-form {
+  grid-column: 2 / 4;
+  grid-row: 2;
+}
+
+
+.subscribe-form > h2 {
+  text-align: center;
+  font-size: calc( 16px + (12 - 6) * (100vw - 400px) / (800 - 400) );
 }
 
 .subscribe-form p {
@@ -1246,41 +1267,47 @@ iframe:hover {
 }
 
 .subscribe-form input {
-  position: relative;
   top: 0;
   background-color: #ffffff;
-  color: #898B8C;
+  color: black;
   width: 100%;
   height: 70px;
-  font-size: 1.5em;
+  font-size: calc( 18px + (14 - 12) * (100vw - 400px) / (800 - 400) ); /*new*/
+  font-weight: 600;
   text-align: center;
   border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 #checkbox {
-  width: 20px;
   float: left;
+  width: 20px;
+  height: 30px;
 }
 
-#subscribe-form > label {
-float: right;
-font-size: 12px;
-margin-top: 8%;
+
+.subscribe-form label {
+  font-size: calc(6px + (4 - 2) * (100vw - 400px) / (800 - 400) );
+  padding-left: 1%;
 }
+
+
+
 
 #submit-button {
-  float: right;
-  width: 50px;
-  margin-top: -22%;
-  margin-right: -10%;
+  width: 100%;
+  height: 70px;
   background: #0e101f;
   color: white;
   border: 2px solid white;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  font-size: 32px;
 }
+
 
 #submit-button:hover {
   filter: invert(100);
