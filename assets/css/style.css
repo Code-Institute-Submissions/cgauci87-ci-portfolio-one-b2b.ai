@@ -476,6 +476,14 @@ a {
   display: none;
 }
 
+.ai-101-container {
+  display: table;
+}
+
+.ai-101-container > article {
+  display: table-cell;
+  vertical-align: middle;
+}
 
 .ai-101-container h3 {
 float: left;
