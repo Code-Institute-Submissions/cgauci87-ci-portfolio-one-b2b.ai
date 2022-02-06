@@ -1,7 +1,7 @@
 /* (1280x1024) SXGA Display  -> WIP <- */
 @media screen and (min-width: 1279px) and (max-width:1280px) and (min-height:1024px) {
 
-/*----------intro---------------*/
+/*----------#intro---------------*/
 
 .main-intro {
     background-position: 0 200px;
@@ -14,7 +14,7 @@
 }
 
 
-/*------------ai-101------------*/
+/*------------#ai-101------------*/
 
 
 .ai-101 {
@@ -26,7 +26,7 @@
     padding-left: 12%;
   }
  
-    #ai-101-listen{
+#ai-101-listen{
         padding-left: 20%;
   }
 
@@ -71,6 +71,136 @@
 
 
 
+/*------------#industries------------*/
+
+
+#header-industries {
+    padding-top: 6.7%;
+    width: 67.5%;
+  }
+
+
+  #industry-icon {
+    margin-top: -8.5%;
+    margin-right: 12%;
+  }
+
+  
+.grid a {
+    font-size: 16px;
+}
+
+
+  #adjust-footer {
+    margin-top: 4%;
+  }
+
+
+
+/*------------pop-up------------*/
+
+.popup-article { 
+    margin-top: -65%;
+    height: 94%
+  }
+  
+  .popup-article > article {
+    padding-right: 0.25%;
+    margin-top: 15.25%;
+  }
+  .lhs-image-wrapper > img {
+    opacity: 0.3;
+    width: 50%;
+  }
+  
+  .article-p1 p { 
+    position: relative;
+    z-index: 30;
+    margin-top: 2%;
+    padding-left: 1.5%;
+    padding-right: 2.5%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    word-spacing: -2px;
+  }
+  
+  .quote-wrapper {
+    position: relative;
+    z-index: 40;
+    margin-top: 2%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+  }
+  
+  .quote{ 
+    color: darkblue;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    position: relative;
+    z-index: 40;
+  }
+  
+  .q-caption {
+    color:black;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    z-index: 50;
+  }
+  
+  .q-icon {
+    width: 46px;
+    align-self: center;
+    position: relative;
+    z-index: 60;
+  }
+  
+  .article-p2 {
+    padding-left: 1.5%;
+    padding-right: 2.5%;
+    color: black;
+    position: relative;
+    z-index: 70;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    word-spacing: -2px;
+  }
+  
+  .article-p2 h3 {
+   font-size: 26px;
+  align-self: center;
+  text-align: center;
+  word-spacing: 2px;
+  position: relative;
+  z-index: 80;
+  }
+  
+  .btm-image-wrapper{
+    background: transparent;
+    position: relative;
+    z-index: 90;
+    margin-top: 12%; 
+    margin-left: -20%;
+    margin-right: -20%;
+    margin-bottom: -70%;
+    height: 56vh;
+  }
+  
+  .popup-footer {
+    position: relative;
+    width: 100%;  
+    background:#0e101f;
+    min-height: 10vh;
+    z-index: 100;
+    display: inline-block;
+    margin-top: 60%;
+    margin-bottom: 0%;
+  }
+  
 
 
 
@@ -79,6 +209,10 @@
 
 
 
+
+
+
+/*------------#podcasts------------*/
 
 
 

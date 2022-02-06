@@ -662,8 +662,7 @@ margin-top: 0.5%;
   float:right;
   font-size: 64px;
   margin-top: -6.2%;
-  margin-right: 12%;  
-  
+  margin-right: 12%;   
 }
 
 #adjust-footer {
@@ -784,7 +783,7 @@ bottom: 8px;
 right: 16px;
 background: rgba(0,0,0,0.6);
 font-family:Arial, Helvetica, sans-serif;
-font-size: calc( 9px + (4 - 2) * (100vw - 400px) / (800 - 400) ); /*new*/
+font-size: calc( 9px + (7 - 6) * (100vw - 400px) / (800 - 400) ); /*new*/
 font-weight: 600;
 }
 
