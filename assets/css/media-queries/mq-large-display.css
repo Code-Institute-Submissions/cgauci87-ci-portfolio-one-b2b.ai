@@ -62,24 +62,37 @@
     }
 
 
-      /*---------------subscribe-----------------------------*/
-
+     
+ /*---------------subscribe---------------------*/
 
 
 .subscribe-form label {
- word-spacing: -1%;
+ position: absolute;
+ display: flex;
  white-space: nowrap;
+ padding-top: 0.5%;
+ padding-left: 1.8%;
 }
-
 
     
 #subscribe-footer {
-    margin-top: 10%;
+    margin-top: 10.5%;
   }
 
+ /*---------------contact---------------------*/
 
+
+ .contact-container {
+    margin-left: 17%;
+    margin-top: 5%;
+ }
 
 }
 
 
+/*------------footer---------------------*/
 
+.footer {
+    background: rgba(18, 42, 49, .5);
+    margin-top: -8%;
+}
