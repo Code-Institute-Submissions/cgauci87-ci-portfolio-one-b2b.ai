@@ -22,8 +22,11 @@ html {
 }
 
 body {
-	padding: 0;
-	margin: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color:rgb(18, 42, 49);
   overflow: hidden;
 }
 
@@ -82,7 +85,7 @@ section {
   font-size: calc( 10px + (5 - 2.5) * (100vw - 400px) / (800 - 400) ); 
   letter-spacing: calc( 2px + (1 - 0.5) * (100vw - 400px) / (800 - 400) );
   font-weight: 100;
-
+  padding-right: 1.5%;
 }
 
 .nav > .nav-links > a {
@@ -340,7 +343,7 @@ a {
     grid-auto-rows: minmax(100px, auto);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    height: 18vh;
+    height: auto;
     padding: 0;
     line-height: normal;
     font-family:Arial, Helvetica, sans-serif;
@@ -452,7 +455,7 @@ a {
     padding-top: 0%;
    } 
 
-   .section-header-wrapper >.header-img {
+   .section-header-wrapper > .header-img {
     filter: opacity(.3);
     width: 460px;
     height: 18vh;
@@ -486,6 +489,8 @@ a {
 .ai-101-container > article {
   display: table-cell;
   vertical-align: middle;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
 .ai-101-container h3 {

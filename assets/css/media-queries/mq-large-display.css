@@ -14,6 +14,74 @@
 }
 
 
+/*------------ai-101------------*/
+
+
+.ai-101 {
+    background-position: 0 -30px;
+}
+
+.audio-player {
+    padding-top: 11%;
+    padding-left: 12%;
+  }
+ 
+    #ai-101-listen{
+        padding-left: 20%;
+  }
+
+.section-header-wrapper >.header-img {
+    filter: opacity(.3);
+    width: 420px;
+    height: 10vh;
+}
+
+
+#ai-img-1 {
+    position: absolute;
+    display: flex;
+    width: 96%;
+    height: 20vh;
+    margin-top: -19%;
+  }
+
+  .ai-101-container article {
+   display:  block;
+   margin-top: 20%;
+  }
+
+  #ai-img-2 {
+   position: absolute;
+   display: flex;
+   width: 96%;
+   height: 20vh;
+   margin-top: 10%;
+ }
+
+
+ .form2-wrapper {
+    position: relative;
+    margin-top: 4%;
+    }
+
+ .image-container img {
+    width: 420px;
+    height: 10vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
