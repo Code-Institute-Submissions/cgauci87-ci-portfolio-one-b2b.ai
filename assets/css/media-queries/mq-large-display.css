@@ -222,20 +222,80 @@ display: none;
     position: relative;
     width: 100%;  
     background:#0e101f;
-    min-height: 10vh;
+    height: 2.5vh;
     z-index: 100;
     display: inline-block;
     margin-top: -10%;
     margin-bottom: 0%;
   }
-  
-
-
-
 
 
 /*------------#podcasts------------*/
 
+
+#header-podcasts > h2 {
+  padding-top: 2.5%;
+}
+
+.top-image-wrapper img {
+  height: 32vh;
+}
+
+.playlist {
+  padding-right: 1%;
+}
+
+.column {
+  height: 40vh;
+  padding-right: 6%;
+}
+
+.wave {  
+padding-top: 0.8%; /*mq*/
+}
+
+
+/*------------#subscribe------------*/
+
+#header-subscribe {
+  padding-top: 6.5%;
+}
+
+#checkbox {
+margin-right: 2%;
+}
+
+
+.subscribe-form label {
+  padding-top: 5%;
+ }
+ 
+     
+ #subscribe-footer {
+     margin-top: 30%;
+ }
+ 
+
+
+
+ /*---------------contact---------------------*/
+
+ .contact {
+  background-position: -250px 180px; /*mq*/
+}
+
+#header-contact > h2 {
+  padding-top: 2.6%;
+}
+
+.contact-container {
+  margin-left: 15%;
+  margin-top: 10%;
+  width: 70%; 
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
 
 
 }
@@ -270,7 +330,7 @@ display: none;
         padding-right: 10%;
     }
     
-    /*-------------popup header---------------wip-------- */
+    /*-------------popup header----------------------- */
         
  .article-header-wrapper > .header-img {
         width: 220px;
