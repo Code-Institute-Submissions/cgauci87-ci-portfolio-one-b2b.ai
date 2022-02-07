@@ -97,19 +97,69 @@
 
 
 
-/*------------pop-up------------*/
+/*-----------------------pop-up-------------------------------*/
+
+
+/*-------------------header-----------------------*/
+
+.article-header-wrapper > .header-img {
+display: none;
+}
+
+
+.article-heading {
+  grid-column: 2 / 4;
+  padding-top: 5.5%;
+}
+
+ 
+#article-read {
+  padding-top: 10%;
+ } 
+
+.article-header-wrapper > .author{
+ margin-top: 5%;
+ padding: 0%;
+}
+
+.article-header-wrapper > .audio {
+  grid-column: 4 / 4;
+  margin-left: -25%;
+  padding-top: 6.6%;
+}
+
+ 
+.article-header-wrapper  .listen-in{
+  padding-left: 20%;
+}
+
+.article-audio {
+  height: 2vh;
+  border: 2px solid turquoise;
+  border-radius:50px;
+  }
+
+
+  .cancel {
+    margin-left: 96%;
+    margin-top: -0.5%;
+    }
+
+
+
+/*-----------article------------*/
 
 .popup-article { 
-    margin-top: -65%;
-    height: 94%
+    margin-top: -68%;
+    height: 96%;
+    border: 0px;
   }
   
   .popup-article > article {
-    padding-right: 0.25%;
-    margin-top: 15.25%;
+    padding: 0.5%;
   }
   .lhs-image-wrapper > img {
-    opacity: 0.3;
+    opacity: 0.5;
     width: 50%;
   }
   
@@ -119,10 +169,6 @@
     margin-top: 2%;
     padding-left: 1.5%;
     padding-right: 2.5%;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    word-spacing: -2px;
   }
   
   .quote-wrapper {
@@ -132,20 +178,8 @@
     padding-right: 2.5%;
     padding-left: 2.5%;
   }
-  
-  .quote{ 
-    color: darkblue;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-    position: relative;
-    z-index: 40;
-  }
-  
+
   .q-caption {
-    color:black;
-    font-size: 24px;
-    font-weight: 600;
     text-align: center;
     position: relative;
     z-index: 50;
@@ -164,17 +198,11 @@
     color: black;
     position: relative;
     z-index: 70;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    word-spacing: -2px;
   }
   
   .article-p2 h3 {
-   font-size: 26px;
   align-self: center;
   text-align: center;
-  word-spacing: 2px;
   position: relative;
   z-index: 80;
   }
@@ -197,16 +225,10 @@
     min-height: 10vh;
     z-index: 100;
     display: inline-block;
-    margin-top: 60%;
+    margin-top: -10%;
     margin-bottom: 0%;
   }
   
-
-
-
-
-
-
 
 
 
