@@ -348,17 +348,21 @@ display: none;
 
 
 .form2-wrapper {
-  position: relative;
-  margin-top: -6%;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: 1%;
   }
 
+  
 .image-container img {
   width: 420px;
   height: 10vh;
   }
 
 
-/*------------#industries-------wip-----*/
+/*------------#industries------------*/
 
 
 #header-industries {
@@ -533,26 +537,51 @@ z-index: 80;
       height: 28vh;
   }
 
+  .playlist {
+    padding-right: 1.2%;
+  }
+
   .column {
       height: 40vh;
   }
 
    
   .wave {  
-  padding-top: 1%; /*mq*/
+  padding-top: 1%; 
   }
 
 
+/*-----------#subscribe-----------*/
 
+#header-subscribe {
+  padding-top: 4.2%;
+}
+      
+#subscribe-footer {
+  padding-top: 0%;
+  margin-top: 11.5%;
+}
 
+ /*---------------contact---------------------*/
 
+ .contact {
+  background-position: 0px 85px; /*mq*/
+}
 
+#header-contact > h2 {
+  padding-top: 0%;
+}
 
+.contact-container {
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 70%; 
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+ }
 
-
-
-  }
-
+}
 
 
 /*=================================================================================*/
