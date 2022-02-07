@@ -147,7 +147,7 @@ display: none;
 
 
 
-/*-----------article------------*/
+/*-----------article--------wip----*/
 
 .popup-article { 
     margin-top: -68%;
@@ -155,12 +155,17 @@ display: none;
     border: 0px;
   }
   
-  .popup-article > article {
-    padding: 0.5%;
+  .popup-article article {
+    padding: .5%;
+    margin-bottom: 2%;
+    height: 90%; /*mq*/
   }
+
   .lhs-image-wrapper > img {
-    opacity: 0.5;
+    opacity: .3;
     width: 50%;
+    margin-left: -.5%;
+    margin-top: -.5%;
   }
   
   .article-p1 p { 
@@ -193,11 +198,12 @@ display: none;
   }
   
   .article-p2 {
+    position: relative;
     padding-left: 1.5%;
     padding-right: 2.5%;
     color: black;
-    position: relative;
     z-index: 70;
+
   }
   
   .article-p2 h3 {
@@ -211,11 +217,10 @@ display: none;
     background: transparent;
     position: relative;
     z-index: 90;
-    margin-top: 12%; 
+    margin-top: 0%; 
     margin-left: -20%;
     margin-right: -20%;
-    margin-bottom: -70%;
-    height: 56vh;
+    margin-bottom: 7%;
   }
   
   .popup-footer {
@@ -225,7 +230,7 @@ display: none;
     height: 2.5vh;
     z-index: 100;
     display: inline-block;
-    margin-top: -10%;
+    margin-top: -20%;
     margin-bottom: 0%;
   }
 
