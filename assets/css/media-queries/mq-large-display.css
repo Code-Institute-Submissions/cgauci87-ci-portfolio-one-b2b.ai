@@ -767,6 +767,9 @@ z-index: 80;
     
 /*---------------podcasts-----------------------------*/
 
+#header-podcasts {
+  padding-top: 4.8%;
+}
 
   .top-image-wrapper img {
       height: 28vh;
@@ -785,7 +788,22 @@ z-index: 80;
   }
 
 
- /*---------------contact---------wip------------*/
+  /*--------------subscribe-----------------*/
+
+  #header-subscribe {
+    padding-top: 4.8%;
+  }
+
+  #subscribe-footer {
+    margin-top: 19%;
+}
+
+ /*---------------contact---------------------*/
+
+ #header-contact {
+  padding-top: 4.8%;
+}
+
 
  .contact {
   background-position: 0px 120px; /*mq*/
