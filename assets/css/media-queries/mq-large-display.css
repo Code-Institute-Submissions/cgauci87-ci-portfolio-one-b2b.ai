@@ -1007,7 +1007,7 @@ z-index: 80;
 }
 /*=================================================================================*/
 
-  /* (1680x1050) WSXGA+ Display  -> WIP <- */
+  /* (1680x1050) WSXGA+ Display  -> PASS <- */
   @media  screen and (min-width: 1680px) and (min-height: 1050px) {
 
 
@@ -1234,7 +1234,7 @@ margin-right: 2%;
  }
  
 
- /*---------------contact---------------wip------*/
+ /*---------------contact---------------------*/
 
 .contact {
   background-position: 0 140px; /*mq*/
