@@ -1,5 +1,308 @@
 /* e-readers (Nook/Kindle), smaller tablets i.e. 600 x 1024  -> WIP <- */
-@media screen and (max-width: 600px) and (min-height: 1024px)  {
+@media screen and (min-width: 600px) and (min-height: 1024px)  {
+/*----------#intro---------------*/
+
+.main-intro {
+    background-position: 0 200px;
+}
+
+.section-footer {
+
+    margin: 0;
+}
+
+
+/*------------#ai-101------------*/
+
+
+.ai-101 {
+    background-position: 0 -30px;
+}
+
+.audio-player {
+    padding-top: 11%;
+    padding-left: 12%;
+  }
+ 
+#ai-101-listen{
+        padding-left: 20%;
+  }
+
+.section-header-wrapper >.header-img {
+    filter: opacity(.3);
+    width: 200px;
+    height: 5vh;
+}
+
+
+#ai-img-1 {
+    position: absolute;
+    display: flex;
+    width: 96%;
+    height: 20vh;
+    margin-top: -19%;
+  }
+
+  .ai-101-container article {
+   display:  block;
+   margin-top: 20%;
+  }
+
+  #ai-img-2 {
+   position: absolute;
+   display: flex;
+   width: 96%;
+   height: 20vh;
+   margin-top: 10%;
+ }
+
+
+ .form2-wrapper {
+    position: relative;
+    margin-top: 4%;
+    }
+
+ .image-container img {
+    width: 200px;
+    height: 5vh;
+    }
+
+
+
+/*------------#industries------------*/
+
+
+#header-industries {
+    padding-top: 6.7%;
+    width: 67.5%;
+  }
+
+
+  #industry-icon {
+    margin-top: -8.5%;
+    margin-right: 12%;
+  }
+
+  
+.grid a {
+    font-size: 16px;
+}
+
+
+  #adjust-footer {
+    margin-top: 4%;
+  }
+
+
+
+/*-----------------------pop-up-------------------------------*/
+
+
+/*-------------------header-----------------------*/
+
+.article-header-wrapper > .header-img {
+display: none;
+}
+
+
+.article-heading {
+  grid-column: 2 / 4;
+  padding-top: 5.5%;
+}
+
+ 
+#article-read {
+  padding-top: 10%;
+ } 
+
+.article-header-wrapper > .author{
+ margin-top: 5%;
+ padding: 0%;
+}
+
+.article-header-wrapper > .audio {
+  grid-column: 4 / 4;
+  margin-left: -25%;
+  padding-top: 6.6%;
+}
+
+ 
+.article-header-wrapper  .listen-in{
+  padding-left: 20%;
+}
+
+.article-audio {
+  height: 2vh;
+  border: 2px solid turquoise;
+  border-radius:50px;
+  }
+
+
+  .cancel {
+    margin-left: 96%;
+    margin-top: -0.5%;
+    }
+
+
+
+/*-----------article------------*/
+
+.popup-article { 
+    margin-top: -68%;
+    height: 96%;
+    border: 0px;
+  }
+  
+  .popup-article article {
+    padding: .5%;
+    margin-bottom: 2%;
+    height: 90%; /*mq*/
+  }
+
+  .lhs-image-wrapper > img {
+    opacity: .3;
+    width: 50%;
+    margin-left: -.5%;
+    margin-top: -.5%;
+  }
+  
+  .article-p1 p { 
+    position: relative;
+    z-index: 30;
+    margin-top: 2%;
+    padding-left: 1.5%;
+    padding-right: 2.5%;
+  }
+  
+  .quote-wrapper {
+    position: relative;
+    z-index: 40;
+    margin-top: 2%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+  }
+
+  .q-caption {
+    text-align: center;
+    position: relative;
+    z-index: 50;
+  }
+  
+  .q-icon {
+    width: 46px;
+    align-self: center;
+    position: relative;
+    z-index: 60;
+  }
+  
+  .article-p2 {
+    position: relative;
+    padding-left: 1.5%;
+    padding-right: 2.5%;
+    color: black;
+    z-index: 70;
 
   }
-  /*=====================================================================================================*/
+  
+  .article-p2 h3 {
+  align-self: center;
+  text-align: center;
+  position: relative;
+  z-index: 80;
+  }
+  
+  .btm-image-wrapper{
+    background: transparent;
+    position: relative;
+    z-index: 90;
+    margin-top: 0%; 
+    margin-left: -20%;
+    margin-right: -20%;
+    margin-bottom: 7%;
+  }
+  
+  .popup-footer {
+    position: relative;
+    width: 100%;  
+    background:#0e101f;
+    height: 2.5vh;
+    z-index: 100;
+    display: inline-block;
+    margin-top: -20%;
+    margin-bottom: 0%;
+  }
+
+
+/*------------#podcasts------------*/
+
+
+#header-podcasts > h2 {
+  padding-top: 2.5%;
+}
+
+.top-image-wrapper img {
+  height: 32vh;
+}
+
+.playlist {
+  padding-right: 1%;
+}
+
+.column {
+  height: 40vh;
+  padding-right: 6%;
+}
+
+.wave {  
+padding-top: 0.8%; /*mq*/
+}
+
+
+/*------------#subscribe------------*/
+
+#header-subscribe {
+  padding-top: 6.5%;
+}
+
+#checkbox {
+margin-right: 2%;
+}
+
+
+.subscribe-form label {
+  padding-top: 5%;
+ }
+ 
+     
+ #subscribe-footer {
+     margin-top: 30%;
+ }
+ 
+
+
+
+ /*---------------contact---------------------*/
+
+ .contact {
+  background-position: -250px 180px; /*mq*/
+}
+
+#header-contact > h2 {
+  padding-top: 2.6%;
+}
+
+.contact-container {
+  margin-left: 15%;
+  margin-top: 10%;
+  width: 70%; 
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+ }
+
+
+}
+/*=================================================================================*/
+
+
+/*=====================================================================================================*/
