@@ -4,7 +4,7 @@
 
 .main-intro {
     background-size:contain;
-    background-position: -20px 460px;
+    background-position: 0 460px;   
   }
 
 
@@ -24,7 +24,6 @@
         margin-top: -5%;
         padding-bottom: 0.5%;
         position: relative;
-        z-index: 10;
       }	
     
 .line-wrapper-2 .line-2 {
@@ -42,10 +41,29 @@
 
 /*------------#ai-101 section------------*/
 
+.section-heading {
+    position: relative;
+    z-index: 40;
+    margin-left: 45%;
+    margin-top: -5.5%;
+}
+
+.read {
+   margin-top: -10%;
+   margin-left: 75%;
+   white-space: nowrap;
+   } 
+
 .audio-player {
     padding-top: 11%;
-    padding-left: 12%;
+    padding-left: 0%;
+    margin-left: -5%;
   }
+
+.audio {
+    grid-column: 4 / 4;
+    grid-row: 1;
+   }
  
 #ai-101-listen{
         padding-left: 20%;
