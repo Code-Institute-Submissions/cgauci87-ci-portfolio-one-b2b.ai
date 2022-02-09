@@ -42,22 +42,28 @@
 /*------------#ai-101 section------------*/
 
 .section-heading {
-    position: relative;
-    z-index: 40;
-    margin-left: 45%;
+    margin-left: 20%;
     margin-top: -5.5%;
 }
 
+.section-heading h1 {
+  position: relative;
+  z-index: 40;
+}
+
 .read {
-   margin-top: -10%;
-   margin-left: 75%;
+   margin-top: -5.5%;
+   margin-left: 60%;
    white-space: nowrap;
-   } 
+   }
+
+.author{
+padding-top: 10%;
+}
 
 .audio-player {
-    padding-top: 11%;
-    padding-left: 0%;
-    margin-left: -5%;
+    margin-top: 20%;
+    margin-left: -35%;
   }
 
 .audio {
@@ -65,24 +71,29 @@
     grid-row: 1;
    }
  
+#ai-101-audio {
+    width: 150px;
+    border: 2px solid turquoise;
+    border-radius:50px;
+}
+
 #ai-101-listen{
-        padding-left: 20%;
+        padding-left: 10%;
+        letter-spacing: 2px;
   }
 
 .section-header-wrapper >.header-img {
-    filter: opacity(.3);
-    width: 100px;
-    height: 10vh;
     display: none;
 }
 
+/*--------------------#ai-101 article---------------------------------*/
 
 #ai-img-1 {
     position: absolute;
     display: flex;
     width: 96%;
     height: 20vh;
-    margin-top: -19%;
+    margin-top: -42%;
   }
 
   .ai-101-container article {
@@ -90,23 +101,88 @@
    margin-top: 20%;
   }
 
+  .ai-101-a {
+    margin-top: 44%;
+  }
+  
+ .ai-101-d {
+   margin-top: -5%;
+   float: left;
+ } 
+
   #ai-img-2 {
    position: absolute;
    display: flex;
    width: 96%;
    height: 20vh;
-   margin-top: 10%;
+   margin-top: 30%;
  }
+
+
+   #mimic-icon {
+    margin-top: 16%;
+    margin-left: 6%;
+  }
+  
+  #process-icon {
+    margin-top: 20%;
+    margin-left: 22%;
+  }
+  
+   #ux-icon {
+     margin-top: 2%;
+     margin-left: 14%;
+   }
+  
+    #big-data-icon {
+      width: 28px;
+      margin-top: 1%;
+      margin-left: 0%; 
+    }
+  
+    #bus-mgt-icon {
+      margin-top: 2.5%;
+    }
+  
+    #op-icon {
+      margin-top: 2.5%;
+      margin-left: 15%;
+    }
+   
+    #elv-icon {
+     margin-top: 2.5%;
+     margin-left: 27%;
+   }
+   
+     #growth-icon {
+       margin-top: 2.5%;
+       margin-left: 41%; 
+     }
+     
 
 
  .form2-wrapper {
     position: relative;
-    margin-top: 4%;
+    margin-top: 36%;
     }
 
+ .goto-btn-adjust {
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 0%;
+    display: flex;
+ }
+
  .image-container img {
-    width: 420px;
+    display: block;
+    width: 100%;
     height: 10vh;
+    opacity: 0.5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
     }
 
 
