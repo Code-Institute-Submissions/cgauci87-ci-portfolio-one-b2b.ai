@@ -832,7 +832,7 @@ display: grid;
 padding-top: 3.2%;
 }
 
-.article-header-wrapper > .author{
+.article-header-wrapper > .author-pu{
   grid-column: 1 / 4;
   grid-row: 1;
   display: subgrid;
@@ -845,7 +845,7 @@ padding-top: 3.2%;
 }
 
 .article-header-wrapper > aside > span {
-  color: rgba(127, 221, 252, 0.932);
+  color: rgba(127, 221, 252, 0.932);  
   font-weight: 100;
 }
 
@@ -883,7 +883,7 @@ grid-row: 1;
  }
 
  
-.article-header-wrapper  .listen-in{
+.article-header-wrapper > .listen-in{
    background:transparent;
    color: white;
    font-size: calc(6px + (3 - 1) * (100vw - 400px) / (800 - 400) );
