@@ -595,20 +595,11 @@ padding-top: 10%;
     font-weight: 400;
   }
   
-
 /*---------->footer<--------------------------- */
 
-.footer {
-  position: relative;
-  display: flex;
-  height: auto;
-  margin: 0%;
-  padding: 0%;
-  z-index: 90;
-}
 
 .social-icon {
-  margin-top: -90%;
+  margin-top: -45%;
   padding: 0%;
 }
 
@@ -618,9 +609,9 @@ padding-top: 10%;
   padding: 0%;
   font-size: 1rem;
   font-weight: 300;
-  margin-top: -40%;
-
+  margin-top: 2%;
 }
+
 
 }
 
@@ -987,16 +978,251 @@ padding-top: 10%;
       height: 5vh;
       z-index: 100;
       display: inline-block;
-      margin-top: -20%; /*wip*/
+      margin-top: -20%;
       margin-bottom: 0%;
     }
 
 
- #podcasts, #subscribe, #contact , .footer {
-  display: none;  
+
+/*  ==============#podcasts section================wip=====   */
+
+.podcasts {
+  background-image: url("/assets/images/podcasts_img.png");
+  background-blend-mode:color-dodge;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size:contain;
+  background-position: 0 120px;
 }
 
+#header-podcasts {
+  height: 5vh;
+  width: 100%;
+  margin: 0;
+  padding-top: 2%;
 }
+
+  .top-image-wrapper img {
+    display: none;
+  }
+  
+  
+  .playlist {
+    margin-top: 10%;
+    overflow-y: scroll;
+    scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.8);
+    scrollbar-width: auto;
+    scroll-behavior: smooth;
+    height: auto;
+  }
+  
+  
+  iframe {
+  background-color: rgba(127, 221, 252, 0.932);
+  filter:saturate(25%);
+  width: 100%;
+  height: 15vh;
+  }
+  
+  
+  .column{
+    position:relative;
+    height: 15vh;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+    .column p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      height: auto;
+    }
+  
+    .podcasts-container {
+      position: absolute;
+      margin-top: 15%;
+    }
+  
+    #footer-pd  {
+      background-color: transparent;
+      position: absolute;
+      display: inline-block;
+      width: 100%;
+      z-index: 10;
+      margin-top: 120%;
+    }
+  
+    #wave1 {
+      height: 5vh;
+      padding-top: 2%;
+    }
+  
+  
+   /*#subscribe section*/
+  
+   .subscribe {
+    background-color: rgba(14, 16, 31, 1);
+    background-size: contain;
+    background-position: 0px 350px;
+    background-blend-mode:difference;
+    color: rgba(0,0,0,1);
+   }
+
+   .subscribe-form {
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 4%;
+  }
+ 
+  #header-subscribe {
+    height: 5vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 2%;
+  }
+
+ .subscribe-form > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc( 32px + (28 - 14) * (100vw - 400px) / (800 - 400) );
+  color: white;
+  margin-top: 20%;
+}
+  
+  .subscribe-form p {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 600;
+    white-space: pre-line;
+    color: white;
+
+  }
+    
+  
+  .subscribe-form form {
+    max-width: 220px;
+  }
+  .subscribe-form input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 4vh;
+    font-size: 18px;
+    width: 100%;
+    color: #0e101f;
+    margin-left: -7%;
+  }
+  
+  #submit-button {
+    position: relative;
+    display: flex;
+    margin-top: 0;
+  }
+  
+  #checkbox {
+    position: relative;
+    display: flex;
+    width: 25x;
+    margin-left: -7%;
+  }
+  
+  .subscribe-form label {
+  font-size: calc(10px + (8 - 4) * (100vw - 400px) / (800 - 400) );
+  padding-left: 0%;
+
+  }
+  
+  #subscribe-footer {
+    margin-top: 125.5%;
+    height: auto;
+  } 
+  
+  /* #contact section */
+  
+  .contact {
+    background-color: rgba(14, 16, 31, 1);
+    background-blend-mode: difference;
+    background-size: contain;
+    background-position:  0 190px;
+  }
+    
+  #header-contact {
+    height: 5vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 2%;
+  }
+
+  .contact-container {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 15%;
+  }
+  .contact-container form * {
+    font-size: 18px;
+  }
+  
+  .contact-container form .field label {
+    height: 4vh;
+    padding-top: 1.5%;
+  }
+  
+  .contact-container form .field input[type="text"], .field input[type="email"],
+  form .field textarea {
+    height: 4vh;
+    padding-left: 36%;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+  }
+  
+  .contact-container form #msg {
+    height: 4vh;
+    padding-top: 18px;
+  }
+  .contact-container form textarea:focus#msg,
+  .contact-container form textarea:not(:placeholder-shown)#msg {
+    height: 17vh;
+  }
+  
+  .contact-container form input[type="text"]:focus + label,
+  .contact-container form input[type="text"]:not(:placeholder-shown) + label,
+  .contact-container form input[type="email"]:focus + label,
+  .contact-container form input[type="email"]:not(:placeholder-shown) + label,
+  .contact-container form textarea:focus + label,
+  .contact-container form textarea:not(:placeholder-shown) + label,
+  .contact-container form .field:hover label {
+    width: 24%;
+  }
+  
+  #send-btn {
+    float:right;
+    height: 6vh;
+    width: 100%;
+    font-weight: 400;
+  }
+  
+
+/*---------->footer<--------------------------- */
+
+
+.social-icon {
+  margin-top: -45%;
+  padding: 0%;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0%;
+  padding: 0%;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 2%;
+}
+}
+
 
 /*=====================================================================================================*/
 /*=====================================================================================================*/
