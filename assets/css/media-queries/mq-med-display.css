@@ -806,8 +806,6 @@ padding-top: 10%;
  .image-container img {
     display: none;
     }
-
-
   
 /*------------#industries------------*/
 
@@ -823,22 +821,21 @@ padding-top: 10%;
   #industry-icon {
     display: none;
   }
+   
 
-      
   .grid-template-rows-1 , .grid { 
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     display:grid;
     margin:0 auto;
-    padding-top: 9%;
-}
-  
-.grid-template-rows-1{
-    grid-template-rows: 450px 450px;
-}
-
-
+    padding-top: 8%;
+    }
+    
+    .grid-template-rows-1{
+    grid-template-rows: 350px 350px;
+    }
+    
   #adjust-footer {
-    margin-top: 50%;
+    margin-top: 38.5%;
     height: auto;
   }
 
@@ -922,6 +919,7 @@ padding-top: 10%;
     .lhs-image-wrapper > img {
       opacity: .3;
       width: 100%;
+      height: 100vh;
       margin-left: -.5%;
       margin-top: -.5%;
       border-radius: 0px;
@@ -986,16 +984,16 @@ padding-top: 10%;
       position: relative;
       width: 100%;  
       background:#0e101f;
-      height: 2.5vh;
+      height: 5vh;
       z-index: 100;
       display: inline-block;
-      margin-top: -20%;
+      margin-top: -20%; /*wip*/
       margin-bottom: 0%;
     }
 
 
  #podcasts, #subscribe, #contact , .footer {
-  display: none;
+  display: none;  
 }
 
 }
