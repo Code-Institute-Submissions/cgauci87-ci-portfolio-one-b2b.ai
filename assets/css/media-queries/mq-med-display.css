@@ -442,7 +442,7 @@ padding-top: 10%;
       display: inline-block;
       width: 100%;
       z-index: 10;
-      margin-top: 150%;
+      margin-top: 138%;
     }
   
     #wave1 {
@@ -454,34 +454,42 @@ padding-top: 10%;
    /*#subscribe section*/
   
    .subscribe {
-     background-color: rgba(14, 16, 31, 1);
-     background-size: contain;
-     background-position: center;
-     background-blend-mode:difference;
-     color: rgba(0,0,0,1);
-     display: none;
+    background-color: rgba(14, 16, 31, 1);
+    background-size: contain;
+    background-position: 0px 530px;
+    background-blend-mode:difference;
+    color: rgba(0,0,0,1);
    }
-  
-   #subscribe-header {
-     margin-top: 0.7%;
-   }
-  
+
    .subscribe-form {
-     position: absolute;
-     margin-top: 56%;
-     margin-left: 5%;
-   }
-  
-   .subscribe-form h1 {
-    font-size: 32px;
-    font-weight: 700;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 0%;
   }
+ 
+   #header-subscribe {
+    height: 5vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 3%;
+   }
+
+ .subscribe-form > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc( 32px + (28 - 14) * (100vw - 400px) / (800 - 400) );
+  color: white;
+}
   
   .subscribe-form p {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: -2.5%;
-    font-size: 18px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 600;
+    white-space: pre-line;
+    color: white;
   }
   
   .subscribe-form form {
@@ -504,28 +512,20 @@ padding-top: 10%;
   }
   
   #checkbox {
-    position: absolute;
+    position: relative;
     display: flex;
-    width: 15px;
-    margin-top: 39.5%;
-    margin-left: -2.5%;
-    z-index: 1;
+    width: 25x;
+    margin-left: -7%;
   }
   
-  #subscribe-form > label {
-    position: absolute;
-    display: flex;
-    font-size: 9px;
-    letter-spacing: 0.2px;
-    font-weight: 600;
-    margin-top: 2.5%;
-    padding-left: 0.5%;
-    white-space: nowrap;
-    background-color: white;
+  .subscribe-form label {
+  font-size: calc(10px + (8 - 4) * (100vw - 400px) / (800 - 400) );
+  padding-left: 0%;
+
   }
   
   #subscribe-footer {
-    margin-top: 150%;
+    margin-top: 149%;
   } 
   
   /* #contact section */
