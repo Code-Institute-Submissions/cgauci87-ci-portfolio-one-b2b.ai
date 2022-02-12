@@ -442,7 +442,7 @@ padding-top: 10%;
       display: inline-block;
       width: 100%;
       z-index: 10;
-      margin-top: 138%;
+      margin-top: 150%;
     }
   
     #wave1 {
@@ -490,7 +490,9 @@ padding-top: 10%;
     font-weight: 600;
     white-space: pre-line;
     color: white;
+
   }
+    
   
   .subscribe-form form {
     max-width: 220px;
@@ -525,7 +527,8 @@ padding-top: 10%;
   }
   
   #subscribe-footer {
-    margin-top: 149%;
+    margin-top: 160%;
+    height: auto;
   } 
   
   /* #contact section */
@@ -534,10 +537,16 @@ padding-top: 10%;
     background-color: rgba(14, 16, 31, 1);
     background-blend-mode: difference;
     background-size: contain;
-    background-position: center;
-    display: none;
+    background-position:  0 300px;
   }
-  
+    
+  #header-contact {
+    height: 5vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 3%;
+  }
+
   .contact-container {
     position: absolute;
     margin-top: 56%;
@@ -586,14 +595,33 @@ padding-top: 10%;
     font-weight: 400;
   }
   
-  .footer {
-    display: none;
-    margin-top: -17%;
-    height: 10vh;
-  }
-  
-  .footer p {
-    font-size: 10px;
-  }
-  
-  }
+
+/*---------->footer<--------------------------- */
+
+.footer {
+  position: relative;
+  display: flex;
+  height: auto;
+  margin: 0%;
+  padding: 0%;
+  z-index: 90;
+}
+
+.social-icon {
+  margin-top: -90%;
+  padding: 0%;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0%;
+  padding: 0%;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: -40%;
+
+}
+
+}
+/* ========================================================*/
+

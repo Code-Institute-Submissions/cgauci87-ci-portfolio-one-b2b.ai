@@ -1468,7 +1468,7 @@ filter:invert(100);
   align-items: center;
   flex-direction: column;
   margin-top: -7%;
-  z-index: 900;
+  z-index: 90;
 }
 
 .social-icon, .social-icon__item{
