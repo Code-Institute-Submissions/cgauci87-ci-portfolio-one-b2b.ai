@@ -1251,7 +1251,7 @@ padding-top: 10%;
     }
 
     
-/*------------#ai-101 section--------wip----*/
+/*------------#ai-101 section------------*/
 
 /*------#ai-101 header -----------*/
 
@@ -1301,7 +1301,16 @@ padding-top: 10%;
 
 
 
+/*------------#industries------------*/
+  
+.grid-template-rows-1{
+    grid-template-rows: 420px 420px;
+}
 
+  #adjust-footer {
+    margin-top: 36%;
+    height: auto;
+  }
 
 
 
