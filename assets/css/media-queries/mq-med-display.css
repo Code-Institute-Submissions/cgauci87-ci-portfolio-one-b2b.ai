@@ -47,6 +47,8 @@
 
 /*------------#ai-101 section------------*/
 
+/*--------#ai-101 header----------*/
+
 .section-heading {
   margin-left: 43%;
 }
@@ -1225,6 +1227,8 @@ padding-top: 10%;
   /* iPad Portrait 768 x 1024  -> WIP <- */
   @media screen and (min-width: 767px) and (max-width: 768px) and (min-height: 1024px)  {
 
+    /*-----------#intro section----------------*/
+
     .nav > .nav-btn > label {
       margin-left: 50%;
       margin-top: 5%;
@@ -1245,6 +1249,68 @@ padding-top: 10%;
      position: relative;
      z-index: 10;
     }
+
+    
+/*------------#ai-101 section--------wip----*/
+
+/*------#ai-101 header -----------*/
+
+#ai-101-listen{
+  padding-left: 8%;
+  letter-spacing: 1.5px;
+}
+
+
+/*------#ai-101 article------------*/
+
+#ai-img-1 {
+    margin-top: -30.5%;
+  }
+
+  .ai-101-a {
+    margin-top: 32%;
+  }
+  
+ .ai-101-d {
+   margin-top: -7%;
+ } 
+
+  #ai-img-2 {
+   margin-top: 22.5%;
+ }
+
+  
+    #op-icon {
+      margin-left: 12%;
+    }
+   
+    #elv-icon {
+     margin-left: 24%;
+   }
+   
+    #growth-icon {
+    margin-left: 37%; 
+  }
+     
+
+
+ .form2-wrapper {
+    position: relative;
+    margin-top: 24%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   }
 
