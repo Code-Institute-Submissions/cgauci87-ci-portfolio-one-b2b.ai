@@ -1513,29 +1513,30 @@ padding-top: 10%;
   }
 
 /*------------#ai-101 section------------*/
-
+/*------------header------------*/
 .section-heading {
   margin-left: 43%;
 }
 
 .section-heading > h1 {
-  margin-top: 25%;
+  margin-top: 20%;
   padding: 0%;
 }
 
 .read {
   float: left;
   padding-left: 0.5%;
-  letter-spacing: 1.3px;
+  letter-spacing: 0.5px;
    }
 
 .author{
-padding-top: 10%;
+padding-top: 5.5%;
+padding-left: 1%;
 }
 
 .audio-player {
-    margin-top: 20%;
-    margin-left: -35%;
+    margin-top: 8.65%;
+    margin-left: -32%;
   }
 
 .audio {
@@ -1544,71 +1545,58 @@ padding-top: 10%;
    }
  
 #ai-101-audio {
-    width: 150px;
+    width: 200px;
+    height: 20px;
     border: 2px solid turquoise;
     border-radius:50px;
 }
 
 #ai-101-listen{
-        padding-left: 10%;
-        letter-spacing: 2px;
+        padding-left: 5%;
+        letter-spacing: 4px;
   }
 
 .section-header-wrapper >.header-img {
     display: none;
 }
 
-/*--------------------#ai-101 article---------------------------------*/
-
-#ai-101 {
-  position: relative;
-  z-index: 1;
-}
+/*--------------------#ai-101 article------------wip-------*/
 
 #ai-img-1 {
-    position: absolute;
-    display: flex;
-    width: 96%;
-    height: 16vh;
-    margin-top: -22.5%;
-  }
-
-  .ai-101-container article {
-   display:  block;
-   margin-top: 20%;
+  display: none;
   }
 
   .ai-101-a {
-    margin-top: 24%;
+    margin-top: .5%;
   }
   
  .ai-101-d {
-   margin-top: -5%;
+   margin-top: -12%;
    float: left;
  } 
 
   #ai-img-2 {
-   position: absolute;
-   display: flex;
-   width: 96%;
-   height: 16vh;
-   margin-top: 24%;
+  display: none;
  }
-
+  #ml-icon {
+    width: 60px;
+  }
 
    #mimic-icon {
-    margin-top: 16%;
-    margin-left: 6%;
+    width: 50px;
+    margin-top: 10%;
+    margin-left: 8%;
   }
   
   #process-icon {
-    margin-top: 20%;
-    margin-left: 22%;
+    margin-top: 14%;
+    margin-left: 18%;
   }
   
    #ux-icon {
-     margin-top: 2%;
-     margin-left: 14%;
+     width: 35px;
+     margin-top: 1.5%;
+     margin-left: 13%;
    }
   
     #big-data-icon {
@@ -1618,34 +1606,33 @@ padding-top: 10%;
     }
   
     #bus-mgt-icon {
-      margin-top: 2.5%;
+      margin-top: 1.5%;
     }
   
     #op-icon {
-      margin-top: 2.5%;
-      margin-left: 15%;
+      margin-top: 1.5%;
+      margin-left: 12%;
     }
    
     #elv-icon {
-     margin-top: 2.5%;
-     margin-left: 27%;
+     margin-top: 1.5%;
+     margin-left: 23%;
    }
    
      #growth-icon {
-       margin-top: 2.5%;
-       margin-left: 41%; 
+       margin-top: 1.5%;
+       margin-left: 34%; 
      }
-     
-
-
- .form2-wrapper {
-    position: relative;
-    margin-top: 22%;
-    }
+    
 
  .image-container img {
     display: none;
     }
+
+    .form2-wrapper {
+      position: relative;
+      margin-top: -11.5%;
+      }
   
 
 
