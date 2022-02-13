@@ -769,6 +769,8 @@ transform: translate(-50%, -50%);
 color: white;
 background: rgba(0,0,0,0.6);
 text-align: left;
+font-size: calc( 11px + (5 - 2) * (100vw - 400px) / (800 - 400) ); /*new*/
+line-height: calc( 11px + (5 - 2) * (100vw - 400px) / (800 - 400) ); 
 }
 
 .grid a {
