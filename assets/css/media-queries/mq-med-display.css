@@ -1320,7 +1320,7 @@ padding-top: 10%;
     margin-bottom: 0%;
   }
 
-/*==============#podcasts section===========wip=========*/
+/*==============#podcasts section====================*/
 
 .podcasts {
   background-position: 0 180px;
@@ -1341,10 +1341,47 @@ padding-top: 10%;
     }
   
 
+  
+   /*-------#subscribe section---------wip--*/
+  
+   .subscribe {
+    background-position: 0px 250px;
+   }
+   
+   .subscribe-form {
+    margin-top: 15%;
+    margin-left: 5%;
+  }
+ 
+   #header-subscribe {
+    padding-top: 2.5%;
+   }
+
+  
+  .subscribe-form p {
+    padding: 0%;
+    white-space: nowrap;
+  }
+    
+  
+  .subscribe-form form {
+    max-width: 300px;
+  }
 
 
-
-
+  #checkbox {
+    width: 50px;
+    margin-left: -10%;
+    margin-top: 0.5%;
+  }
+  
+  .subscribe-form label {
+  background-color: #fff;
+  }
+  
+  #subscribe-footer {
+    margin-top: 125%;
+  } 
 
 
 
