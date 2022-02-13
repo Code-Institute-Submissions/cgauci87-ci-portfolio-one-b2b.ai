@@ -1342,7 +1342,7 @@ padding-top: 10%;
   
 
   
-   /*-------#subscribe section---------wip--*/
+   /*-------#subscribe section-----------*/
   
    .subscribe {
     background-position: 0px 250px;
@@ -1383,12 +1383,87 @@ padding-top: 10%;
     margin-top: 125%;
   } 
 
-
-
-
-
+ 
+  /* #contact section */
+  
+  .contact {
+    background-position:  0 245px;
+  }
+    
+  #header-contact {
+    height: 5vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 2%;
   }
 
+  .contact-container {
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 15%;
+  }
+  .contact-container form * {
+    font-size: 18px;
+  }
+  
+  .contact-container form .field label {
+    height: 4vh;
+    padding-top: 1.5%;
+  }
+  
+  .contact-container form .field input[type="text"], .field input[type="email"],
+  form .field textarea {
+    height: 4vh;
+    padding-left: 36%;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+  }
+  
+  .contact-container form #msg {
+    height: 7vh;
+    padding-top: 18px;
+  }
+  .contact-container form textarea:focus#msg,
+  .contact-container form textarea:not(:placeholder-shown)#msg {
+    height: 17vh;
+  }
+  
+  .contact-container form input[type="text"]:focus + label,
+  .contact-container form input[type="text"]:not(:placeholder-shown) + label,
+  .contact-container form input[type="email"]:focus + label,
+  .contact-container form input[type="email"]:not(:placeholder-shown) + label,
+  .contact-container form textarea:focus + label,
+  .contact-container form textarea:not(:placeholder-shown) + label,
+  .contact-container form .field:hover label {
+    width: 24%;
+  }
+  
+  #send-btn {
+    float:right;
+    height: 6vh;
+    width: 100%;
+    font-weight: 400;
+  }
+  
+/*---------->footer<--------------------------- */
 
+
+.social-icon {
+  margin-top: -45%;
+  padding: 0%;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0%;
+  padding: 0%;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 2%;
+}
+
+}
+
+/*=====================================================================================================*/
 /*=====================================================================================================*/
 
