@@ -205,7 +205,7 @@ padding-top: 10%;
     display:grid;
     margin:0 auto;
     padding-top: 9%;
-}
+} 
   
 .grid-template-rows-1{
     grid-template-rows: 450px 450px;
@@ -1311,6 +1311,26 @@ padding-top: 10%;
     margin-top: 36%;
     height: auto;
   }
+
+/*-----------------------pop-up-------------------------------*/
+
+/*-------------------header-----------------------*/
+.article-header-wrapper {
+  height: 7.5vh;
+}
+  
+  .article-header-wrapper > .author-pu{
+    margin-top: 5.5%;
+    margin-left: 5%;
+  }
+
+  .popup-footer {
+    height: 5vh;
+    margin-top: -2%;
+    margin-bottom: 0%;
+  }
+
+  
 
 
 
