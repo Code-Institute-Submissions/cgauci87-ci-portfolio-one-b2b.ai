@@ -400,16 +400,6 @@ padding-top: 10%;
     height: auto;
   }
   
-  ::-webkit-scrollbar {
-    height: 5vh;
-    width: 10px;
-    background: transparent;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.8);
-  }
-  
   
   iframe {
   background-color: rgba(127, 221, 252, 0.932);
@@ -1330,6 +1320,25 @@ padding-top: 10%;
     margin-bottom: 0%;
   }
 
+/*==============#podcasts section===========wip=========*/
+
+.podcasts {
+  background-position: 0 180px;
+}
+
+#header-podcasts {
+  padding-top: 2%;
+}
+
+
+    #footer-pd  {
+      margin-top: 117%;
+    }
+  
+    #wave1 {
+      height: 10vh;
+      padding-top: 5%;
+    }
   
 
 
