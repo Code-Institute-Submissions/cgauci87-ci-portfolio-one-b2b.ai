@@ -1636,7 +1636,7 @@ padding-left: 1%;
   
 
 
-/*------------#industries-------wip-----*/
+/*------------#industries------------*/
 
 #header-industries {
   width: 100%;
@@ -1668,12 +1668,14 @@ padding-left: 1%;
     margin-top: 14.5%;
   }
 
-
 /*-----------------------pop-up-------------------------------*/
 
 
 /*-------------------header-----------------------*/
 
+.article-header-wrapper {
+  height: 14vh;
+}
 
 .article-header-wrapper > .header-img {
   display: none;
@@ -1684,12 +1686,17 @@ padding-left: 1%;
     grid-column: 1 / 6;
     white-space: nowrap;
   }
+
+  
+.article-heading > h2{
+  padding-top: 4%;
+  }
   
   .article-header-wrapper > .author-pu{
     grid-column: 1 / 4;
     grid-row: 1;
     display: subgrid;
-    margin-top: 10%;
+    margin-top: 0%;
     margin-left: 7%;
   }
 
@@ -1705,8 +1712,8 @@ padding-left: 1%;
   .article-header-wrapper > .audio {
     grid-column: 4 / 4;
     padding-top: 0%;
-    margin-top: -0.5%;
-    margin-left: -4%;
+    margin-top: -1.5%;
+    margin-left: -10%;
   }
   
    
@@ -1716,7 +1723,7 @@ padding-left: 1%;
   }
   
   .article-audio {
-    height: 18px;
+    height: 60px;
     width: 130px;
     border: 1px solid turquoise;
     border-radius:50px;
@@ -1724,24 +1731,24 @@ padding-left: 1%;
   
   
     .cancel {
-      margin-left: 92%;
-      margin-top: -0.5%;
+      margin-left: 95%;
+      margin-top: -2%;
       }
   
   
   
-  /*-----------article------------*/
+  /*-----------article--------wip----*/
   
   .popup-article { 
-      margin-top: -68%;
-      height: 96%;
+      margin-top: -36%;
+      height: 95.5%;
       border: 0px;
     }
     
     .popup-article article {
       padding: .5%;
       margin-bottom: 2%;
-      height: 90%; /*mq*/
+      height: 82%; /*mq*/
       border-radius: 0px;
     }
   
@@ -1809,15 +1816,19 @@ padding-left: 1%;
       margin-bottom: 7%;
     }
     
+    .btm-image-wrapper img{
+      height: 42vh;
+      }
+
+
     .popup-footer {
       position: relative;
       width: 100%;  
       background:#0e101f;
-      height: 5vh;
-      z-index: 100;
+      height: 2.5vh;
       display: inline-block;
       margin-top: -20%;
-      margin-bottom: 0%;
+      margin-bottom: 1.5%;
     }
 
 
