@@ -1908,20 +1908,151 @@ padding-left: 1%;
       height: 10vh;
       padding-top: 2%;
     }
+
+    
   
+   /*-------#subscribe section-----wip------*/
+  
+   .subscribe {
+    background-size: cover;
+    background-position: -400px -120px;
+   }
+ 
+   #header-subscribe {
+    padding-top: 4.2%;
+    width: 100%;
+    margin: 0;
+   }
+
+   .subscribe-form {
+    margin-top: 1%;
+    margin-left: -35%;
+  }
+
+  
+  .subscribe-form p {
+    padding: 0%;
+    white-space: nowrap;
+  }
+    
+  
+  .subscribe-form form {
+    width: 400px;
+  }
 
 
+  #checkbox {
+    width: 20px;
+    margin-left: 1%;
+    margin-top: 0%;
+    float: left;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .subscribe-form label {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 1);
+  font-size: 11px;
+  font-weight: 600;
+  word-spacing: -2.8px;
+  white-space: nowrap;
+  margin-left: 0%;
+  margin-top: -6%;
+  width: 100%;
+  padding-left: 8%;
+  float: right;
+  }
+
+  
+  #subscribe-footer {
+    margin-top: 4%;
+    background-color: rgba(0, 0, 0, 0.5);
+  } 
+
+ 
+  /* #contact section wip*/
+  
+  .contact {
+    background-position:  0 20px;
+  }
+    
+  #header-contact {
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 2%;
+  }
+
+  .contact-container {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  .contact-container form * {
+    font-size: 18px;
+  }
+  
+  .contact-container form .field label {
+    height: 8vh;
+    padding-top: 2%;
+  }
+  
+  .contact-container form .field input[type="text"], .field input[type="email"],
+  form .field textarea {
+    height: 8vh;
+    padding-left: 36%;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+  }
+  
+  .contact-container form #msg {
+    height: 8vh;
+    padding-top: 18px;
+  }
+  .contact-container form textarea:focus#msg,
+  .contact-container form textarea:not(:placeholder-shown)#msg {
+    height: 36vh;
+  }
+  
+  .contact-container form input[type="text"]:focus + label,
+  .contact-container form input[type="text"]:not(:placeholder-shown) + label,
+  .contact-container form input[type="email"]:focus + label,
+  .contact-container form input[type="email"]:not(:placeholder-shown) + label,
+  .contact-container form textarea:focus + label,
+  .contact-container form textarea:not(:placeholder-shown) + label,
+  .contact-container form .field:hover label {
+    width: 24%;
+  }
+  
+  #send-btn {
+    float:right;
+    height: 6vh;
+    width: 100%;
+    font-weight: 400;
+    padding:0%;
+  }
+  
+/*---------->footer<--------------------------- */
 
 
+.social-icon {
+  margin-top: -8%;
+  padding: 0%;
+}
 
-
-
-
-
-
-
+.footer p {
+  color: #fff;
+  margin: 0%;
+  padding: 0%;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: .5%;
+}
 
 }
+
+/*=====================================================================================================*/
 
 
 
