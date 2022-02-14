@@ -1466,7 +1466,7 @@ padding-top: 10%;
 
 /*=====================================================================================================*/
 
-/*  tablets, iPad, e-readers, 800x480 or 854x480 phones -> WIP <- */	
+/*  tablets, iPad, e-readers, 800x480 or 854x480 phones -> PASS <- */	
 @media screen and (min-width:799px) and (max-width: 855px) and (min-height:480px) {
 
 
@@ -1911,7 +1911,7 @@ padding-left: 1%;
 
     
   
-   /*-------#subscribe section-----wip------*/
+   /*-------#subscribe section-----------*/
   
    .subscribe {
     background-size: cover;
@@ -1971,7 +1971,7 @@ padding-left: 1%;
   } 
 
  
-  /* #contact section wip*/
+  /*-------#contact section-----*/
   
   .contact {
     background-position:  0 20px;
