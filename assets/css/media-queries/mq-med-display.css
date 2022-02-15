@@ -2085,8 +2085,6 @@ padding-left: 1%;
     height: 18vh;
   }
 
-
-
 /*------------#ai-101 section------------*/
 /*------------header------------*/
 .section-heading {
@@ -2156,7 +2154,7 @@ padding-left: 1%;
 }
   
 
-/*------------#industries------------*/
+/*------------#industries-----wip-------*/
 
 #header-industries {
   margin-top: 13.5%;
@@ -2171,10 +2169,41 @@ padding-left: 1%;
   margin-top: 18.5%;
   }
 
+/*-----------------------pop-up-------------------------------*/
 
 
+/*-------------------header-----------------------*/
+
+.article-header-wrapper {
+  height: 10vh;
+}
 
   
+.article-header-wrapper > .author-pu{
+  margin-left: 2%;
+}
+
+.article-header-wrapper > .audio {
+  margin-top: -5%;
+  margin-left: -8%;
+}
+  
+   
+.article-header-wrapper .listen-in{
+  padding-left: 12%;
+  letter-spacing: 0.2px;
+}
+  
+
+.cancel {
+  font-size: 30px;
+  margin-left: 94.5%;
+  margin-top: -1%;
+}
+  
+  
+
+
 }
 
 
