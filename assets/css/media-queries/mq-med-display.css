@@ -2162,15 +2162,19 @@ padding-left: 1%;
   margin-top: 13.5%;
   }
 
-  .grid-template-rows-1{
-    grid-template-rows: 230px 230px;
-    }
-
-    
-  #adjust-footer {
-    margin-top: 18.5%;
+.grid-template-rows-1{
+  grid-template-rows: 230px 230px;
   }
 
+    
+#adjust-footer {
+  margin-top: 18.5%;
+  }
+
+
+
+
+  
 }
 
 
