@@ -2917,6 +2917,78 @@ padding-left: 15%;
   }
 
 
+  
+/*------------#industries------------*/
+
+#header-industries {
+  margin-top: 16%;
+  }
+
+
+  #adjust-footer {
+    margin-top: 20%;
+    height: 10vh;
+    padding-top: 5%;
+  }
+
+
+/*-----------------------pop-up-------------------------------*/
+
+
+/*-------------------header-----------------------*/
+
+
+.article-header-wrapper > .header-img {
+  display: none;
+  }
+  
+  
+  .article-heading {
+    grid-column: 1 / 6;
+    white-space: nowrap;
+  }
+  
+  .article-header-wrapper > .author-pu{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    display: subgrid;
+    margin-top: 10%;
+    margin-left: 7%;
+  }
+
+   .author-pu > .profile-photo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  
+  .article-header-wrapper > .audio {
+    grid-column: 4 / 4;
+    padding-top: 0%;
+    margin-top: -0.5%;
+    margin-left: -4%;
+  }
+  
+   
+  .article-header-wrapper  .listen-in{
+    padding-left: 12%;
+    letter-spacing: 0.5px;
+  }
+  
+  .article-audio {
+    height: 18px;
+    width: 130px;
+    border: 1px solid turquoise;
+    border-radius:50px;
+    }
+  
+  
+    .cancel {
+      margin-left: 92%;
+      margin-top: -0.5%;
+      }
+  
+  
 
 
   }
