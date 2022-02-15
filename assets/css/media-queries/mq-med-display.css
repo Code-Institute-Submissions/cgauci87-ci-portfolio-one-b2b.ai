@@ -2440,9 +2440,202 @@ padding-left: 15%;
     }
 
 
+  
+/*------------#industries------------*/
+
+#header-industries {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  margin-top: 13.5%;
+  margin-left: -55%;
+  }
+
+
+  #industry-icon {
+    display: none;
+  }
+
+      
+  .grid-template-rows-1 , .grid { 
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    display:grid;
+    margin:0 auto;
+    padding-top: 9%;
+} 
+  
+.grid-template-rows-1{
+    grid-template-rows: 280px 280px;
+}
+
+
+  #adjust-footer {
+    margin-top: 18%;
+    height: auto;
+  }
+
+  /*-----------------------pop-up-------------------------------*/
+
+/*-------------------header-----------------------*/
+
+.article-header-wrapper {
+  height: 10vh;
+}
+
+.article-header-wrapper > .header-img {
+  display: none;
+  }
+  
+  .article-heading {
+    grid-column: 1 / 6;
+    white-space: nowrap;
+  }
+  
+  .article-header-wrapper > .author-pu{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    display: subgrid;
+    margin-top: 0%;
+    margin-left: 9%;
+  }
+
+   .author-pu > .profile-photo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #article-read { 
+    padding-top: 10%;
+   } 
+  
+  .article-header-wrapper > .audio {
+    grid-column: 4 / 4;
+    padding-top: 0%;
+    margin-top: -5%;
+    margin-left: -7%;
+  }
+  
+   
+  .article-header-wrapper  .listen-in{
+    padding-left: 12%;
+    letter-spacing: -0.1px;
+  }
+  
+  .article-audio {
+    height: 18px;
+    width: 130px;
+    border: 1px solid turquoise;
+    border-radius:50px;
+    }
+  
+  
+    .cancel {
+      margin-left: 95%;
+      margin-top: -1%;
+      font-size: 30px;
+      }
+  
+  
+  
+  /*-----------article------------*/
+  
+  .popup-article { 
+      margin-top: -68%;
+      height: 92%;
+      border: 0px;
+    }
+    
+    .popup-article article {
+      padding: .5%;
+      margin-bottom: 2%; /*wip*/
+      height: 86%;
+      border-radius: 0px;
+    }
+  
+    .lhs-image-wrapper > img {
+      opacity: .3;
+      width: 100%;
+      margin-left: -.5%;
+      margin-top: -.5%;
+      border-radius: 0px;
+    }
+    
+    .article-p1 p { 
+      position: relative;
+      z-index: 30;
+      margin-top: 2%;
+      padding-left: 1.5%;
+      padding-right: 2.5%;
+    }
+    
+    .quote-wrapper {
+      position: relative;
+      z-index: 40;
+      margin-top: 2%;
+      padding-right: 2.5%;
+      padding-left: 2.5%;
+    }
+  
+    .q-caption {
+      text-align: center;
+      position: relative;
+      z-index: 50;
+    }
+    
+    .q-icon {
+      width: 46px;
+      align-self: center;
+      position: relative;
+      z-index: 60;
+    }
+    
+    .article-p2 {
+      position: relative;
+      padding-left: 1.5%;
+      padding-right: 2.5%;
+      color: black;
+      z-index: 70;
+  
+    }
+    
+    .article-p2 h3 {
+    align-self: center;
+    text-align: center;
+    position: relative;
+    z-index: 80;
+    }
+    
+    .btm-image-wrapper{
+      background: transparent;
+      position: relative;
+      z-index: 90;
+      margin-top: 0%; 
+      margin-left: -20%;
+      margin-right: -20%;
+      margin-bottom: 7%;
+    }
+
+    .btm-image-wrapper img{
+      height: 38vh;
+      }
+      
+    
+    .popup-footer {
+      position: relative;
+      width: 100%;  
+      background:#0e101f;
+      height: 5vh;
+      z-index: 100;
+      display: inline-block;
+      margin-top: -5%;
+      margin-bottom: 0%;
+    }
+
+
+
   }
 
 
 
-  /*====================================================================================================*/
+  /*=========================================================wip===========================================*/
 
