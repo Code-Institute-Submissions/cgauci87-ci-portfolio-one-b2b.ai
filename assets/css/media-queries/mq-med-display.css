@@ -1466,7 +1466,7 @@ padding-top: 10%;
 
 /*=====================================================================================================*/
 
-/*  tablets, iPad, e-readers, 800x480 or 854x480 phones -> clone <- */	
+/*  tablets, iPad, e-readers, 800x480 or 854x480 phones -> PASS <- */	
 @media screen and (min-width:799px) and (max-width: 855px) and (min-height:480px) {
 
 
@@ -2054,7 +2054,7 @@ padding-left: 1%;
 
 /*=====================================================================================================*/
 
-/* 800x600 tablets  -> WIP <- */	
+/* 800x600 tablets  -> PASS <- */	
 @media screen and (min-width:798px) and (max-width: 801px) and (min-height: 599px) and (max-height:601px) {
 
 /*------------#intro section-----------*/
@@ -2246,7 +2246,21 @@ padding-left: 1%;
   } 
 
 
+  
+  /*-------#contact section-----*/
+  
+  .contact {
+    background-position:  0 80px;
+  }
+    
+  #header-contact {
+    padding-top: 4%;
+  }
+
+  .contact-container {
+    margin-top: 15%;
+  }
 
 }
-/*===============================================wip======================================================*/
+/*====================================================================================================*/
 
