@@ -246,9 +246,6 @@ padding-top: 10%;
     height: 40px;
   }
 
-  #article-read { 
-    padding-top: 10%;
-   } 
   
   .article-header-wrapper > .audio {
     grid-column: 4 / 4;
@@ -851,10 +848,6 @@ padding-top: 10%;
     height: 40px;
   }
 
-  #article-read { 
-    padding-top: 10%;
-   } 
-  
   .article-header-wrapper > .audio {
     grid-column: 4 / 4;
     padding-top: 0%;
@@ -1704,10 +1697,6 @@ padding-left: 1%;
     height: 40px;
   }
 
-  #article-read { 
-    padding-top: 10%;
-   } 
-  
   .article-header-wrapper > .audio {
     grid-column: 4 / 4;
     padding-top: 0%;
@@ -2355,7 +2344,7 @@ padding-left: 15%;
     display: none;
 }
 
-/*--------------------#ai-101 article--------------------wip-------------*/
+/*--------------------#ai-101 article--------------------------*/
 
 #ai-img-1 {
     position: absolute;
@@ -2503,10 +2492,6 @@ padding-left: 15%;
     width: 40px;
     height: 40px;
   }
-
-  #article-read { 
-    padding-top: 10%;
-   } 
   
   .article-header-wrapper > .audio {
     grid-column: 4 / 4;
@@ -2540,14 +2525,14 @@ padding-left: 15%;
   /*-----------article------------*/
   
   .popup-article { 
-      margin-top: -68%;
+      margin-top: -47%;
       height: 92%;
       border: 0px;
     }
     
     .popup-article article {
       padding: .5%;
-      margin-bottom: 2%; /*wip*/
+      margin-bottom: 2%;
       height: 86%;
       border-radius: 0px;
     }
@@ -2705,10 +2690,33 @@ padding-left: 15%;
       padding-top: 3%;
     }
   
+  
+  
+   /*-------#subscribe section-----------*/
+  
+   .subscribe {
+    background-position: -485px -60px;
+   }
+ 
+   #header-subscribe {
+    padding-top: 5.5%;
+    width: 100%;
+    margin: 0%;
+   }
+
+   .subscribe-form {
+    margin-top: 20%;
+    margin-left: -18%;
+  }
+  
+  #subscribe-footer {
+    margin-top: 21.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+  } 
+
+
 
   }
-
-
 
   /*=========================================================wip===========================================*/
 
