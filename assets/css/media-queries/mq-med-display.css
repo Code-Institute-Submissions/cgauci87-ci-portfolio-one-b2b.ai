@@ -3038,6 +3038,77 @@ padding-left: 15%;
       padding-top: 4%;
     }
 
+
+    
+
+  
+   /*-------#subscribe section-----------*/
+  
+   .subscribe {
+    background-position: -100px 250px;
+   }
+   
+   .subscribe-form {
+    margin-top: 15%;
+    margin-left: 5%;
+  }
+ 
+   #header-subscribe {
+    height: 10vh;
+    padding-top: 5.5%;
+   }
+
+
+   .subscribe-form > h2 {
+     margin-left: 28%;
+     white-space: nowrap;
+     padding: 0%;
+   }
+
+  
+  .subscribe-form p {
+    padding: 0%;
+    white-space: nowrap;
+    margin-left: 18%;
+  }
+    
+  
+  .subscribe-form form {
+    max-width: 300px;
+  }
+
+
+  #checkbox {
+    width: 50px;
+    margin-left: -10%;
+    margin-top: 0.5%;
+  }
+  
+  .subscribe-form label {
+  background-color: #fff;
+  }
+  
+  #subscribe-footer {
+    margin-top: 105%;
+    padding-top: 5%;
+    height: 10vh;
+  } 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
 
   
