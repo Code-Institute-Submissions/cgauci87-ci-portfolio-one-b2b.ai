@@ -2154,7 +2154,7 @@ padding-left: 1%;
 }
   
 
-/*------------#industries-----wip-------*/
+/*------------#industries------------*/
 
 #header-industries {
   margin-top: 13.5%;
@@ -2163,15 +2163,12 @@ padding-left: 1%;
 .grid-template-rows-1{
   grid-template-rows: 230px 230px;
   }
-
     
 #adjust-footer {
   margin-top: 18.5%;
   }
 
 /*-----------------------pop-up-------------------------------*/
-
-
 /*-------------------header-----------------------*/
 
 .article-header-wrapper {
@@ -2200,7 +2197,32 @@ padding-left: 1%;
   margin-left: 94.5%;
   margin-top: -1%;
 }
+
+
+  /*-----------article------------*/
   
+  .popup-article article {
+    height: 87%;
+  }
+
+  
+/*  ==============#podcasts section=====================   */
+
+.podcasts {
+  background-position: 0 180px;
+}
+
+.podcasts-container {
+  margin-top: 20%;
+}
+  
+#footer-pd  {
+  margin-top: 64.5%;
+}
+  
+#wave1 {
+  padding-top: 3%;
+}
   
 
 
