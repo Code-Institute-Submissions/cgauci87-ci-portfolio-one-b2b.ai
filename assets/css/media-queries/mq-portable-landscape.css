@@ -1,6 +1,62 @@
 /* smartphones, iPhone, landscape 480x320 phones  > WIP <*/
 @media (min-width: 480px) and (max-width:567px) and (min-height: 320px) and (max-height:360px)
 and (orientation: landscape) {  
+
+
+  /*----------#intro section---------------*/
+
+  #intro {
+    background-size:contain;
+    background-position: 0 360px;   
+    position: relative;
+    z-index: 1;
+  }
+
+
+  .intro > h1 {
+    font-size: calc( 28px + (22 - 12) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc( 21px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    line-height:  calc( 28px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-weight: 900;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 0%;
+    padding-right: 0%;
+
+    }
+
+    .line-wrapper-1 .line-1 {
+        margin-top: -4%;
+        padding-bottom: 0.5%;
+      }	
+    
+.line-wrapper-2 .line-2 {
+    margin-top: -12%;
+  }	
+
+  
+.section-footer { 
+    margin-top: -5%;
+  }
+  
+
+.spike#spike1 {
+    height: 27vh;
+    margin-top: 0%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /*====================================================================================================*/
