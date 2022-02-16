@@ -1206,7 +1206,7 @@ padding-top: 10%;
 
 
 /*=====================================================================================================*/
-  /* iPad Portrait 768 x 1024  -> clone <- */
+  /* iPad Portrait 768 x 1024  -> PASS <- */
   @media screen and (min-width: 767px) and (max-width: 768px) and (min-height: 1024px)  {
 
     /*-----------#intro section----------------*/
@@ -2252,7 +2252,7 @@ padding-left: 1%;
 }
 /*====================================================================================================*/
 
-  /* iPad Landscape 1024x768  -> clone <- */
+  /* iPad Landscape 1024x768  -> PASS <- */
   @media screen and (min-width: 1023px) and (max-width: 1025px) and (max-height: 768px)  {
 
     
@@ -2754,7 +2754,7 @@ padding-left: 15%;
 
   /*=======================================================================================================*/ 
 
-  /* iPad Portrait 1024x1366  -> WIP <- */
+  /* iPad Portrait 1024x1366  -> clone <- */
   @media screen and (min-width: 1024px) and (min-height: 1366px)  {
 
    
@@ -3131,6 +3131,49 @@ padding-left: 15%;
 
 
 }
+
+/*==================================================================================================*/
+
+  /* iPad Pro Landscape (1366x1024) -> WIP <- */
+  @media screen and (min-width:1366px) and (min-height:1024px) {
+
+    
+    /*-----------#intro section----------------*/
+
+    #intro {
+      background-position: 0 320px;
+    }
+
+    .line-wrapper-1 .line-1 {
+      margin-top: -4.4%;
+    }	
+
+    .line-wrapper-2 .line-2 {
+      margin-top: -19.5%;
+    }	
+
+    .spike#spike1 {
+      height: 18vh;
+      margin-top: 0%;
+    }
+
+    .section-footer { 
+     margin-top: 3%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
   
 
   /*=========================================================wip===========================================*/
