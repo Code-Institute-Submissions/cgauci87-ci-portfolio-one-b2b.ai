@@ -3404,6 +3404,62 @@ padding-left: 15%;
     }
 
 
+     /*-------#subscribe section-----------*/
+  
+     .subscribe {
+      background-position: -300px -200px;
+     }
+     
+     .subscribe-form {
+      margin-top: 10%;
+      margin-left: 12%;
+    }
+   
+     #header-subscribe {
+      height: 10vh;
+      padding-top: 3%;
+     }
+  
+  
+     .subscribe-form > h2 {
+       margin-left: 28%;
+       white-space: nowrap;
+       padding: 0%;
+     }
+  
+    
+    .subscribe-form p {
+      padding: 0%;
+      white-space: nowrap;
+      margin-left: 26%;
+      margin-top: 0%;
+    }
+      
+    
+    .subscribe-form form {
+      width: 300px;
+      margin-left: 80%;
+    }
+  
+  
+    #checkbox {
+      width: 50px;
+      margin-left: -10%;
+      margin-top: 0.5%;
+    }
+    
+    .subscribe-form label {
+    background-color: #fff;
+    }
+    
+    #subscribe-footer {
+      margin-top: 59%;
+      padding-top: 2.4%;
+      height: 10vh;
+    } 
+  
+
+
 
 
   }
