@@ -3376,13 +3376,32 @@ padding-left: 15%;
     }
     
 
+        
+/*  ==============#podcasts section=====================   */
 
+.podcasts {
+  background-position: 0 -100px;
+}
 
+#header-podcasts {
+  height: 10vh;
+  padding-top: 3%;
+}
 
-
-
-
-
+  
+  .playlist {
+    margin-top: 0%;
+  }
+  
+  
+    #footer-pd  {
+      margin-top: 66%;
+    }
+  
+    #wave1 {
+      height: 10vh;
+      padding-top: 2.5%;
+    }
 
 
 
