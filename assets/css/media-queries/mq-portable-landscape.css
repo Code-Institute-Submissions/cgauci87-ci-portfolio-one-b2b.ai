@@ -5,11 +5,15 @@ and (orientation: landscape) {
 
   /*----------#intro section---------------*/
 
+  
+  .nav > .nav-btn > label {
+    margin-left: -40%;
+    margin-top: 0%;
+  }
+
   #intro {
     background-size:contain;
-    background-position: 0 360px;   
-    position: relative;
-    z-index: 1;
+    background-position: 0 80px;
   }
 
 
@@ -18,8 +22,8 @@ and (orientation: landscape) {
     letter-spacing: calc( 21px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
     line-height:  calc( 28px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
     font-weight: 900;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 10%;
+    padding-bottom: 8%;
     padding-left: 0%;
     padding-right: 0%;
 
@@ -31,7 +35,8 @@ and (orientation: landscape) {
       }	
     
 .line-wrapper-2 .line-2 {
-    margin-top: -12%;
+    margin-top: 2%;
+    height: 20vh;
   }	
 
   
@@ -41,12 +46,141 @@ and (orientation: landscape) {
   
 
 .spike#spike1 {
-    height: 27vh;
+    height: 18vh;
     margin-top: 0%;
   }
 
 
+/*------------#ai-101 section------------*/
 
+.section-heading {
+    margin-left: 43%;
+  }
+  
+  .section-heading > h1 {
+    margin-top: 25%;
+    padding: 0%;
+  }
+  
+  .read {
+    float: left;
+    padding-left: 0.5%;
+    letter-spacing: 1.3px;
+     }
+  
+  .author{
+  padding-top: 10%;
+  }
+  
+  .audio-player {
+      margin-top: 20%;
+      margin-left: -35%;
+    }
+  
+  .audio {
+      grid-column: 4 / 4;
+      grid-row: 1;
+     }
+   
+  #ai-101-audio {
+      width: 150px;
+      border: 2px solid turquoise;
+      border-radius:50px;
+  }
+  
+  #ai-101-listen{
+          padding-left: 10%;
+          letter-spacing: 2px;
+    }
+  
+  .section-header-wrapper >.header-img {
+      display: none;
+  }
+  
+  /*--------------------#ai-101 article---------------------------------*/
+  
+  #ai-101 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  #ai-img-1 {
+    display: none;
+    }
+  
+    .ai-101-container article {
+     display:  block;
+     margin-top: 20%;
+    }
+  
+    .ai-101-a {
+      margin-top: 24%;
+    }
+    
+   .ai-101-d {
+     margin-top: -5%;
+     float: left;
+   } 
+  
+    #ai-img-2 {
+     position: absolute;
+     display: flex;
+     width: 96%;
+     height: 16vh;
+     margin-top: 24%;
+   }
+  
+  
+     #mimic-icon {
+      margin-top: 16%;
+      margin-left: 6%;
+    }
+    
+    #process-icon {
+      margin-top: 20%;
+      margin-left: 22%;
+    }
+    
+     #ux-icon {
+       margin-top: 2%;
+       margin-left: 14%;
+     }
+    
+      #big-data-icon {
+        width: 28px;
+        margin-top: 1%;
+        margin-left: 0%; 
+      }
+    
+      #bus-mgt-icon {
+        margin-top: 2.5%;
+      }
+    
+      #op-icon {
+        margin-top: 2.5%;
+        margin-left: 15%;
+      }
+     
+      #elv-icon {
+       margin-top: 2.5%;
+       margin-left: 27%;
+     }
+     
+       #growth-icon {
+         margin-top: 2.5%;
+         margin-left: 41%; 
+       }
+       
+  
+  
+   .form2-wrapper {
+      position: relative;
+      margin-top: 22%;
+      }
+  
+   .image-container img {
+      display: none;
+      }
 
 
 
