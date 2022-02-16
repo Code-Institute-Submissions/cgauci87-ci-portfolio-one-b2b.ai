@@ -2754,7 +2754,7 @@ padding-left: 15%;
 
   /*=======================================================================================================*/ 
 
-  /* iPad Portrait 1024x1366  -> clone <- */
+  /* iPad Portrait 1024x1366  -> PASS <- */
   @media screen and (min-width: 1024px) and (min-height: 1366px)  {
 
    
@@ -3039,9 +3039,7 @@ padding-left: 15%;
     }
 
 
-    
 
-  
    /*-------#subscribe section-----------*/
   
    .subscribe {
@@ -3057,7 +3055,6 @@ padding-left: 15%;
     height: 10vh;
     padding-top: 5.5%;
    }
-
 
    .subscribe-form > h2 {
      margin-left: 28%;
@@ -3134,7 +3131,7 @@ padding-left: 15%;
 
 /*==================================================================================================*/
 
-  /* iPad Pro Landscape (1366x1024) -> WIP <- */
+  /* iPad Pro Landscape (1366x1024) -> PASS <- */
   @media screen and (min-width:1366px) and (min-height:1024px) {
 
     
@@ -3460,9 +3457,47 @@ padding-left: 15%;
   
 
 
-
-
+  /*---------- #contact section ----*/
+  
+  .contact {
+    background-position:  0 170px;
   }
+    
+  #header-contact {
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 3%;
+  }
+
+  .contact-container {
+    margin-top: 20%;
+  }
+
+  .contact-container form #msg {
+    height: 4vh;
+  }
+
+  .contact-container form textarea:focus#msg,
+  .contact-container form textarea:not(:placeholder-shown)#msg {
+    height: 24vh;
+  }
+  
+
+  
+/*---------->footer<--------------------------- */
+
+.social-icon {
+  margin-top: 0%;
+  padding: 0%;
+}
+
+.footer p {
+  margin-top: .5%;
+}
+
+
+}
 
   
 
