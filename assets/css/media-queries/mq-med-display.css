@@ -3278,6 +3278,38 @@ padding-left: 15%;
   height: 10vh;
   }
 
+
+  
+/*------------#industries------------*/
+
+#header-industries {
+  margin-top: 19%;
+  }
+  
+.grid-template-rows-1{
+    grid-template-rows: 350px 350px;
+}
+
+
+  #adjust-footer {
+    margin-top: 14.5%;
+    height: 10vh;
+    padding-top: 2.5%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
 
   
