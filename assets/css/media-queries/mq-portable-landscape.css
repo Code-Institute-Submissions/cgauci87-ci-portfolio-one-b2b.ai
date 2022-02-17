@@ -118,7 +118,7 @@ and (orientation: landscape) {
       display: none;
   }
   
-  /*--------------------#ai-101 article---------------------------------*/
+  /*----------------#ai-101 article------------------*/
 
 
   .ai-101-container  p {
@@ -223,10 +223,52 @@ and (orientation: landscape) {
       display: none;
     }
 
+      /*--------------------#industries section---------------------------------*/
 
 
+      #header-industries {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 12%;
+        margin-left: -55%;
+        }
 
+    #industry-icon {
+      display: none;
+    }
+  
+  .grid-template-rows-1 , .grid { 
+      grid-template-columns: 238px 238px;
+      display:grid;
+      position: absolute;
+      margin-top: 10%;
+    }
+    
+  .grid-template-rows-1{
+      grid-template-rows: 110px 110px;
+  }
+  
+  #healthph, #bankfin, #retailecom, #manufacturing {
+    background-size:cover;
+    background-position: center;
+  }
 
+  .grid-span { 
+    font-size: calc( 10px + (4 - 2) * (100vw - 400px) / (800 - 400) );
+    line-height: calc( 9px + (3 - 2) * (100vw - 400px) / (800 - 400) ); 
+    margin-left: -10%;
+  }
+
+  .grid a {
+    font-size: calc( 9px + (6 - 3) * (100vw - 400px) / (800 - 400) );
+  }
+  
+  
+  #adjust-footer {
+    margin-top: 57.5%;
+  }
+  
 
 
 
