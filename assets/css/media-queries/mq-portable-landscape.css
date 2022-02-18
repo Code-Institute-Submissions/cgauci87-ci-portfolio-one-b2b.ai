@@ -286,7 +286,7 @@ and (orientation: landscape) {
 /*-----------------------pop-up-------------------------------*/
 
 
-/*-------------------header---------------clone--------*/
+/*-------------------header-----------------------*/
 
 
 .article-header-wrapper {
@@ -1497,6 +1497,17 @@ and (orientation: landscape) {
     display: inline-block;
     margin-top: -24%;
     margin-bottom: -.5%;
+  }
+
+    /*-----------#podcasts section------------*/
+
+  #footer-pd  {
+    margin-top: 45.5%
+  }
+
+  #wave1 {
+    height: 13.5vh;
+    padding-top: 2.5%;
   }
 
 }
