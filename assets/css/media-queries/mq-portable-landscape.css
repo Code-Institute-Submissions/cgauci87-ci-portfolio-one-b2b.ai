@@ -1459,7 +1459,7 @@ and (orientation: landscape) {
   margin-top: 48.5%;
 }
 
-/*-----------------------pop-up-------------------------------*/
+/*---------------------pop-up----------------------*/
 /*-------------------header----------------------*/
 
 .article-header-wrapper > .audio {
@@ -1485,7 +1485,7 @@ and (orientation: landscape) {
   }
   
   .popup-article article {
-    height: 66%; /*mq*/
+    height: 66%;
   }
 
   .popup-footer {
