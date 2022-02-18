@@ -1,4 +1,4 @@
-/* smartphones, iPhone, landscape 480x320 phones  > PASS <*/
+/* smartphones, iPhone, landscape 480x320 phones  > clone <*/
 @media (min-width: 480px) and (max-width:567px) and (min-height: 320px) and (max-height:360px)
 and (orientation: landscape) {  
 
@@ -42,8 +42,8 @@ and (orientation: landscape) {
   }	
 
   
-.section-footer { 
-    margin-top: -4%;
+.section-footer {
+  margin-top: -4%;
   }
 
   .goto-btn-txt {
@@ -63,10 +63,8 @@ and (orientation: landscape) {
 
 
 /*------------#ai-101 section------------*/
-
 .section-header-wrapper {
     height: 22vh;
-    margin-top: 0%;
 }
 
 .section-heading {
@@ -130,6 +128,7 @@ and (orientation: landscape) {
   }
 
   .ai-101-container h3 {
+    font-size: calc( 13px + (5 - 2.5) * (100vw - 400px) / (800 - 400) );
       text-align: left;
   }
 
@@ -161,60 +160,70 @@ and (orientation: landscape) {
     width: 22px;
     margin-top: 35%;
     margin-left: 20%;
+    opacity: .5;
   }
 
   #mimic-icon {
     width: 22px;
     margin-top:  33.5%;
     margin-left: 30%;
+    opacity: .5;
   }
   
   #process-icon {
     width: 22px;
     margin-top: 35%;
     margin-left: 38.5%;
+    opacity: .5;
   }
   
    #ux-icon {
      width: 18px;
      margin-top: 26%;
      margin-left: 55%;
+     opacity: .5;
    }
 
     #big-data-icon {
       width: 18px;
       margin-top: 15%;
       margin-left: 50%; 
+      opacity: .5;
     }
 
     #bus-mgt-icon {
       width: 20px;
       margin-top: -6%;
       margin-left: 62%;
+      opacity: .5;
     }
   
     #op-icon {
       width: 20px;
       margin-top: -4%;
       margin-left: 70%;
+      opacity: .5;
     }
    
     #elv-icon {
       width: 20px;
       margin-top: -6%;
       margin-left: 80%;
+      opacity: .5;
    }
    
      #growth-icon {
       width: 20px;
       margin-top: -4.5%;    
       margin-left: 90%;
+      opacity: .5;
      }
     
        
      .form2-wrapper {
       position: relative;
-      margin-top: -20%;
+      display: flex;
+      margin-top: -13%;
     }
 
     .image-container {
@@ -268,7 +277,9 @@ and (orientation: landscape) {
   
   
   #adjust-footer {
-    margin-top: 57.5%;
+    position: relative;
+    display: inline-block;
+    margin-top: 57%;
   }
   
   
@@ -694,4 +705,239 @@ height: 45vh;
 
 }
 
-/*====================================================================================================*/
+
+/* 568x320 phones i.e. iPhone5/SE -> WIP <- */
+@media screen and (min-width:567px) and (max-width:640px) and (min-height: 320px) and (max-height:360px)
+and (orientation : landscape) {
+
+  /*----------#intro section--------wip-------*/
+
+  .nav > .nav-btn > label {
+    margin-left: -15%;
+    margin-top: 0%;
+  }
+
+  #intro {
+    background-size:cover;
+    background-position: 0 40px;
+  }
+
+
+  .intro > h1 {
+    font-size: calc( 28px + (22 - 12) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc( 21px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    line-height:  calc( 28px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-weight: 900;
+    padding-top: 7%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 0%;
+
+    }
+
+    .line-wrapper-1 .line-1 {
+        margin-top: -4%;
+        padding-bottom: 0.5%;
+        font-size: calc( 12px + (6 - 4) * (100vw - 400px) / (800 - 400) );
+      }	
+    
+.line-wrapper-2 .line-2 {
+    margin-top: 4.5%;
+    height: 20vh;
+    font-size: calc( 12px + (6 - 4) * (100vw - 400px) / (800 - 400) );
+  }	
+
+  
+.section-footer {
+  margin-top: -4%;
+  }
+
+  .goto-btn-txt {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: calc( 6px + (4 - 2) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc( 4px + (2 - 1) * (100vw - 400px) / (800 - 400) ); /*new*/
+  }
+  
+
+.spike#spike1 {
+    height: 22vh;
+    margin-top: 0%;
+  }
+
+
+/*------------#ai-101 section------------*/
+.section-header-wrapper {
+  height: 22vh;
+}
+
+.section-heading {
+  margin-top: -1%;
+  margin-left: 43%;
+}
+
+.section-heading > h1 {
+  margin-top: 25%;
+  padding: 0%;
+}
+
+.read {
+  float: left;
+  padding-left: 0.5%;
+  letter-spacing: 1.3px;
+   }
+
+.author{
+padding-top: 10%;
+}
+
+.profile-photo img {
+  max-width: 45px;
+  max-height: 45px;
+}
+
+.audio-player {
+    margin-top: 10%;
+    margin-left: -32%;
+  }
+
+.audio {
+    grid-column: 4 / 4;
+    grid-row: 1;
+   }
+ 
+#ai-101-audio {
+    width: 150px;
+    height: 25px;
+    border: 2px solid turquoise;
+    border-radius:50px;
+}
+
+#ai-101-listen{
+  padding-left: 12%;
+  letter-spacing: 2.5px;
+  }
+
+.section-header-wrapper >.header-img {
+    display: none;
+}
+
+/*----------------#ai-101 article------------------*/
+
+
+.ai-101-container  p {
+  font-size: calc( 10px + (3 - 2) * (100vw - 400px) / (800 - 400) );
+  line-height: calc( 10px + (3 - 2) * (100vw - 400px) / (800 - 400) );
+  font-weight: 200;
+}
+
+.ai-101-container h3 {
+  font-size: calc( 13px + (5 - 2.5) * (100vw - 400px) / (800 - 400) );
+    text-align: left;
+}
+
+.ai-101-a {
+  margin-top: 1.5%;
+}
+
+.ai-101-b {
+  margin-top: -17%;
+  display: flex;
+  float: left;
+}
+
+.ai-101-c {
+  margin-top: -17%;
+  float: left;
+}
+
+
+.ai-101-d {
+  margin-top: -14%;
+  display: flex;
+  float: left;
+} 
+
+
+
+#ml-icon {
+  width: 22px;
+  margin-top: 35%;
+  margin-left: 20%;
+  opacity: .5;
+}
+
+#mimic-icon {
+  width: 22px;
+  margin-top:  33.5%;
+  margin-left: 30%;
+  opacity: .5;
+}
+
+#process-icon {
+  width: 22px;
+  margin-top: 35%;
+  margin-left: 38.5%;
+  opacity: .5;
+}
+
+ #ux-icon {
+   width: 18px;
+   margin-top: 26%;
+   margin-left: 55%;
+   opacity: .5;
+ }
+
+  #big-data-icon {
+    width: 18px;
+    margin-top: 15%;
+    margin-left: 50%; 
+    opacity: .5;
+  }
+
+  #bus-mgt-icon {
+    width: 20px;
+    margin-top: -6%;
+    margin-left: 62%;
+    opacity: .5;
+  }
+
+  #op-icon {
+    width: 20px;
+    margin-top: -4%;
+    margin-left: 70%;
+    opacity: .5;
+  }
+ 
+  #elv-icon {
+    width: 20px;
+    margin-top: -6%;
+    margin-left: 80%;
+    opacity: .5;
+ }
+ 
+   #growth-icon {
+    width: 20px;
+    margin-top: -4.5%;    
+    margin-left: 90%;
+    opacity: .5;
+   }
+  
+     
+   .form2-wrapper {
+    position: relative;
+    display: flex;
+    margin-top: -13%;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  #graphical-img {
+    display: none;
+  }
+}
+/*=================================================================wip===================================*/
