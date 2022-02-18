@@ -706,7 +706,7 @@ height: 45vh;
 }
 
 
-/* 568x320 phones i.e. iPhone5/SE -> PASS <- */
+/* 568x320 phones i.e. iPhone5/SE -> clone <- */
 @media screen and (min-width:567px) and (max-width:640px) and (min-height: 320px) and (max-height:360px)
 and (orientation : landscape) {
 
@@ -1415,7 +1415,7 @@ height: 45vh;
 }
 
 /* ----------- Samsung Galaxy S5/S6/S7 ----------- */
-/* Landscape 640x360  -> clone <-*/
+/* Landscape 640x360  -> PASS <-*/
 @media (min-width: 640px)  and (max-width: 667px) 
 and (min-height: 359px) and (max-height: 375px)
 and (orientation: landscape) {
@@ -1527,14 +1527,247 @@ and (orientation: landscape) {
 
 }
 
+/* ----------- Nexus 4 ----------- */
+/* Landscape 640x384 -> WIP <-*/
+@media screen
+and (min-width: 640px)  and (max-width: 668px) 
+and (min-height: 375px) and (max-height: 384px)
+and (orientation: landscape) {
+
+  /*----------#intro section---------------*/
+
+  .nav > .nav-btn > label {
+    margin-left: -15%;
+    margin-top: 0%;
+  }
+
+  #intro {
+    background-size:cover;
+    background-position: 0 40px;
+  }
+
+
+  .intro > h1 {
+    font-size: calc( 28px + (22 - 12) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc( 21px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    line-height:  calc( 28px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-weight: 900;
+    padding-top: 7%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 0%;
+
+    }
+
+    .line-wrapper-1 .line-1 {
+        margin-top: -4%;
+        padding-bottom: 0.5%;
+        font-size: calc( 12px + (6 - 4) * (100vw - 400px) / (800 - 400) );
+      }	
+    
+.line-wrapper-2 .line-2 {
+    margin-top: 4.5%;
+    height: 20vh;
+    font-size: calc( 12px + (6 - 4) * (100vw - 400px) / (800 - 400) );
+  }	
+
+  
+.section-footer {
+  margin-top: -4%;
+  }
+
+  .goto-btn-txt {
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: calc( 6px + (4 - 2) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc( 4px + (2 - 1) * (100vw - 400px) / (800 - 400) ); /*new*/
+  }
+  
+
+.spike#spike1 {
+    height: 20vh;
+    margin-top: 0%;
+  }
+
+
+/*------------#ai-101 section------------*/
+.section-header-wrapper {
+  height: 22vh;
+}
+
+.section-heading {
+  margin-top: -1%;
+  margin-left: 43%;
+}
+
+.section-heading > h1 {
+  margin-top: 25%;
+  padding: 0%;
+}
+
+.read {
+  float: left;
+  padding-left: 0.5%;
+  letter-spacing: 1.3px;
+   }
+
+.author{
+padding-top: 7%;
+}
+
+.profile-photo img {
+  max-width: 45px;
+  max-height: 45px;
+}
+
+.audio-player {
+    margin-top: 10%;
+    margin-left: -34%;
+  }
+
+.audio {
+    grid-column: 4 / 4;
+    grid-row: 1;
+   }
+ 
+#ai-101-audio {
+    width: 150px;
+    height: 25px;
+    border: 2px solid turquoise;
+    border-radius:50px;
+}
+
+#ai-101-listen{
+  padding-left: 12%;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  }
+
+.section-header-wrapper >.header-img {
+    display: none;
+}
+
+/*----------------#ai-101 article------------------*/
+
+
+.ai-101-container  p {
+  font-size: calc( 10px + (3 - 2) * (100vw - 400px) / (800 - 400) );
+  line-height: calc( 10px + (3 - 2) * (100vw - 400px) / (800 - 400) );
+  font-weight: 200;
+}
+
+.ai-101-container h3 {
+  font-size: calc( 13px + (5 - 2.5) * (100vw - 400px) / (800 - 400) );
+    text-align: left;
+}
+
+.ai-101-a {
+  margin-top: 3%;
+}
+
+.ai-101-b {
+  margin-top: -17%;
+  display: flex;
+  float: left;
+}
+
+.ai-101-c {
+  margin-top: -18%;
+  float: left;
+}
+
+
+.ai-101-d {
+  margin-top: -17%;
+  display: flex;
+  float: left;
+} 
+
+
+
+#ml-icon {
+  width: 22px;
+  margin-top: 26%;
+  margin-left: 16%;
+  opacity: .5;
+}
+
+#mimic-icon {
+  width: 22px;
+  margin-top:  22%;
+  margin-left: 26%; 
+  opacity: .5;
+}
+
+#process-icon {
+  width: 22px;
+  margin-top: 24%;
+  margin-left: 36%;
+  opacity: .5;
+}
+
+ #ux-icon {
+   width: 18px;
+   margin-top: 17%;
+   margin-left: 45%;
+   opacity: .5;
+ }
+
+  #big-data-icon {
+    width: 18px;
+    margin-top: 10%;
+    margin-left: 50%; 
+    opacity: .5;
+  }
+
+  #bus-mgt-icon {
+    width: 20px;
+    margin-top: -6%;
+    margin-left: 62%;
+    opacity: .5;
+  }
+
+  #op-icon {
+    width: 20px;
+    margin-top: -4%;
+    margin-left: 70%;
+    opacity: .5;
+  }
+ 
+  #elv-icon {
+    width: 20px;
+    margin-top: -6%;
+    margin-left: 80%;
+    opacity: .5;
+ }
+ 
+   #growth-icon {
+    width: 20px;
+    margin-top: -4.5%;    
+    margin-left: 90%;
+    opacity: .5;
+   }
+  
+     
+   .form2-wrapper {
+    position: relative;
+    display: flex;
+    margin-top: -14%;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  #graphical-img {
+    display: none;
+  }
 
 
 
 
-
-
-
-
-
+}
 /*=================================================================wip===================================*/
 
