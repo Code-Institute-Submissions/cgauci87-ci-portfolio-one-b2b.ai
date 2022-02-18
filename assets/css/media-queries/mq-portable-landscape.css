@@ -1020,7 +1020,7 @@ padding-top: 7%;
     grid-column: 1 / 4;
     grid-row: 1;
     display: subgrid;
-    margin-top: 14%;
+    margin-top: 10%;
     margin-left: 7%;
   }
 
@@ -1039,7 +1039,7 @@ padding-top: 7%;
    
   .article-header-wrapper  .listen-in{
     padding-left: 14%;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     margin-top: -1%;
   }
   
@@ -1052,8 +1052,8 @@ padding-top: 7%;
   
   
     .cancel {
-      margin-left: 90%;
-      margin-top: -1%;
+      margin-left: 92.5%;
+      margin-top: -.5%;
       font-size: 30px;
       }
   
