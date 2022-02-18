@@ -942,7 +942,7 @@ padding-top: 7%;
   }
 
   
-      /*--------------------#industries section-----------------------wip----------*/
+      /*--------------------#industries section----------------------------*/
 
 
       #header-industries {
@@ -1063,7 +1063,7 @@ padding-top: 7%;
   
   .popup-article { 
       margin-top: 3%;
-      height: 96%;
+      height: 91%;
       border: 0px;
     }
     
@@ -1149,20 +1149,267 @@ padding-top: 7%;
       height: 5vh;
       z-index: 100;
       display: inline-block;
-      margin-top: -20%;
+      margin-top: -17%;
       margin-bottom: 0%;
     }
 
 
+/*  ==============#podcasts===========================   */
+
+
+.podcasts {
+  background-color: rgba(14, 16, 31, 1);
+  background-image: url("/assets/images/podcasts_img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 60px;
+}
+
+#header-podcasts {
+  margin: 0%;
+  text-align: center;
+  width: 100%;
+  padding-top: 4%;
+}
+
+.top-image-wrapper img {
+display: none;
+}
+
+.playlist {
+  position:absolute;
+  margin-top: 3.5%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-color:rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 75vh;
+}
+
+iframe {
+background-color: rgba(127, 221, 252, 0.932);
+filter:saturate(5%);
+width: 100%;
+max-height: 50%;
+height: 45vh;
+}
+
+
+.column{
+  position:relative;
+  height: 10vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+  .column p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    height: auto;
+    margin-top: 0.1%;
+    margin-bottom: 0.1%;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  #column-1 {
+    margin-top: 7%;
+  }
+
+  .podcasts-container {
+    position: relative;
+    margin: 0;
+  }
+
+  #footer-pd  {
+    background-color: transparent;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 10;
+    margin-top: 44.5%;
+  }
+
+  #wave1 {
+    height: 3vh;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+
+
+   /*#subscribe section*/
+  
+   .subscribe {
+    background-color: rgba(14, 16, 31, 1);
+    background-size: contain;
+    background-position: -190px -40px;
+    background-blend-mode:difference;
+    color: rgba(0,0,0,1);
+   }
+
+   .subscribe-form {
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 4%;
+   }
+ 
+  #header-subscribe {
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 2%;
+  }
+
+ .subscribe-form > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc( 32px + (28 - 14) * (100vw - 400px) / (800 - 400) );
+  color: white;
+  margin-top: 20%;
+}
+  
+  .subscribe-form p {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 600;
+    white-space: pre-line;
+    color: white;
+
+  }
+    
+  
+  .subscribe-form form {
+    max-width: 220px;
+  }
+  .subscribe-form input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 8vh;
+    font-size: 18px;
+    width: 100%;
+    color: #0e101f;
+    margin-left: -7%;
+    margin-top: 0%;
+  }
+  
+  #submit-button {
+    position: relative;
+    display: flex;
+    margin-top: 0;
+  }
+  
+  #checkbox {
+    position: relative;
+    display: flex;
+    width: 28px;
+    height: 30px;
+    margin-left: -7%;
+    margin-top: -1%;
+  }
+  
+  .subscribe-form label {
+  font-size: calc(10px + (8 - 4) * (100vw - 400px) / (800 - 400) );
+  padding-left: 0%;
+  background-color: white;
+  }
+  
+  #subscribe-footer {
+    margin-top: 58.5%;
+    height: auto;
+  } 
 
 
 
+  
+  /* #contact section */
+  
+  .contact {
+    background-color: transparent;
+    background-blend-mode: difference;
+    background-size: contain;
+    background-position:  0 30px;
+  }
+    
+  #header-contact {
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 2%;
+  }
 
+  .contact-container {
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 15%;
+  }
+  .contact-container form * {
+    font-size: 18px;
+  }
 
+  .contact-container form .field {
+    margin-bottom: 2px;
+  }
+  
+  .contact-container form .field label {
+    height: 9vh;
+    padding-top: 1.5%;
+  }
+  
+  .contact-container form .field input[type="text"], .field input[type="email"],
+  form .field textarea {
+    height: 9vh;
+    padding-left: 36%;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+  }
+  
+  .contact-container form #msg {
+    height: 9vh;
+    padding-top: 18px;
+  }
+  .contact-container form textarea:focus#msg,
+  .contact-container form textarea:not(:placeholder-shown)#msg {
+    height: 24vh;
+  }
+  
+  .contact-container form input[type="text"]:focus + label,
+  .contact-container form input[type="text"]:not(:placeholder-shown) + label,
+  .contact-container form input[type="email"]:focus + label,
+  .contact-container form input[type="email"]:not(:placeholder-shown) + label,
+  .contact-container form textarea:focus + label,
+  .contact-container form textarea:not(:placeholder-shown) + label,
+  .contact-container form .field:hover label {
+    width: 24%;
+  }
+  
+  #send-btn {
+    float:right;
+    height: auto;
+    width: 100%;
+    font-weight: 400;
+  }
+  
+/*---------->footer<--------------------------- */
 
+.social-icon {
+  margin-top: -27%;
+  padding: 0%;
+}
 
-
-
+.footer p {
+  color: #fff;
+  margin: 0%;
+  padding: 0%;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 2%;
+}
 
 }
 /*=================================================================wip===================================*/
