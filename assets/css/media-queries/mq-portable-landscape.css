@@ -2069,7 +2069,7 @@ height: 45vh;
    .subscribe {
     background-color: rgba(14, 16, 31, 1);
     background-size: contain;
-    background-position: -190px -50px;
+    background-position: -200px -50px;
     background-blend-mode:difference;
     color: rgba(0,0,0,1);
    }
@@ -2144,7 +2144,7 @@ height: 45vh;
   }
   
   #subscribe-footer {
-    margin-top: 47.5%;
+    margin-top: 53%;
     height: auto;
   } 
 
@@ -2223,7 +2223,7 @@ height: 45vh;
 /*---------->footer<--------------------------- */
 
 .social-icon {
-  margin-top: -15%;
+  margin-top: -13%;
   padding: 0%;
 }
 
