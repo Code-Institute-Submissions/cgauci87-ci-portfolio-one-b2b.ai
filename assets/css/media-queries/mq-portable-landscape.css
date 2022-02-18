@@ -1245,7 +1245,7 @@ height: 45vh;
    .subscribe {
     background-color: rgba(14, 16, 31, 1);
     background-size: contain;
-    background-position: -190px -40px;
+    background-position: -190px -50px;
     background-blend-mode:difference;
     color: rgba(0,0,0,1);
    }
@@ -1257,35 +1257,34 @@ height: 45vh;
    }
  
   #header-subscribe {
-    height: 10vh;
+    height: 20vh;
     width: 100%;
     margin: 0;
-    padding-top: 2%;
+    padding-top: 4%;
   }
 
  .subscribe-form > h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: calc( 32px + (28 - 14) * (100vw - 400px) / (800 - 400) );
+  font-size: calc( 22px + (16 - 8) * (100vw - 400px) / (800 - 400) );
   color: white;
-  margin-top: 20%;
+  margin-top: 24%;
 }
   
   .subscribe-form p {
     margin-left: 0%;
     margin-right: 0%;
-    margin-top: 2.5%;
+    margin-top: 2%;
     margin-bottom: 2%;
     padding-left: 10%;
     padding-right: 10%;
     font-weight: 600;
     white-space: pre-line;
     color: white;
-
   }
     
   
   .subscribe-form form {
-    max-width: 220px;
+    max-width: 200px;
   }
   .subscribe-form input {
     border-top-right-radius: 0;
@@ -1302,6 +1301,7 @@ height: 45vh;
     position: relative;
     display: flex;
     margin-top: 0;
+    height: 30px; 
   }
   
   #checkbox {
@@ -1320,7 +1320,7 @@ height: 45vh;
   }
   
   #subscribe-footer {
-    margin-top: 58.5%;
+    margin-top: 47.5%;
     height: auto;
   } 
 
