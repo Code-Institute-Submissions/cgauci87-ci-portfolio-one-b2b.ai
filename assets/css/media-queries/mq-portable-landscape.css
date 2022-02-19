@@ -2333,7 +2333,7 @@ and (min-height: 411px)
 and (max-height: 415px)
 and (orientation: landscape) { 
 
-  /*----------#intro section--------wip-------*/
+  /*----------#intro section---------------*/
 
   .nav > .nav-btn > label { 
     margin-left: 20%;
@@ -2391,7 +2391,8 @@ and (orientation: landscape) {
   }
 
 
-/*------------#ai-101 section------------*/
+/*------------#ai-101 section-------wip-----*/
+
 .section-header-wrapper {
   height: 22vh;
 }
@@ -2402,7 +2403,7 @@ and (orientation: landscape) {
 }
 
 .section-heading > h1 {
-  margin-top: 25%;
+  margin-top: 28%;
   padding: 0%;
 }
 
@@ -2439,7 +2440,7 @@ padding-top: 7%;
 }
 
 #ai-101-listen{
-  padding-left: 12%;
+  padding-left: 10%;
   letter-spacing: 2px;
   white-space: nowrap;
   }
@@ -2483,7 +2484,6 @@ padding-top: 7%;
   display: flex;
   float: left;
 } 
-
 
 
 #ml-icon {
@@ -2553,7 +2553,8 @@ padding-top: 7%;
    .form2-wrapper {
     position: relative;
     display: flex;
-    margin-top: -14%;
+    margin-top: -17%;
+    height: 15vh;
   }
 
   .image-container {
