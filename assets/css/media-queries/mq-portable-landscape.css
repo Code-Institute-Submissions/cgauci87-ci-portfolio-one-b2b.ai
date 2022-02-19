@@ -3115,7 +3115,7 @@ margin-left: 43%;
 }
 
 .section-heading > h1 {
-margin-top: 28%;
+margin-top: 34%;
 padding: 0%;
 }
 
@@ -3135,7 +3135,7 @@ max-height: 45px;
 }
 
 .audio-player {
-  margin-top: 10%;
+  margin-top: 11%;
   margin-left: -34%;
 }
 
@@ -3152,9 +3152,10 @@ max-height: 45px;
 }
 
 #ai-101-listen{
-padding-left: 10%;
-letter-spacing: 2px;
+padding-left: 8%;
+letter-spacing: 1.5px;
 white-space: nowrap;
+margin-top: -2%;
 }
 
 .section-header-wrapper >.header-img {
@@ -3200,64 +3201,64 @@ float: left;
 
 #ml-icon {
 width: 22px;
-margin-top: 26%;
+margin-top: 20%;
 margin-left: 16%;
 opacity: .5;
 }
 
 #mimic-icon {
 width: 22px;
-margin-top:  22%;
+margin-top:  18%;
 margin-left: 26%; 
 opacity: .5;
 }
 
 #process-icon {
 width: 22px;
-margin-top: 24%;
+margin-top: 19%;
 margin-left: 36%;
 opacity: .5;
 }
 
 #ux-icon {
  width: 18px;
- margin-top: 17%;
+ margin-top: 11%;
  margin-left: 45%;
  opacity: .5;
 }
 
 #big-data-icon {
   width: 18px;
-  margin-top: 10%;
-  margin-left: 50%; 
+  margin-top: 8%;
+  margin-left: 55%; 
   opacity: .5;
 }
 
 #bus-mgt-icon {
   width: 20px;
-  margin-top: -6%;
-  margin-left: 62%;
+  margin-top: -2%;
+  margin-left: 64%;
   opacity: .5;
 }
 
 #op-icon {
   width: 20px;
   margin-top: -4%;
-  margin-left: 70%;
+  margin-left: 72%;
   opacity: .5;
 }
 
 #elv-icon {
   width: 20px;
-  margin-top: -6%;
+  margin-top: -2%;
   margin-left: 80%;
   opacity: .5;
 }
 
  #growth-icon {
   width: 20px;
-  margin-top: -4.5%;    
-  margin-left: 90%;
+  margin-top: -4%;    
+  margin-left: 88%;
   opacity: .5;
  }
 
@@ -3265,8 +3266,8 @@ opacity: .5;
  .form2-wrapper {
   position: relative;
   display: flex;
-  margin-top: -17%;
-  height: 15vh;
+  margin-top: -18%;
+  height: 12vh;
 }
 
 .image-container {
