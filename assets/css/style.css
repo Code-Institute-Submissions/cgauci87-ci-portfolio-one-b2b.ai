@@ -1286,6 +1286,7 @@ iframe:hover {
   border-bottom-right-radius: 0px;
 }
 
+
 #checkbox {
   float: left;
   width: 20px;
@@ -1577,5 +1578,8 @@ filter:invert(100);
   }
 }
 
+
+  
+  
 
 /* ===========================================================*/
