@@ -2854,12 +2854,12 @@ height: 45vh;
     display: inline-block;
     width: 100%;
     z-index: 10;
-    margin-top: 49.1%;
+    margin-top: 50%;  
   }
 
-  #wave1 {
-    height: 4vh;
-    padding-top: 2%;
+  .wave {
+    height: 58px;
+    padding-top: 3%;
     padding-bottom: 5%;
   }
 
