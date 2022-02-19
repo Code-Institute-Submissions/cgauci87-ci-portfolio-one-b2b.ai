@@ -3335,7 +3335,7 @@ opacity: .5;
 
 
 .article-header-wrapper {
-height: 22vh;
+height: 24vh;
 }
 
 .article-header-wrapper > .header-img {
@@ -3357,7 +3357,7 @@ display: none;
   grid-column: 1 / 4;
   grid-row: 1;
   display: subgrid;
-  margin-top: 10%;
+  margin-top: 6%;
   margin-left: 7%;
 }
 
@@ -3376,7 +3376,7 @@ display: none;
  
 .article-header-wrapper  .listen-in{
   padding-left: 14%;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.5px;
   margin-top: -1%;
 }
 
@@ -3400,7 +3400,7 @@ display: none;
 
 .popup-article { 
     margin-top: 0%;
-    height: 85%;
+    height: 83%;
     border: 0px;
   }
   
@@ -3476,7 +3476,7 @@ display: none;
   }
 
   .btm-image-wrapper img{
-    height: 60vh;
+    height: 50vh;
   }
 
   .popup-footer {
