@@ -2391,7 +2391,7 @@ and (orientation: landscape) {
   }
 
 
-/*------------#ai-101 section-------wip-----*/
+/*------------#ai-101 section------------*/
 
 .section-header-wrapper {
   height: 22vh;
@@ -2566,7 +2566,7 @@ padding-top: 7%;
   }
 
 
-      /*--------------------#industries section----------------------------*/
+ /*-------------#industries section--------------*/
 
 
       #header-industries {
@@ -2582,7 +2582,7 @@ padding-top: 7%;
     }
   
   .grid-template-rows-1 , .grid { 
-      grid-template-columns: 318px 318px;
+      grid-template-columns: 335px 335px;
       display:grid;
       position: absolute;
       margin-top: 10%;
