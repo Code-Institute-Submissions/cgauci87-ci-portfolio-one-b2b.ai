@@ -2283,6 +2283,15 @@ and (orientation: landscape) {
     margin-top: 49.5%;
   }
 
+    
+  
+  /*-----------article------------*/
+  
+  .popup-article { 
+    margin-top: 0%;
+    height: 86%;
+    border: 0px;
+  }
 
 
 
