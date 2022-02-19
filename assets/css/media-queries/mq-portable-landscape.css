@@ -2292,6 +2292,15 @@ and (orientation: landscape) {
     height: 86%;
     border: 0px;
   }
+/*-----------#podcasts section------------*/
+
+  #footer-pd  {
+    margin-top: 46%;
+  }
+
+  #wave1 {
+    height: 4.5vh;
+  }
 
 
 
