@@ -2268,11 +2268,20 @@ and (orientation: landscape) {
       }
     
 
+      /*--------------------#industries section----------------------------*/
 
+  
+  .grid-template-rows-1 , .grid { 
+      grid-template-columns: 330px 330px;
+    }
+    
+  .grid-template-rows-1{
+      grid-template-rows: 125px 125px;
+  }
 
-
-
-
+  #adjust-footer {
+    margin-top: 49.5%;
+  }
 
 
 
