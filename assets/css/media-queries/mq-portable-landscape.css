@@ -2884,14 +2884,14 @@ height: 45vh;
     height: 20vh;
     width: 100%;
     margin: 0;
-    padding-top: 4%;
+    padding-top: 5%;
   }
 
  .subscribe-form > h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: calc( 22px + (16 - 8) * (100vw - 400px) / (800 - 400) );
   color: white;
-  margin-top: 24%;
+  margin-top: 27%;
 }
   
   .subscribe-form p {
@@ -2999,7 +2999,7 @@ height: 45vh;
   }
   .contact-container form textarea:focus#msg,
   .contact-container form textarea:not(:placeholder-shown)#msg {
-    height: 24vh;
+    height: 30vh;
   }
   
   .contact-container form input[type="text"]:focus + label,
@@ -3023,7 +3023,7 @@ height: 45vh;
 /*---------->footer<--------------------------- */
 
 .social-icon {
-  margin-top: -13%;
+  margin-top: -11%;
   padding: 0%;
 }
 
