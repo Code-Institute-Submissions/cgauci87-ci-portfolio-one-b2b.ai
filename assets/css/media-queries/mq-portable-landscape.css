@@ -3567,12 +3567,12 @@ margin: 0 auto;
   display: inline-block;
   width: 100%;
   z-index: 10;
-  margin-top: 50%;  
+  margin-top: 38%;  
 }
 
 .wave {
   height: 58px;
-  padding-top: 3%;
+  padding-top: 1.5%;
   padding-bottom: 5%;
 }
 
