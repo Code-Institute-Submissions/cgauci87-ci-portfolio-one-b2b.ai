@@ -3668,15 +3668,13 @@ z-index: 9;
 } 
 
 
-
-
 /* #contact section */
 
 .contact {
   background-color: transparent;
   background-blend-mode: difference;
   background-size: contain;
-  background-position:  12px 50px;
+  background-position:  125px 40px;
 }
   
 #header-contact {
@@ -3688,7 +3686,7 @@ z-index: 9;
 
 .contact-container {
   position: absolute;
-  margin-top: 14%;
+  margin-top: 10%;
   margin-left: 15%;
 }
 .contact-container form * {
@@ -3736,13 +3734,13 @@ form .field textarea {
   height: 9vh;  
   width: 100%;
   font-weight: 400;
-  padding-bottom: 8%;
+  padding-top: .7%;
 }
 
 /*---------->footer<--------------------------- */
 
 .social-icon {
-margin-top: -11%;
+margin-top: -7%;
 padding: 0%;
 }
 
