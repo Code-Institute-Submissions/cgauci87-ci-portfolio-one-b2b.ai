@@ -256,18 +256,16 @@ and (orientation: portrait) {
     #industry-icon {
       display: none;
     }
-  
-  .grid-template-rows-1 , .grid { 
-      grid-template-columns: 238px 238px;
-      display:grid;
-      position: absolute;
-      margin-top: 10%;
-    }
     
-  .grid-template-rows-1{
-      grid-template-rows: 110px 110px;
-  }
-  
+    .grid-template-rows-1 , .grid { 
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        display:grid;
+        position: absolute;
+        margin-top: 16%;
+        margin-left: 2.5%;
+    }
+
+
   #healthph, #bankfin, #retailecom, #manufacturing {
     background-size:cover;
     background-position: center;
@@ -287,8 +285,10 @@ and (orientation: portrait) {
   #adjust-footer {
     position: relative;
     display: inline-block;
-    margin-top: 57%;
-  }
+    margin-top: 120%;
+    height: 10vh;
+    padding: 5%;
+}
   
   
 /*-----------------------pop-up-------------------------------*/
