@@ -1518,6 +1518,8 @@ and (orientation: landscape) {
     margin-top: 49.25%;
   } 
 
+
+
   /*---------->footer<--------------------------- */
 
 .social-icon {
@@ -4345,7 +4347,7 @@ margin-top: 25%;
   color: #0e101f;
   margin-left: -7%;
   margin-top: 0%;
-  width: 100%;
+  width: 500px;
   outline: 0;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -4354,24 +4356,20 @@ margin-top: 25%;
   font-size: clamp(15px, 1.5vw, 18px);
 }
 
-.subscribe-form  input:focus+label, 
-.subscribe-form  input:valid+label, 
-.subscribe-form  textarea:focus+label, 
-.subscribe-form  textarea:valid+label {
-  font-size: clamp(13px, 1.3vw, 16px);
-  color: #777;
-  top: -20px;
+
+.subscribe-form input:focus + #submit-button  {
+  margin-top: 11%;
+  height: 20vh;
   transition: all .225s ease;
-}
-
-
+  }
 
 
 #submit-button {
-  position: relative;
-  display: flex;
-  margin-top: 0;
-  height: 30px; 
+  position: absolute;
+  display: inline-block;
+  margin-top: 10%;
+  height: 30px;
+  width: 500px;
 }
 
 #checkbox {
