@@ -67,7 +67,7 @@ and (orientation: portrait) {
   }
 
 
-/*------------#ai-101 section--------wip----*/
+/*------------#ai-101 section------------*/
 
 /*--------#ai-101 header-------*/
 .section-header-wrapper {
@@ -294,11 +294,11 @@ and (orientation: portrait) {
 /*-----------------------pop-up-------------------------------*/
 
 
-/*-------------------header-----------------------*/
+/*-------------------header-----------wip------------*/
 
 
 .article-header-wrapper {
-  height: 25vh;
+  height: 20vh;
 }
 
 .article-header-wrapper > .header-img {
@@ -313,15 +313,17 @@ and (orientation: portrait) {
 
   .article-heading h2 {
     background-color:#0e101f;
-    margin-top: -2%;
+    margin-top: -3%;
+    font-size: calc( 16px + (12 - 8) * (100vw - 400px) / (800 - 400) ); 
   }
   
   .article-header-wrapper > .author-pu{
     grid-column: 1 / 4;
     grid-row: 1;
     display: subgrid;
-    margin-top: 14%;
-    margin-left: 7%;
+    margin-top: 18%;
+    margin-left: 7.5%;
+    white-space: nowrap;
   }
 
    .author-pu > .profile-photo img {
@@ -332,20 +334,20 @@ and (orientation: portrait) {
   .article-header-wrapper > .audio {
     grid-column: 4 / 4;
     padding-top: 0%;
-    margin-top: 7%;
-    margin-left: -7%;
+    margin-top: -28%;
+    margin-left: -2%;
   }
   
    
   .article-header-wrapper  .listen-in{
     padding-left: 14%;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
     margin-top: -1%;
   }
   
   .article-audio {
-    max-height: 10vh;
-    width: 120px;
+    max-height: 35px;
+    width: 115px;
     border: 1px solid turquoise;
     border-radius:50px;
     }
@@ -353,7 +355,7 @@ and (orientation: portrait) {
   
     .cancel {
       margin-left: 90%;
-      margin-top: -1%;
+      margin-top: -1.5%;
       font-size: 30px;
       }
   
@@ -362,9 +364,9 @@ and (orientation: portrait) {
   /*-----------article------------*/
   
   .popup-article { 
-      margin-top: 3%;
-      height: 96%;
-      border: 0px;
+      margin-top: -10%;
+      height: 94%;
+      width: 100vw;
     }
     
     .popup-article article {
@@ -372,6 +374,7 @@ and (orientation: portrait) {
       margin-bottom: 2%;
       height: 66%; /*mq*/
       border-radius: 0px;
+      font-size: calc( 14px + (11 - 7) * (100vw - 400px) / (800 - 400) ); 
     }
   
     .lhs-image-wrapper > img {
@@ -389,6 +392,7 @@ and (orientation: portrait) {
       margin-top: 2%;
       padding-left: 1.5%;
       padding-right: 2.5%;
+      text-align: left;
     }
     
     .quote-wrapper {
