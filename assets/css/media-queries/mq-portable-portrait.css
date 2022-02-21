@@ -1024,8 +1024,8 @@ and (orientation: portrait) {
   }
 
   .profile-photo img {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 50px;
+    max-height: 50px;
   }
   
   .audio-player {
@@ -1252,20 +1252,26 @@ and (orientation: portrait) {
     margin-top: -3%;
     font-size: calc( 16px + (12 - 8) * (100vw - 400px) / (800 - 400) ); 
   }
+
+  .article-heading span {
+    font-size: calc( 11px + (6 - 3) * (100vw - 400px) / (800 - 400) ); 
+  }
+
   
   .article-header-wrapper > .author-pu{
     grid-column: 1 / 4;
     grid-row: 1;
     display: subgrid;
-    margin-top: 18%;
+    margin-top: 23%;
     margin-left: 7.5%;
     white-space: nowrap;
   }
 
-   .author-pu > .profile-photo img {
-    width: 40px;
-    height: 40px;
+  
+  .article-header-wrapper > .author-pu p, .author-pu aside { 
+    font-size: calc( 11px + (6 - 3) * (100vw - 400px) / (800 - 400) ); 
   }
+
 
   .article-header-wrapper > .audio {
     grid-column: 4 / 4;
@@ -1275,10 +1281,8 @@ and (orientation: portrait) {
   }
   
    
-  .article-header-wrapper  .listen-in{
-    padding-left: 14%;
-    letter-spacing: 0.2px;
-    margin-top: -1%;
+  .article-header-wrapper > .listen-in span{
+    font-size: calc( 11px + (6 - 3) * (100vw - 400px) / (800 - 400) );
   }
   
   .article-audio {
@@ -1291,7 +1295,7 @@ and (orientation: portrait) {
   
     .cancel {
       margin-left: 90%;
-      margin-top: -1.5%;
+      margin-top: -.5%;
       font-size: 30px;
       }
   
