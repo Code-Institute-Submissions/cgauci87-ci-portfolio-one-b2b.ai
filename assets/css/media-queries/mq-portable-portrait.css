@@ -1397,7 +1397,7 @@ and (orientation: portrait) {
       margin-bottom: 0%;
     }
 
-/*==============#podcasts==================wip=========*/
+/*==============#podcasts===========================*/
 
 
 .podcasts {
@@ -1483,12 +1483,12 @@ height: 20vh;
     margin-top: -4%;
   }
 
-   /*#subscribe section*/
+   /*============ #subscribe section =======wip======*/
   
    .subscribe {
     background-color: rgba(14, 16, 31, 1);
     background-size: contain;
-    background-position: -120px 120px;
+    background-position: -120px 140px;
     background-blend-mode:difference;
     color: rgba(0,0,0,1);
    }
@@ -1503,7 +1503,7 @@ height: 20vh;
     height: 10vh;
     width: 100%;
     margin: 0;
-    padding-top: 6%;
+    padding-top: 7.5%;
   }
 
  .subscribe-form > h2 {
@@ -1516,7 +1516,7 @@ height: 20vh;
   .subscribe-form p {
     margin-left: 0%;
     margin-right: 0%;
-    margin-top: 2.5%;
+    margin-top: 5%;
     margin-bottom: 2%;
     padding-left: 10%;
     padding-right: 10%;
@@ -1532,7 +1532,7 @@ height: 20vh;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     color: #0e101f;
-    margin-left: -7%;
+    margin-left: 0%;
     margin-top: 0%;
     font-size: calc(16px + (10 - 5) * (100vw - 400px) / (800 - 400) );
     height: 8vh;
@@ -1566,9 +1566,9 @@ height: 20vh;
   }
   
   #subscribe-footer {
-    height: 10vh;
+    height: 20vh;
     margin-top: 128%;
-    padding-top: 5%;
+    padding-top: 15%;
   } 
   
   /* #contact section */
