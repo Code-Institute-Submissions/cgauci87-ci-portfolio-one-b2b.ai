@@ -2527,6 +2527,48 @@ and (min-width: 375px) and (max-width: 384px) and (min-height: 812px) and (orien
     margin-top: -4%;
   }
 
+   /*#subscribe section*/
+  
+   .subscribe {
+    background-position: -120px 120px;
+   }
+
+   .subscribe-form {
+    margin-top: 20%;
+    margin-left: 20%;
+   }
+ 
+  #header-subscribe {
+    padding-top: 7%;
+  }
+
+  .subscribe-form input {
+    font-size: calc(14px + (8 - 4) * (100vw - 400px) / (800 - 400) );
+    height: 5vh;
+    width: 235px;
+  }
+  
+  #submit-button {
+    margin-top: 13%;
+    height: 5vh;
+    width: 235px;
+  }
+  
+  #checkbox {
+    margin-top: 25%;
+  }
+  
+  .subscribe-form label {
+  margin-top: 27%;
+  width: 88%;
+  margin-left: -9.5%;
+  }
+  
+  #subscribe-footer {
+    height: 20vh;
+    margin-top: 135%;
+    padding-top: 18%;
+  } 
 
 
 
