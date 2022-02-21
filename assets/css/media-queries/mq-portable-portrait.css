@@ -2446,22 +2446,56 @@ and (min-width: 375px) and (max-width: 384px) and (min-height: 812px) and (orien
   height: 20vh;
 }
 
-/*----------------#ai-101 article--------wip----------*/
+/*----------------#ai-101 article------------------*/
 
 .ai-101-a {
-  margin-top: 5%;
+  margin-top: 20%;
 }
   
    .form2-wrapper {
-      margin-top: 8%;
+      margin-top: 19%;
       height: 20vh;
   }
 
   .image-container img {
   width: 150px;
   height: 20vh;
+  } 
+
+
+/*--------------------#industries section---------------------*/
+
+#adjust-footer {
+  margin-top: 162%;
+  height: 20vh;
+  padding-top: 18%;
+}
+
+
+/*-----------------------pop-up-------------------------------*/
+
+/*-------------------header----------------------*/
+
+.article-header-wrapper > .author-pu{
+  margin-top: 24%;
+  margin-left: 5%;
+}
+
+.article-audio {
+  width: 115px;
+}
+
+
+/*-----------article------------*/
+
+  .btm-image-wrapper img{
+    height: 55vh;
   }
 
+  .grid-template-rows-1 , .grid { 
+    grid-template-columns: 185px 185px;
+  }
+  
 
 }
 
