@@ -2570,14 +2570,16 @@ and (min-width: 375px) and (max-width: 384px) and (min-height: 812px) and (orien
     padding-top: 18%;
   } 
 
+  /* #contact section */
 
-
-
-
-
-
-
-
+  #header-contact {
+    padding-top: 9%;
+  }
+  
+  .contact-container form textarea:focus#msg,
+  .contact-container form textarea:not(:placeholder-shown)#msg {
+    height: 17vh;
+  }
 
 }
 
