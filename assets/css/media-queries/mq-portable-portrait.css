@@ -2039,8 +2039,6 @@ height: 20vh;
       font-size: 30px;
       }
   
-  
-  
   /*-----------article------------*/
   
   .popup-article { 
@@ -2267,7 +2265,6 @@ height: 20vh;
 
   }
     
-  
   .subscribe-form input {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -2309,7 +2306,8 @@ height: 20vh;
     height: 20vh;
     margin-top: 128%;
     padding-top: 15%;
-  } 
+  }
+  
   
   /*============== #contact section =============*/
   
