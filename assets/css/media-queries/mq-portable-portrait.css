@@ -2439,6 +2439,30 @@ and (min-width: 375px) and (max-width: 384px) and (min-height: 812px) and (orien
 
 
 
+/*------------#ai-101 section------------*/
+
+/*--------#ai-101 header-------*/
+.section-header-wrapper {
+  height: 20vh;
+}
+
+/*----------------#ai-101 article--------wip----------*/
+
+.ai-101-a {
+  margin-top: 5%;
+}
+  
+   .form2-wrapper {
+      margin-top: 8%;
+      height: 20vh;
+  }
+
+  .image-container img {
+  width: 150px;
+  height: 20vh;
+  }
+
+
 }
 
 /*==================================================wip==============================================================*/
