@@ -1483,7 +1483,7 @@ height: 20vh;
     margin-top: -4%;
   }
 
-   /*============ #subscribe section =======wip======*/
+   /*============ #subscribe section =============*/
   
    .subscribe {
     background-color: rgba(14, 16, 31, 1);
@@ -1571,25 +1571,25 @@ height: 20vh;
     padding-top: 15%;
   } 
   
-  /* #contact section */
+  /*============== #contact section =====wip========*/
   
   .contact {
     background-color: transparent;
     background-blend-mode: difference;
     background-size: contain;
-    background-position:  0 130px;
+    background-position:  0 200px;
   }
     
   #header-contact {
     height: 10vh;
     width: 100%;
     margin: 0;
-    padding-top: 5%;
+    padding-top: 7.5%;
   }
 
   .contact-container {
     position: absolute;
-    margin-top: 42.5%;
+    margin-top: 60%;
     margin-left: 15%;
   }
   .contact-container form * {
@@ -1602,25 +1602,25 @@ height: 20vh;
   }
   
   .contact-container form .field label {
-    height: 9vh;
-    padding-top: 5.5%;
+    height: 5vh;
+    padding-top: 3%;
   }
   
   .contact-container form .field input[type="text"], .field input[type="email"],
   form .field textarea {
-    height: 9vh;
+    height: 5vh;
     padding-left: 39%;
     color: white;
     background-color: rgba(0,0,0,0.3);
   }
   
   .contact-container form #msg {
-    height: 9vh;
+    height: 5vh;
     padding-top: 18px;
   }
   .contact-container form textarea:focus#msg,
   .contact-container form textarea:not(:placeholder-shown)#msg {
-    height: 24vh;
+    height: 15vh;
   }
   
   .contact-container form input[type="text"]:focus + label,
