@@ -1232,7 +1232,7 @@ and (orientation: portrait) {
   
 /*-----------------------pop-up-------------------------------*/
 
-/*-------------------header-------------------wip---*/
+/*-------------------header----------------------*/
 .article-header-wrapper {
   height: 20vh;
 }
@@ -1397,7 +1397,7 @@ and (orientation: portrait) {
       margin-bottom: 0%;
     }
 
-/*==============#podcasts===========================*/
+/*==============#podcasts==================wip=========*/
 
 
 .podcasts {
@@ -1412,7 +1412,7 @@ and (orientation: portrait) {
   margin: 0%;
   text-align: center;
   width: 100%;
-  padding-top: 12%;
+  padding-top: 6%;
 }
 
 .top-image-wrapper img {
@@ -1421,11 +1421,11 @@ display: none;
 
 .playlist {
   position:absolute;
-  margin-top: 30%;
+  margin-top: 40%;
   overflow-y: scroll;
   scroll-behavior: smooth;
   scrollbar-color:rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
-  height: 65vh;
+  height: 50vh;
   width: 100%;
 }
 
@@ -1434,7 +1434,7 @@ background-color: rgba(127, 221, 252, 0.932);
 filter:saturate(5%);
 width: 100%;
 max-height: 50%;
-height: 45vh;
+height: 20vh;
 }
 
 
@@ -1473,12 +1473,12 @@ height: 45vh;
     display: inline-block;
     width: 100%;
     z-index: 10;
-    margin-top: 132%;
+    margin-top: 137%;
   }
 
   #wave1 {
-    height: 10vh;
-    padding-top: 5%;
+    height: 20vh;
+    padding-top: 15%;
     padding-bottom: 0%;
     margin-top: -4%;
   }
