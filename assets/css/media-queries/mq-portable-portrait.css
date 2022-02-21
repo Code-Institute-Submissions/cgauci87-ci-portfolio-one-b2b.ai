@@ -966,5 +966,50 @@ and (orientation: portrait) {
   }
 
 
+   /*#subscribe section wip*/
+  
+   .subscribe {
+    background-position: -120px 120px;
+   }
+
+   .subscribe-form {
+    margin-top: 20%;
+    margin-left: 20%;
+   }
+ 
+  #header-subscribe {
+    padding-top: 7%;
+  }
+
+  .subscribe-form input {
+    font-size: calc(14px + (8 - 4) * (100vw - 400px) / (800 - 400) );
+    height: 5vh;
+    width: 235px;
+  }
+  
+  #submit-button {
+    margin-top: 13%;
+    height: 5vh;
+    width: 235px;
+  }
+  
+  #checkbox {
+    margin-top: 25%;
+  }
+  
+  .subscribe-form label {
+  margin-top: 27%;
+  width: 94%;
+  margin-left: -9.5%;
+  }
+  
+  #subscribe-footer {
+    height: 20vh;
+    margin-top: 120%;
+    padding-top: 15%;
+  } 
+  
+
+
 /*==================================================wip==============================================================*/
 
