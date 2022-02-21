@@ -2605,7 +2605,7 @@ and (orientation: portrait) {
 
   #intro {
     background-size:contain;
-    background-position: 0 280px;
+    background-position: 0 300px;
   }
 
 
@@ -2627,7 +2627,7 @@ and (orientation: portrait) {
       }	
     
 .line-wrapper-2 .line-2 {
-    margin-top: 16%;
+    margin-top: 23%;
     height: 70vh;
     font-size: calc( 12px + (6 - 4) * (100vw - 400px) / (800 - 400) );
   }	
@@ -2645,14 +2645,15 @@ and (orientation: portrait) {
     font-size: calc( 8px + (4 - 2) * (100vw - 400px) / (800 - 400) );   /*new*/
     letter-spacing: calc( 6px + (2 - 1) * (100vw - 400px) / (800 - 400) ); /*new*/
     padding-top: .5%;
+    padding-left: 2%;
+    padding-bottom: 1%
   }
   
 
 .spike#spike1 {
-    height: 5vh;
+    height: 8vh;
     margin-top: 0%;
   }
-
 
 /*------------#ai-101 section------------*/
 
@@ -2666,16 +2667,16 @@ and (orientation: portrait) {
     margin-left: 40%;
   }
   
-
   .read {
     float: left;
     padding-left: .5%;
     letter-spacing: .5px;
     font-size: calc( 11px + (3 - 2) * (100vw - 400px) / (800 - 400) );  
-     }
+  }
   
   .author{
   font-size: calc( 11px + (3 - 2) * (100vw - 400px) / (800 - 400) );  
+  letter-spacing: 1px;
   padding-top: 26%;
   padding-left: 2.5%;
   }
@@ -2686,7 +2687,7 @@ and (orientation: portrait) {
   }
   
   .audio-player {
-      margin-top: 69%;
+      margin-top: 52%;
       margin-left: -36%;
     }
   
@@ -2696,16 +2697,16 @@ and (orientation: portrait) {
      }
    
   #ai-101-audio {
-      width: 90px;
+      width: 120px;
       height: 25px;
       border: 2px solid turquoise;
       border-radius:50px;
   }
   
   #ai-101-listen{
-    padding-left: 18%;
-    letter-spacing: .5px;
-    font-size: calc( 11px + (3 - 2) * (100vw - 400px) / (800 - 400) );  
+    padding-left: 14%;
+    letter-spacing: 2.5px;
+    font-size: calc( 10px + (2 - .5) * (100vw - 400px) / (800 - 400) );  
 
     }
   
@@ -2817,7 +2818,7 @@ and (orientation: portrait) {
      .form2-wrapper {
         position: relative;
         display: flex;
-        margin-top: 0%;
+        margin-top: 5%;
         height: 20vh;
       }
       
@@ -2942,7 +2943,7 @@ and (orientation: portrait) {
   
   .article-audio {
     max-height: 35px;
-    width: 115px;
+    max-width: 200px;
     border: 1px solid turquoise;
     border-radius:50px;
     }

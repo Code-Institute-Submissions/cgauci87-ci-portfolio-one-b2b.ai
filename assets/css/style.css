@@ -186,9 +186,8 @@ a {
   box-sizing: border-box;
   appearance: none;  
   background-color: rgb(18, 42, 49);
-  border: 3px solid;
+  border: transparent 3px solid;
   border-radius: 0.6em;
-  border-color: rgba(67, 242, 224, 1);;
   color: whitesmoke;
   cursor: pointer;
   display: flex;
