@@ -2583,12 +2583,12 @@ and (min-width: 375px) and (max-width: 384px) and (min-height: 812px) and (orien
 
 }
 
-/* ---------- OnePlus 6 / 7 384x700 -------WIP---- */
+/* ---------- OnePlus 6 / 7 384x832 -------WIP---- */
 /* Portrait  -> PASS <-*/
 @media screen 
 and (min-width: 384px)
 and (min-height: 700px)
-and (max-height: 701px)
+and (max-height: 833px)
 and (orientation: portrait) { 
 
   /*----------#intro section---------------*/
@@ -2818,7 +2818,7 @@ and (orientation: portrait) {
      .form2-wrapper {
         position: relative;
         display: flex;
-        margin-top: 5%;
+        margin-top: 14%;
         height: 20vh;
       }
       
@@ -2833,10 +2833,9 @@ and (orientation: portrait) {
     }
     
 
-/*--------------------#industries section---------------------*/
+/*--------------------#industries section---------------wip------*/
 
-
-    #header-industries {
+  #header-industries {
         width: 100%;
         height: auto;
         background-color: transparent;
@@ -2849,7 +2848,7 @@ and (orientation: portrait) {
     }
     
   .grid-template-rows-1 , .grid { 
-      grid-template-columns: 180px 180px;
+      grid-template-columns: 190px 190px;
       display:grid;
       position: absolute;
       margin-top: 15%;
@@ -2869,7 +2868,7 @@ and (orientation: portrait) {
 
   .grid-span { 
     font-size: calc( 12px + (6 - 3) * (100vw - 400px) / (800 - 400) );
-    line-height: calc( 11px + (4 - 2) * (100vw - 400px) / (800 - 400) ); 
+    line-height: calc( 11px + (4 - 2) * (100vw - 400px) / (800 - 400) );  
     margin-left: -10%;
   }
 
@@ -2881,9 +2880,9 @@ and (orientation: portrait) {
   #adjust-footer {
     position: relative;
     display: inline-block;
-    margin-top: 135%;
     height: 20vh;
-    padding: 15%;
+    margin-top: 160%;
+    padding-top: 12%;
 }
   
   
