@@ -2465,6 +2465,10 @@ and (min-width: 375px) and (max-width: 384px) and (min-height: 812px) and (orien
 
 /*--------------------#industries section---------------------*/
 
+.grid-template-rows-1 , .grid { 
+  grid-template-columns: 185px 185px;
+}
+
 #adjust-footer {
   margin-top: 162%;
   height: 20vh;
@@ -2489,13 +2493,8 @@ and (min-width: 375px) and (max-width: 384px) and (min-height: 812px) and (orien
 /*-----------article------------*/
 
   .btm-image-wrapper img{
-    height: 55vh;
+    height: 57.5vh;
   }
-
-  .grid-template-rows-1 , .grid { 
-    grid-template-columns: 185px 185px;
-  }
-  
 
 }
 
