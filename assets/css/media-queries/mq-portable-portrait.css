@@ -1739,7 +1739,7 @@ height: 20vh;
   }
 
 
-/*------------#ai-101 section------wip------*/
+/*------------#ai-101 section------------*/
 
 /*--------#ai-101 header-------*/
 .section-header-wrapper {
@@ -1917,11 +1917,10 @@ height: 20vh;
     }
     
 
-      
-      /*--------------------#industries section---------------------*/
+/*--------------------#industries section---------------------*/
 
 
-      #header-industries {
+    #header-industries {
         width: 100%;
         height: auto;
         background-color: transparent;
