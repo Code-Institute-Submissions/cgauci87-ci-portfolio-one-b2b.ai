@@ -472,7 +472,7 @@ and (orientation: portrait) {
   margin: 0%;
   text-align: center;
   width: 100%;
-  padding-top: 4%;
+  padding-top: 12%;
 }
 
 .top-image-wrapper img {
@@ -481,11 +481,11 @@ display: none;
 
 .playlist {
   position:absolute;
-  margin-top: 3.5%;
+  margin-top: 30%;
   overflow-y: scroll;
   scroll-behavior: smooth;
   scrollbar-color:rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
-  height: 80vh;
+  height: 65vh;
   width: 100%;
 }
 
@@ -533,14 +533,15 @@ height: 45vh;
     display: inline-block;
     width: 100%;
     z-index: 10;
-    margin-top: 56%;
+    margin-top: 132%;
 
   }
 
   #wave1 {
-    height: 3vh;
-    padding-top: 2%;
-    padding-bottom: 5%;
+    height: 10vh;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    margin-top: -4%;
   }
 
 
