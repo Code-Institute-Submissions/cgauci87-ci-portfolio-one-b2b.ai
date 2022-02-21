@@ -1727,7 +1727,7 @@ height: 20vh;
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: calc( 8px + (2 - 1) * (100vw - 400px) / (800 - 400) );   /*new*/
+    font-size: calc( 10px + (4 - 2) * (100vw - 400px) / (800 - 400) );   /*new*/
     letter-spacing: calc( 6px + (2 - 1) * (100vw - 400px) / (800 - 400) ); /*new*/
     padding-top: .5%;
   }
@@ -1771,8 +1771,8 @@ height: 20vh;
   }
   
   .audio-player {
-      margin-top: 70%;
-      margin-left: -35%;
+      margin-top: 69%;
+      margin-left: -36%;
     }
   
   .audio {
