@@ -997,7 +997,7 @@ and (orientation: portrait) {
   }
 
 
-/*------------#ai-101 section-------wip-----*/
+/*------------#ai-101 section------------*/
 
 /*--------#ai-101 header-------*/
 .section-header-wrapper {
@@ -1191,43 +1191,48 @@ and (orientation: portrait) {
       display: none;
     }
     
-    .grid-template-rows-1 , .grid { 
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-        display:grid;
-        position: absolute;
-        margin-top: 16%;
-        margin-left: 2.5%;
+  .grid-template-rows-1 , .grid { 
+      grid-template-columns: 180px 180px;
+      display:grid;
+      position: absolute;
+      margin-top: 15%;
     }
-
+    
 
   #healthph, #bankfin, #retailecom, #manufacturing {
     background-size:cover;
     background-position: center;
   }
 
+  
+  .grid h3 {
+    font-size: calc( 14px + (10 - 5) * (100vw - 400px) / (800 - 400) );
+  }
+  
+
   .grid-span { 
-    font-size: calc( 10px + (4 - 2) * (100vw - 400px) / (800 - 400) );
-    line-height: calc( 9px + (3 - 2) * (100vw - 400px) / (800 - 400) ); 
+    font-size: calc( 12px + (6 - 3) * (100vw - 400px) / (800 - 400) );
+    line-height: calc( 11px + (4 - 2) * (100vw - 400px) / (800 - 400) ); 
     margin-left: -10%;
   }
 
   .grid a {
-    font-size: calc( 9px + (6 - 3) * (100vw - 400px) / (800 - 400) );
+    font-size: calc( 11px + (7 - 4) * (100vw - 400px) / (800 - 400) );
   }
   
   
   #adjust-footer {
     position: relative;
     display: inline-block;
-    margin-top: 120%;
-    height: 10vh;
-    padding: 5%;
+    margin-top: 135%;
+    height: 20vh;
+    padding: 15%;
 }
   
   
 /*-----------------------pop-up-------------------------------*/
 
-/*-------------------header----------------------*/
+/*-------------------header-------------------wip---*/
 .article-header-wrapper {
   height: 20vh;
 }
@@ -1374,7 +1379,7 @@ and (orientation: portrait) {
     }
 
     .btm-image-wrapper img{
-      height: 60vh;
+      height: 55vh;
     }
 
     .popup-footer {
