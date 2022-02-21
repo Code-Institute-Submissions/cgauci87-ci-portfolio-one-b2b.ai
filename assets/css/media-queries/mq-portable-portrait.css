@@ -2888,7 +2888,7 @@ and (orientation: portrait) {
   
 /*-----------------------pop-up-------------------------------*/
 
-/*-------------------header----------------------*/
+/*-------------------header---------------wip-------*/
 .article-header-wrapper {
   height: 20vh;
 }
@@ -2932,7 +2932,7 @@ and (orientation: portrait) {
   .article-header-wrapper > .audio {
     grid-column: 4 / 4;
     padding-top: 0%;
-    margin-top: -28%;
+    margin-top: -5%;
     margin-left: -4%;
   }
    
@@ -2940,13 +2940,12 @@ and (orientation: portrait) {
     font-size: calc( 11px + (6 - 3) * (100vw - 400px) / (800 - 400) );
   }
   
-  .article-audio {
-    max-height: 35px;
-    max-width: 200px;
-    border: 1px solid turquoise;
+  .article-audio {   /*wip*/
+    width: 120px;
+    height: 25px;
+    border: 2px solid turquoise;
     border-radius:50px;
-    }
-  
+}
   
     .cancel {
       margin-left: 90%;
@@ -3036,7 +3035,7 @@ and (orientation: portrait) {
     }
 
     .btm-image-wrapper img{
-      height: 55vh;
+      height: 51.5vh;
     }
 
     .popup-footer {
@@ -3054,12 +3053,13 @@ and (orientation: portrait) {
 
 
 .podcasts {
-  background-color: rgba(14, 16, 31, 1);
+  background-color: rgba(14, 16, 31, .9);
   background-image: url("/assets/images/podcasts_img.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0 60px;
-}
+  background-blend-mode:overlay;
+} 
 
 #header-podcasts {
   margin: 0%;
@@ -3126,16 +3126,17 @@ height: 20vh;
     display: inline-block;
     width: 100%;
     z-index: 10;
-    margin-top: 137%;
+    margin-top: 157%;
+    height: 20vh;
   }
 
   #wave1 {
-    height: 20vh;
-    padding-top: 15%;
+    height: 10vh;
+    padding-top: 8%;
     padding-bottom: 0%;
-    margin-top: -4%;
+    margin-top: 0%;
+    filter: sepia(.5);
   }
-
    /*============ #subscribe section =============*/
   
    .subscribe {
