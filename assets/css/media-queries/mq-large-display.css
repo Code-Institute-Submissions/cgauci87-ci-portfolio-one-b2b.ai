@@ -961,7 +961,7 @@ z-index: 80;
 
 .btm-image-wrapper{
   background: transparent;
-   position: relative;
+  position: relative;
   z-index: 90;
   margin-top: 0%; 
   margin-left: -20%;
