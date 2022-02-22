@@ -504,9 +504,12 @@ margin-top: 0.5%;
   margin-left: 0.5%;
   }
 
-  .ai-101-a {
-    margin-top: 5%;
+
+  .spike#spike1 {
+    height: 22vh;
+    margin-top: 0%;
   }
+
   
  .ai-101-d {
    margin-top: -15%;
