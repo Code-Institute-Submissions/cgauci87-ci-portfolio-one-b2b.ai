@@ -1288,15 +1288,6 @@ iframe:hover {
 }
 
 
-
-#form-s input:focus {
-  margin-top: 11%;
-  height: 10vh;
-  background-color: red;
-  }
-
-
-
 #checkbox {
   float: left;
   width: 20px;
