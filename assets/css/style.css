@@ -58,7 +58,7 @@ body {
   display: inline-block;
   color: #fff;
   padding: 8px 4px 6px 4px; /*mq*/
-  font-size: calc( 16px + (8 - 4) * (100vw - 400px) / (800 - 400) ); 
+  font-size: calc( 12px + (4 - 2) * (100vw - 400px) / (800 - 400) ); 
   letter-spacing: calc( 2px + (1 - 0.5) * (100vw - 400px) / (800 - 400) ); 
 }
 
@@ -68,7 +68,6 @@ body {
  }
 
  
-
 .nav > .nav-btn {
   display: none;
 }
@@ -76,8 +75,8 @@ body {
 .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: calc( 10px + (5 - 2.5) * (100vw - 400px) / (800 - 400) ); 
-  letter-spacing: calc( 2px + (1 - 0.5) * (100vw - 400px) / (800 - 400) );
+  font-size: calc(10px + (2 - 1) * (100vw - 400px) / (800 - 400) ); 
+  letter-spacing: calc(2px + (1 - 0.5) * (100vw - 400px) / (800 - 400) );
   font-weight: 100;
   padding-right: 1.5%;
 }
@@ -147,9 +146,9 @@ a {
     padding-top: 3.1%;
     padding-bottom: 1%;
     padding-left: 2.5%;
-    font-size: calc( 48px + (22 - 12) * (100vw - 400px) / (800 - 400) );   /*new*/
-    letter-spacing: calc( 36px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
-    line-height:  calc( 52px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-size: calc( 32px + (22 - 12) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc( 24px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    line-height:  calc( 42px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
     place-self: center; /*new*/
     align-content:space-between;/*new*/
     order: 1;
@@ -174,8 +173,8 @@ a {
     padding-bottom: 0.5%;
     white-space:pre-line;
     text-align: center;
-    font-size: calc( 14px + (24 - 16) * (100vw - 400px) / (800 - 400) );   /*new*/
-    line-height:  calc( 12px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-size: calc( 16px + (10 - 5) * (100vw - 400px) / (800 - 400) );   /*new*/
+    line-height:  calc( 16px + (10 - 5) * (100vw - 400px) / (800 - 400) ); /*new*/
     height: auto; /* mq */
     max-height: 100%;
     order: 2;
@@ -339,13 +338,16 @@ a {
     padding: 0;
     line-height: normal;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: calc(8px + (5 - 2.5) * (100vw - 400px) / (800 - 400) );   /*new*/
+    font-size: calc(7px + (4 - 2) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc(.5px + (.2 - .1) * (100vw - 400px) / (800 - 400) );   /*new*/;
     top: 0;
     margin: 0;
 	}
 
   .section-header-wrapper > span {
-    font-size: calc(8px + (5 - 2.5) * (100vw - 400px) / (800 - 400) ); 
+    font-size: calc(7px + (4 - 2) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc(.5px + (.2 - .1) * (100vw - 400px) / (800 - 400) );   /*new*/;
+
   }
 
 	.section-heading {
@@ -356,13 +358,13 @@ a {
   .section-header{
     height: 7vh;
     position: absolute;
-    margin-left: 45%;
-    margin-top: 0.8%;
+    margin-left: 35%;
+    margin-top: 3.5%;
     z-index: 11;
     }
     
     .section-header h1{
-    font-size: 24px;
+    font-size: calc(20px + (10 - 5) * (100vw - 400px) / (800 - 400) );   /*new*/
     background-color: transparent;
     }
 
@@ -371,7 +373,7 @@ a {
 		grid-column: 1 / 4;
 		grid-row: 1;
     display: subgrid;
-    padding-top: 3.5%;
+    padding-top: 5%;
 	}
 
 
@@ -401,7 +403,7 @@ a {
     }
 
  .audio-player {
-   padding-top: 11%;
+   padding-top: 16%;
    padding-left: 30%;
  }
 
@@ -436,7 +438,6 @@ a {
      font-size: calc(6px + (3 - 1) * (100vw - 400px) / (800 - 400) );
      letter-spacing: 3.5px;  /*mq*/
      padding-left: 35%;
-     padding-top: 1.5%;
    }
  
  
@@ -444,12 +445,11 @@ a {
     font-family: 'Courier New', Courier, monospace;
     font-size: calc(8px + (5 - 2.5) * (100vw - 400px) / (800 - 400) ); 
     letter-spacing: 5px;  /*mq*/
-    padding-top: 0%;
-   } 
+     } 
 
    .section-header-wrapper > .header-img {
     filter: opacity(.3);
-    width: 460px;
+    width: 480px;
     height: 18vh;
     margin: 0;
     grid-column: 4 / 4;
@@ -507,7 +507,7 @@ margin-top: 0.5%;
   }
 
   .ai-101-a {
-    margin-top: 7%;
+    margin-top: 5%;
   }
   
  .ai-101-d {
@@ -605,12 +605,10 @@ margin-top: 0.5%;
 
   .form2-wrapper {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     height: auto;
     width: 100%;
     display: flex;
+    margin-top: -11%;
     }
 
 
