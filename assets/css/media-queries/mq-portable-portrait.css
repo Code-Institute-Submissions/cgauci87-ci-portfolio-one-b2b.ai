@@ -4099,6 +4099,66 @@ and (orientation: portrait) {
   height: 4vh;
 }
 
+
+/*------------#ai-101 section------------*/
+
+/*--------#ai-101 header-------*/
+
+
+.audio-player {
+    margin-top: 58%;
+  } 
+
+
+/*----------------#ai-101 article------------------*/
+
+.ai-101-a {
+  margin-top: 5%;
+}
+  
+.form2-wrapper {
+  margin-top: 8%;
+  height: 20vh;
+  }
+
+  .image-container img {
+  width: 150px;
+  height: 140px;
+  }
+  
+  
+/*--------------------#industries section---------------------*/
+
+
+.grid-template-rows-1 , .grid { 
+  grid-template-columns: 203px 203px;
+}
+    
+  
+  
+  #adjust-footer {
+    margin-top: 135%;
+    height: 20vh;
+    padding: 15%;
+}
+
+/*-------------------pop-up-----------------*/
+/*--------------header-------------*/
+
+.article-header-wrapper  .listen-in{
+  padding-left: 13.5%;
+  letter-spacing: 2.5px;
+}
+
+  /*-----------article------------*/
+
+.btm-image-wrapper img{
+  height: 55.5vh;
+}
+
+
+
+  
 }
 
 
