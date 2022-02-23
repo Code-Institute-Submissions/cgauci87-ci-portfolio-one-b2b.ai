@@ -369,11 +369,11 @@ a {
     }
 
 
-  .author{
+  .section-header-wrapper > .author{
 		grid-column: 1 / 4;
 		grid-row: 1;
     display: subgrid;
-    padding-top: 5%;
+    padding-top: 10%;
 	}
 
 

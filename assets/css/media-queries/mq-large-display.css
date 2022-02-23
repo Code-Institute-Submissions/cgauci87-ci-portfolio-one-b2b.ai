@@ -1,10 +1,14 @@
-/* (1280x1024) SXGA Display  -> WIP <- */
+/* (1280x1024) SXGA Display  -> PASS <- */
 @media screen and (min-width: 1279px) and (max-width:1280px) and (min-height:1024px) {
 
 /*----------#intro---------------*/
 
 #intro {
     background-position: 0 340px;
+}
+
+.nav > .nav-header > .nav-title {
+margin-top: .2%;
 }
 
 .line-wrapper-2 .line-2 {
@@ -30,7 +34,7 @@
 }
 
 
-.author{
+.section-header-wrapper > .author {
   width: 113%;
   margin-top: -6%;
   margin-left: 2.5%;
@@ -77,10 +81,6 @@
    margin-top: 10%;
  }
 
-
- /*wip*/
-
- 
  #ml-icon {
   width: 60px;
   float: left;
@@ -207,39 +207,42 @@
 
 /*-------------------header-----------------------*/
 
-.article-header-wrapper > .header-img {
-display: none;
+.article-header-wrapper {
+  height: 12vh;
 }
-
 
 .article-heading {
   grid-column: 2 / 4;
-  padding-top: 5.5%;
+  margin: 0%;
+  padding-top: 7%;
 }
 
  
 #article-read {
-  padding-top: 10%;
+  padding: 0%;
+  margin: 0%;
  } 
-
-.article-header-wrapper > .author{
- margin-top: 5%;
- padding: 0%;
-}
+  
+ .article-header-wrapper > .author-pu{
+  margin-top: 6%;
+  padding: 0%;
+  width: 100%;
+ }
 
 .article-header-wrapper > .audio {
   grid-column: 4 / 4;
-  margin-left: -25%;
-  padding-top: 6.6%;
+  margin-left: -24%;
+  padding-top: 9%;
 }
 
  
 .article-header-wrapper  .listen-in{
-  padding-left: 20%;
+  padding-left: 47%;
 }
 
 .article-audio {
   height: 2vh;
+  width: 150px;
   border: 2px solid turquoise;
   border-radius:50px;
   }
@@ -255,9 +258,9 @@ display: none;
 /*-----------article------------*/
 
 .popup-article { 
-    margin-top: -68%;
+    margin-top: -2%;
     height: 96%;
-    border: 0px;
+    border: 4px solid white;
   }
   
   .popup-article article {
@@ -332,7 +335,7 @@ display: none;
     position: relative;
     width: 100%;  
     background:#0e101f;
-    height: 2.5vh;
+    height: 5vh;
     z-index: 100;
     display: inline-block;
     margin-top: -20%;
@@ -427,48 +430,157 @@ display: none;
   
 
 
-/*------------#subscribe------------*/
+/*-----#subscribe section--------*/
+  
+   .subscribe {
+    background-position: -450px -200px;
+  }
+  
+   .subscribe-form {
+    margin-top: -5%;
+    margin-left: 26%;
+   }
 
-#header-subscribe {
-  padding-top: 6.5%;
+  #header-subscribe {
+      padding-top: 4%;
+      height: 12vh;
+    }
+
+ .subscribe-form > h2 {
+  margin-top: 20%;
 }
-
-#checkbox {
-margin-right: 2%;
-}
-
-
-.subscribe-form label {
-  padding-top: 5%;
- }
- 
-     
+  
+  .subscribe-form p {
+    margin-left: -18%;
+    padding: 0%;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    font-size: calc( 16px + (12 - 6) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-weight: 600;
+    white-space: nowrap;
+  }
+    
+  
+  .subscribe-form form {
+    max-width: 220px;
+  }
+  .subscribe-form input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 10vh;
+    width: 500px;
+    text-align: center;
+    color: #0e101f;
+    margin-left: 40%;
+    margin-top: 20%;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: calc( 18px + (14 - 7) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-weight: 700;
+  }
+  
+  #submit-button {
+    position: relative;
+    display: flex;
+    margin-top: 0;
+    background: #0e101f;
+    color: white;
+    border: 2px solid white;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: calc( 14px + (12 - 8) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-weight: 700;
+  }
+  
+  #checkbox {
+    position: absolute;
+    display: flex;
+    width: 30px;
+    margin-left: 0%;
+    margin-top: .5%;
+    z-index: 12;
+  }
+  
+  .subscribe-form label {
+  font-size: calc(10px + (8 - 4) * (100vw - 400px) / (800 - 400) );
+  background-color: #0e101f;
+  color: white;
+  font-weight: 200;
+  padding: 0%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  margin-top: 5%;
+  padding-left: 8%;
+  }
+  
  #subscribe-footer {
-     margin-top: 30%;
+     margin-top: 65%;
+     height: 12vh;
+     padding-top: 3.5%;
  }
  
-
-
 
  /*---------------contact---------------------*/
 
  .contact {
-  background-position: -250px 180px; /*mq*/
+   background-size: cover;
+  background-position: -180px 180px;
+}
+
+#header-contact {
+  background-color: transparent;
 }
 
 #header-contact > h2 {
-  padding-top: 2.6%;
+  padding-top: 3%;
 }
 
 .contact-container {
   margin-left: 15%;
-  margin-top: 10%;
+  margin-top: 25%;
   width: 70%; 
   max-width: 1000px;
   display: flex;
   justify-content: center;
 }
+  
+.contact-container form .field label {
+  height: 5vh;
+  padding-top: 1.8%;
+}
 
+.contact-container form .field input[type="text"], .field input[type="email"],
+form .field textarea {
+  height: 5vh;
+  padding-left: 28%;
+}
+
+.contact-container form #msg {
+  height: 5vh;
+}
+
+.contact-container form textarea:focus#msg,
+.contact-container form textarea:not(:placeholder-shown)#msg {
+  height: 24vh;
+}
+
+/*---------->footer<--------------------------- */
+
+.social-icon {
+  margin-top: -1%;
+  padding: 0%;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0%;
+  padding: 0%;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1%;
+}
 
 }
 /*=================================================================================*/
