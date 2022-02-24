@@ -419,7 +419,6 @@ margin-top: .2%;
       width: 100%;
       z-index: 10;
       margin-top: 66%;
-  
     }
   
     #wave1 {
@@ -1261,7 +1260,7 @@ margin-top: 0%;
 }
 
 
-/*==========================ai-101 section=======================wip===============*/
+/*==========================ai-101 section===============================*/
 
 /*----header----*/
 .audio-player {
@@ -1276,6 +1275,19 @@ margin-top: 0%;
 }
 
 
+/*---article---*/
+
+.ai-101-a {
+  margin-top: -2%;
+}
+
+.form2-wrapper {
+  position: relative;
+  margin-top: -11.5%;
+  }
+
+
+
 /*------------#industries section------------*/
 
 #adjust-footer {
@@ -1284,12 +1296,33 @@ margin-top: 0%;
 
 
 
-/*=================================article popup===================================*/
+/*==================article popup===================================*/
+
+    /*--------header-------------- ===============*/
+        
+ .article-header-wrapper > .header-img {
+        width: 220px;
+        height: 100px;
+     }
+
+     .article-audio {
+        margin-left: -14%;
+        margin-top: -2.5%;
+       }
+
+       .article-header-wrapper  .listen-in{
+        letter-spacing: 1px;
+        padding-left: 50%;
+        padding-top: 1.5%;
+      }
+
+      .cancel {
+        margin-top: -0.5%;
+      }
 
 
-    
-    .popup-article article { 
-        max-height: 79vh; /*mq*/
+      .popup-article article { 
+        max-height: 79vh;
         }
 
 
@@ -1303,81 +1336,76 @@ margin-top: 0%;
         padding-right: 10%;
     }
     
-    /*-------------popup header----------------------- */
-        
- .article-header-wrapper > .header-img {
-        width: 220px;
-        height: 100px;
-     }
 
-     .article-audio {
-        margin-left: -7%;
-        margin-top: -4%;
-       }
 
-       .article-header-wrapper  .listen-in{
-        letter-spacing: 2.2px;
-        padding-left: 34%;
-        padding-top: 1.5%;
-      }
+    /*---------------podcasts---------------------*/
 
-      .cancel {
-        margin-top: -0.5%;
-      }
+    #header-podcasts > h2 {
+      padding-top: 0%;
+      margin-top: -1.5%;
+    }
 
-      /*----article----*/
-
-      .ai-101-a {
-        margin-top: -2%;
-      }
-
-      
- .form2-wrapper {
-  position: relative;
-  margin-top: -11.5%;
-  }
-
-    /*---------------podcasts-----------------------------*/
     .top-image-wrapper img {
         height: 28vh;
     }
 
     .column {
-        height: 40vh;
+        height: 38vh;
     }
 
      
     .wave {  
-    padding-top: 0.8%; /*mq*/
+    padding-top: 0.8%;
     }
 
+    #footer-pd  {
+      margin-top: .8%;
+    }
+  
 
  /*---------------subscribe---------------------*/
 
+ .subscribe {
+  background-position: -500px -400px;
+}
+
+ #header-subscribe {
+  padding-top: 3.8%;
+}
+
+.subscribe-form {
+  margin-top: 2%;
+ }
 
 .subscribe-form label {
  position: absolute;
  display: flex;
  white-space: nowrap;
- padding-top: 0.5%;
- padding-left: 1.8%;
+ padding-top: 0%;
+ padding-left: 8%;
 }
 
-    
+#checkbox {
+  margin-top: 1.5%;
+  }
+
 #subscribe-footer {
-    margin-top: 10%;
+    margin-top: 42%;
+    padding-top: 1.25%;
 }
 
- /*---------------contact---------------------*/
+/*-------------#contact section--------------*/
+.contact {
+  background-position: 0px 90px; /*mq*/
+}
 
-
- .contact-container {
-    margin-left: 17%;
-    margin-top: 5%;
+.contact-container {
+  position: absolute;
+  margin-left: 17.5%;
+  margin-top: 12%;
  }
 
 }
-
 
 /*------------footer---------------------*/
 
