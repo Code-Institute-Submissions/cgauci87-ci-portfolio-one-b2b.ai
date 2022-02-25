@@ -14,7 +14,7 @@ html {
   font-size: calc( 10px + (7 - 3.5) * (100vw - 400px) / (800 - 400) ); 
   font-family: 'Anonymous Pro', monospace;  
   scroll-behavior: smooth;
-  scroll-padding-top: .01%;
+  scroll-padding-top: 20px;
 }
 
 body {
@@ -1299,7 +1299,7 @@ iframe:hover {
     border-bottom-right-radius: 5px;
     font-size: calc( 14px + (12 - 8) * (100vw - 400px) / (800 - 400) ); /*new*/
     font-weight: 700;
-    padding-left: 110%;
+    justify-content: center;
     z-index: 9999 !important;
   }
   
