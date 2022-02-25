@@ -1,108 +1,328 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# b2b.ai - Website
 
-Welcome cgauci87,
+# Introduction
+Portfolio Project 1 for Code Institute Full-stack development program: HTML/CSS Essentials
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This project is a Front End website for a B2B Company. The main purpose of this website is to provide expert insights into artificial intelligence, machine learning and beyond. The website is interactive and user-friendly allowing the user to interact with the company through a contact form, subscribe form and social media channels.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Live Project Here](https://cgauci87.github.io/portfolio_project_1/index.html)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<p align="center"><img src="./assets/images/readme-images/devices-mockup.jpg" alt="b2b.ai Webpage on multiple devices"></p>
 
-`python3 -m http.server`
+## README Table Content
 
-A blue button should appear to click: _Make Public_,
+* [Introduction](#introduction)
+* [User Experience UX](#user-experience---UX)
+    * [User stories](#user-stories)
+* [Design](#Design)
+        
+    * [Website Structure](#website-structure)
+    * [Colour Scheme](#colour-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Audio](#audio)
+    * [interactive Links](#interactive-links) 
+* [Features](#features)  
+    * [Intro Section](#intro)
+    * [AI-101 Section](#ai-101)
+    * [Industries Section](#industries) 
+    * [Industries - Popup Article](#popup-article)
+    * [Podcasts Section](#podcasts)
+    * [Subscribe Section](#subscribe)
+    * [Contact Section](#contact)
+    * [Footer](#footer)
+    * [Contact Page](#Contact-page)
+    * [Submitted Form Page](#submitted-form)
+* [Future Features](#future-features)
+    * [Search Bar](#search-bar)
+	* [Dark/Light Mode Theme Toggle](#theme-switch)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+* [Testing](#testing)
+    * [Bugs](#bugs)
+    * [Website Development Issues](#website-development-issues)
+* [Deployment](#deployment-this-project)
+    * [Deployment This Project](#deployment-this-project)
+    * [Forking This Project](#forking-this-project)
+    * [Cloning This Project](#cloning-this-project)
+* [Credits](#credits)
+* [Content](#content)
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience - UX
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ ### User Stories
 
-A blue button should appear to click: _Make Public_,
+* As a website creator, I want to:
+  
+1. Build a website that is visually appealing from the user’s first visit so they are keen to explore the entire site.
+2. Build an easy to navigate website for its users.
+   
+* As a new visitor, I want to:
 
-Another blue button should appear to click: _Open Browser_.
+1. Understand the main purpose of the site.
+2. Be able to easily navigate throughout the site and find relevant content about Artificial Intelligence.
+3. Be able to easily contact b2b.ai for any queries.
+   
+* As a returning visitor, I want to:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+1. Be able to find newly available articles and podcasts.
+2. Be able to subscribe.
+   
+## Design
 
-To log into the Heroku toolbelt CLI:
+### Website Structure
+B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podcasts, Subscribe and Contact. The Intro Section is the Intro section. The Home Page has 8 sections: (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and Footer. This page, is linked to all the pages in the website by the Navigation Menu on the top. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners (3) Footer. The Submitted Form Page has two sections: (1) 'Thanks' message and (2) Footer.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Colour Scheme
+ ![Intro Section](./assets/images/readme-images/color-pallete.jpg)
+ There are four main colours used: (1 ) white (#ffffff), (2) a variation of rgba(18, 42, 49, 1) . The white is used for text while the rgba(18, 42, 49, 1) and its variation colour tone is being used in background of the respective sections. When the user hovers, the latter is used for the button background.
+ Background-blend-mode property is dominantly used in background of the sections to blend with each other and with the element's background color.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Typography
+* Anonymous Pro, monospace is used as the main font for the whole website for content.
+* The Arial, Helvetica, sans-serif is used for navigation-menu and headings across the page.
+         
+#### Imagery
+* 3 background images one in the Header and another 2 in the Banner Section.
+* 2 images in the AI-101 Section with the size of 680px by 410px.
+* 12 images for the Industries - Popup Article with the size of 950px by 713px.
+* 8 Images in the Contact Section with the size of 580px by 280px.
+* Please Note (All images were compressed to ensure maximum performance).
 
-------
+###  Audio
+* The AI-101 Section has one audio player with disabled auto-play. The user has the option to listen to the AI-101 article.
+* The Industries Section has one audio player with disabled auto-play on each article. The user has the option to listen to the article.
+* The Podcasts Section has a SoundCloud player with disabled auto-play on each podcast. The user has the option to listen to podcasts which are being displayed in the playlist.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Interactive Links  
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* At the bottom of the Intro Section and footer, users can access the company social media links (Facebook, Twitter, Linkedin, Instagram). Once these icons are clicked they are opened in a new tab. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Features
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Intro Section 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Intro Section](./assets/images/readme-images/intro-mockup.jpg)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* The Intro Section is .. <br>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Navigation Menu
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Navigation Menu](./assets/images/readme-images/navigation-menu.jpg)
+* At the top of the website, a fixed navigation menu is displayed on desktop and large displays. The navbar is fully responsive in smaller devices and user will find a toogle on top right side to open the menu.
+ In this navigation menu users can navigate to all sections while the b2b.ai logo on the left side is clickable and users can refer to it when they need to go back to #intro<br>
+[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/index.html#intro)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### AI-101 Section
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![AI-101 Section](./assets/images/readme-images/home-page-ai-101.jpg)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* In this section, users .. <br>
+[Live Feature Here](https://)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Industries Section
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Industries Section](./assets/images/readme-images/industries-mockup.jpg)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* This Section showcase industries which .. <br>
+[Live Feature Here](https://)
 
-------
+### Industries - Popup Article
 
-## FAQ about the uptime script
+![Industries - Popup Article](./assets/images/readme-images/popup-article-mockup.jpg)
 
-**Why have you added this script?**
+* This feature is .. <br>
+[Live Feature Here](https://)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Podcasts Section
 
-**How will this affect me?**
+![Podcasts Section](./assets/images/readme-images/podcasts-mockup.jpg)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* This Section has .. <br>
+[Live Feature Here](https://)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Subscribe Section
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Subscribe Section](./assets/images/readme-images/subscribe-mockup.jpg)
 
-**So….?**
+* This section has.. <br>
+[Live Feature Here](https://)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Contact Section
 
-**Can I opt out?**
+![Contact Section](./assets/images/readme-images/contact-mockup.jpg)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* In this section users can see .. <br>
+[Live Feature Here](https://)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Footer
 
-**Anything more?**
+![Footer](./assets/images/readme-images/footer-mockup.jpg)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* This feature is .. <br>
+[Live Feature Here](https://)
 
----
 
-Happy coding!
+### Submitted Form Page
+
+![Contact Page](./assets/images/readme-images/submitted-form.jpg)
+
+* Once the user successfully submits a submit form or contact form, they will land on this submission form Page.<br>
+[Live Feature Here](https://)
+
+## Future Features
+  
+### Search Bar
+
+* Add a Search Bar in the Home page. This would allow users to.. 
+
+
+## Technologies Used
+
+### Languages Used 
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5).
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
+
+### Frameworks - Libraries - Programs Used
+
+* [Google Fonts:](https://fonts.google.com/)
+   * Google fonts were used to import the 'Poppins' and 'El Messiri' fonts throughout the style.css.
+* [Font Awesome:](https://fontawesome.com/)
+    * Font Awesome are used as an icons for user UX purposes.
+* [Git](https://git-scm.com/)
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub:](https://github.com/)
+    * GitHub is used to store the project's code after being pushed from Git.
+* [PIXLR:](https://pixlr.com/pt/)
+    * PIXLR was used to create, modify and resize all images on this website.
+  
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results](https://)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://).
+
+Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
+
+The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the OnePlus 6T.
+
+* Responsive on all device sizes between 280px - 2600px wide
+
+* Devices tested using the Google Developer Tools emulator
+
+    * Apple iPad Mini (468px x 4024)
+    * Apple iPhone 4 (320px x 480px)
+    * Apple iPhone 5/S (320px 568px)
+    * Apple iPhone 6/7/8 (375px x 667px)
+    * Apple iPhone 6/7/8 Plus (414px x 736px)
+    * Apple iPhone X (375px x 812px)
+	* BlackBerry Z30 (360px x 640px)  
+    * BlackBerry PlayBook (600px x 1024px)  
+    * Samsung Galaxy Note 3 (360px x 640px) 
+    * Samsung Galaxy S3 (360px x 640px)   
+    * Samsung Galaxy S9+(320px x 658px) 
+    * LG Optimus L70 (384px x 640px)
+    * Microsoft Lumia 550 (640px x 360px) 
+    * Microsoft Lumia 950 (360px x 640px) 
+    * Nexus 4 (384px x 640px) 
+    * Nokia Lumia 520 (320px x 533px) 
+    * Nokia N9 (480px x 854px) 
+    * Pixel 3 (393px x 786px)
+
+* Desktop Results:
+
+  ![Lighthouse Destop Result](./assets/images/readme-images/desktop-results.jpg).
+
+* Mobile Results:
+
+  ![Lighthouse Mobile Result](./assets/images/readme-images/mobile-results.jpg).
+
+   ## Functionality
+* All links have been hovered and clicked to ensure accessibility.
+* Pages all load correctly on all device screen sizes.
+* All social media links work correctly and open on a new tab.
+* All images load on each section as intended.
+* All the buttons are working correctly and bring the users to the function that they were built for.
+* The buttons in all sections change the background and/or text color when hovered by the user.
+
+
+   ## Bugs
+
+* I was unable to ..
+
+   ## Website Development Issues
+
+* At the initial stages of my project ..
+
+## Deployment of This Project
+
+The website development was created in the "main" branch. This branch was deployed using GitHub Pages.
+
+* This site was deployed by completing the following steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be deployed.
+3. Navigate to the "Settings".
+4. Navigate down to the "GitHub Pages".
+5. Click on "Check it out here!".
+6. Select the "main" branch and select "Save".
+7. The link to the live website was ready on the top.
+
+## Forking This Project
+
+* Fork this project following the steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be forked.
+3. Find the 'Fork' button to the top right of the page.
+4. Once you click the button the fork will be in your repository..
+
+## Cloning This Project
+
+* Clone this project following the steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be cloned.
+3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
+4. Once you click the button the fork will be in your repository.
+5. Open a new terminal.
+6. Change the current working directory to the location that you want the cloned directory.
+7. Type 'git clone' and paste the URL copied in step 3.
+8. Press 'Enter' and the project is cloned.
+
+## Credits
+
+### Information Sources/Resources
+
+* [W3Schools](https://www.w3schools.com/).
+
+* [Stack Overflow](https://stackoverflow.com/).
+
+* [CSS-Tricks](https://css-tricks.com/).
+  
+
+## Content
+
+* All the text content is original. The quotes in the articles are from [CG](https://www.).
+
+### Images
+
+* All images were offered by [Pexels.com](https://www.pexels.com/).
+
+### Audio
+
+* The audio was processed by Chrome Screen reader extension [chrome.google.com](https://chrome.google.com/webstore/category/extensions).
+
+### Trust Section Icons
+
+* All the icons were provided and used under the Fontawesome License [Fontawesome.com](https://fontawesome.com/license/free).
+  
+## Special Thanks
+
+ * Special thanks to my mentor Brian O'Hare and my fellow students at Code Institute for their assistance throughout this project.
