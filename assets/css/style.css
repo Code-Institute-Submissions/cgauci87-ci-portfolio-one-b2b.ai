@@ -655,6 +655,7 @@ margin-top: 0.5%;
 #adjust-footer {
   margin-top: 44.5%;
   background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
 }
 
 /* GRID */
@@ -1285,7 +1286,7 @@ iframe:hover {
     font-weight: 700;
   }
   
-  #submit-button {   /*wip*/
+  #submit-button {   /*bug*/
     position: relative;
     display: flex;
     margin-top: 0;
@@ -1298,6 +1299,8 @@ iframe:hover {
     border-bottom-right-radius: 5px;
     font-size: calc( 14px + (12 - 8) * (100vw - 400px) / (800 - 400) ); /*new*/
     font-weight: 700;
+    padding-left: 110%;
+    z-index: 9999 !important;
   }
   
   #checkbox {
@@ -1369,6 +1372,7 @@ iframe:hover {
 }
 
 .contact-container {
+  position: absolute;
   margin-top: 5%;
   width: 70%; 
   max-width: 1000px;
