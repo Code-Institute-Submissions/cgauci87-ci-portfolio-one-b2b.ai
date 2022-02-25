@@ -15,8 +15,6 @@
     letter-spacing: calc( 21px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
     line-height:  calc( 28px + (24 - 16) * (100vw - 400px) / (800 - 400) ); /*new*/
     font-weight: 900;
-    padding-top: 15%;
-    padding-bottom: 15%;
     padding-left: 0%;
     padding-right: 0%;
     }
@@ -24,7 +22,7 @@
     .line-wrapper-1 .line-1 {
         margin-top: -4%;
         padding-bottom: 0.5%;
-        position: relative;
+        position: relative; 
       }	
     
 .line-wrapper-2 .line-2 {
@@ -104,12 +102,12 @@ padding-top: 10%;
     display: flex;
     width: 96%;
     height: 20vh;
-    margin-top: -42%;
+    margin-top: -28%;
   }
 
   .ai-101-container article {
    display:  block;
-   margin-top: 20%;
+   margin-top: 40%;
   }
 
   .ai-101-a {
