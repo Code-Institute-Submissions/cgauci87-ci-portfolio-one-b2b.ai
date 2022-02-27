@@ -25,23 +25,22 @@ and (orientation: portrait) {
   .intro > h1 {
     font-size: calc( 20px + (16 - 12) * (100vw - 400px) / (800 - 400) );   /*new*/
     letter-spacing: calc( 14px + (12 - 8) * (100vw - 400px) / (800 - 400) ); /*new*/
-    line-height:  calc( 20px + (16 - 12) * (100vw - 400px) / (800 - 400) ); /*new*/
+    line-height:  calc( 16px + (16 - 12) * (100vw - 400px) / (800 - 400) ); /*new*/
     font-weight: 900;
-    padding-top: 20%;
+    margin-top: -5%;
     padding-bottom: 16%;
     padding-left: 2%;
     padding-right: 0%;
-
     }
 
     .line-wrapper-1 .line-1 {
-        margin-top: -4%;
+        margin-top: 5%;
         padding-bottom: 0.5%;
         font-size: calc( 12px + (6 - 4) * (100vw - 400px) / (800 - 400) );
       }	
     
 .line-wrapper-2 .line-2 {
-    margin-top: 19%;
+    margin-top: -5%;
     height: 30vh;
     font-size: calc( 12px + (6 - 4) * (100vw - 400px) / (800 - 400) );
   }	
@@ -56,8 +55,8 @@ and (orientation: portrait) {
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: calc( 6.5px + (2 - 1) * (100vw - 400px) / (800 - 400) );   /*new*/
-    letter-spacing: calc( 2px + (2 - 1) * (100vw - 400px) / (800 - 400) ); /*new*/
+    font-size: calc( 8px + (4 - 2) * (100vw - 400px) / (800 - 400) );   /*new*/
+    letter-spacing: calc( 4px + (2 - 1) * (100vw - 400px) / (800 - 400) ); /*new*/
   }
   
 
@@ -69,14 +68,14 @@ and (orientation: portrait) {
 
 /*------------#ai-101 section------------*/
 
-/*--------#ai-101 header-------*/
+/*--------#ai-101  header---wip----*/
 .section-header-wrapper {
     height: 22vh;
 }
 
 .section-heading {
-    margin-top: 12%;
-    margin-left: 40%;
+    margin-top: 25%;
+    margin-left: 50%;
   }
   
 
@@ -87,8 +86,9 @@ and (orientation: portrait) {
      }
   
   .author{
-  padding-top: 26%;
+  margin-top: 25%;
   padding-left: 2.5%;
+  width: 110%;
   }
 
   .profile-photo img {
@@ -97,8 +97,8 @@ and (orientation: portrait) {
   }
   
   .audio-player {
-      margin-top: 50%;
-      margin-left: -35%;
+      margin-top: 30%;
+      margin-left: -45%;
     }
   
   .audio {
@@ -107,15 +107,15 @@ and (orientation: portrait) {
      }
    
   #ai-101-audio {
-      width: 90px;
+      width: 130px;
       height: 25px;
       border: 2px solid turquoise;
       border-radius:50px;
   }
   
   #ai-101-listen{
-    padding-left: 18%;
-    letter-spacing: 2.5px;
+    padding-left: 35%;
+    letter-spacing: 1.5px;
     }
   
   .section-header-wrapper >.header-img {
@@ -137,7 +137,7 @@ and (orientation: portrait) {
   }
 
   .ai-101-a {
-    margin-top: 13%;
+    margin-top: 23%;
   }
 
   .ai-101-b {
@@ -228,6 +228,7 @@ and (orientation: portrait) {
         display: flex;
         margin-top: -4%;
         height: 12vh;
+        background-color: rgba(0, 0, 0, 0.3);
       }
       
       .image-container {
@@ -249,8 +250,6 @@ and (orientation: portrait) {
         width: 100%;
         height: auto;
         background-color: transparent;
-        margin-top: 12%;
-        margin-left: -55%;
         }
 
     #industry-icon {
@@ -262,7 +261,7 @@ and (orientation: portrait) {
         display:grid;
         position: absolute;
         margin-top: 16%;
-        margin-left: 2.5%;
+        margin-left: 0%;
     }
 
 
@@ -290,10 +289,13 @@ and (orientation: portrait) {
     padding: 5%;
 }
   
+ .goto-btn-ai101 {
+   margin-top: -15%;
+ }
   
 /*-----------------------pop-up-------------------------------*/
 
-/*-------------------header----------------------*/
+/*-------------------header-------------wip---------*/
 .article-header-wrapper {
   height: 20vh;
 }
@@ -317,10 +319,10 @@ and (orientation: portrait) {
   .article-header-wrapper > .author-pu{
     grid-column: 1 / 4;
     grid-row: 1;
-    display: subgrid;
-    margin-top: 18%;
+    margin-top: 22%;
     margin-left: 7.5%;
     white-space: nowrap;
+    width: 100%;
   }
 
    .author-pu > .profile-photo img {
@@ -331,8 +333,8 @@ and (orientation: portrait) {
   .article-header-wrapper > .audio {
     grid-column: 4 / 4;
     padding-top: 0%;
-    margin-top: -28%;
-    margin-left: -2%;
+    margin-top: 0%;
+    margin-left: 20%;
   }
   
    
@@ -345,7 +347,7 @@ and (orientation: portrait) {
   .article-audio {
     max-height: 35px;
     width: 115px;
-    border: 1px solid turquoise;
+    border: 2px solid turquoise;
     border-radius:50px;
     }
   
@@ -360,12 +362,6 @@ and (orientation: portrait) {
   
   /*-----------article------------*/
   
-  .popup-article { 
-      margin-top: -10%;
-      height: 94%;
-      width: 100vw;
-    }
-    
     .popup-article article {
       padding: .5%;
       margin-bottom: 2%;
@@ -454,7 +450,7 @@ and (orientation: portrait) {
       margin-bottom: 0%;
     }
 
-/*==============#podcasts===========================*/
+/*==============#podcasts===================wip========*/
 
 
 .podcasts {
@@ -478,12 +474,12 @@ display: none;
 
 .playlist {
   position:absolute;
-  margin-top: 30%;
   overflow-y: scroll;
   scroll-behavior: smooth;
   scrollbar-color:rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
-  height: 65vh;
+  height: 60vh;
   width: 100%;
+  margin-top: 0%;
 }
 
 iframe {
@@ -516,26 +512,27 @@ height: 45vh;
   }
 
   #column-1 {
-    margin-top: 7%;
+    margin: 0%;
   }
 
   .podcasts-container {
     position: relative;
-    margin: 0;
+    margin: 0%;
+    z-index: 1 !important;
   }
 
   #footer-pd  {
-    background-color: transparent;
     position: absolute;
     display: inline-block;
     width: 100%;
     z-index: 10;
     margin-top: 132%;
+    z-index: 100;
   }
 
   #wave1 {
     height: 10vh;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 0%;
     margin-top: -4%;
   }
