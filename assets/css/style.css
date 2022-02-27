@@ -1580,10 +1580,10 @@ filter:invert(100);
     grid-template-rows: 28% 10% 32% 10% 20%;
   }
 
-  body .intro-wrapper .main-intro .intro footer {
+  body .intro-wrapper .main-intro .intro footer { /*wip*/
     height: 100%!important;
     align-self: center;
-    margin: 0!important;
+    margin-top: 0%!important;
     display: flex!important;
   }
 
@@ -1927,7 +1927,6 @@ filter:invert(100);
     padding-left: 0!important;
     height: 100%!important;
     text-align: center;
-    margin-top: 10%;
   }
   
   .industries header #industry-icon {
@@ -1983,7 +1982,6 @@ filter:invert(100);
   .ai-101 .ai-101-wrapper .ai-101-container {
     grid-row: 2;
     height: 100%!important;
-    margin: 0!important;
     padding: 0!important;
     display: block!important;
     overflow-y: scroll;
@@ -1993,6 +1991,7 @@ filter:invert(100);
     display: block!important;
     height: 100%!important;
     margin: 5%!important;
+    overflow-y: hidden;
   }
 
   .ai-101 .ai-101-wrapper .ai-101-container article #ai-img-1 {
@@ -2013,7 +2012,6 @@ filter:invert(100);
     grid-row: 3;
     align-self: center;
     height: 100%!important;
-    margin: 0% !important;
   }
 
   .ai-101 .ai-101-wrapper footer .image-container {
@@ -2116,13 +2114,6 @@ filter:invert(100);
     margin: 0!important;
   }
 
-  .ai-101-d h3 {
-    margin: 0!important;
-    padding: 0!important;
-    width: 75vw!important;
-    text-align: center!important;
-    font-size: 4vw!important;
-  }
 
   .ai-101-d h3 img {
     padding: 0!important;
@@ -2218,13 +2209,7 @@ filter:invert(100);
     margin: 0!important;
   }
 
-  .ai-101-d h3 {
-    margin: 0!important;
-    padding: 0!important;
-    width: 75vw!important;
-    text-align: center!important;
-    font-size: 4vw!important;
-  }
+
 
   .ai-101-d h3 img {
     padding: 0!important;
