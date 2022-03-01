@@ -1553,10 +1553,7 @@ filter:invert(100);
     white-space: normal!important;
   }
   
-  .ai-101-wrapper .image-container img {
-    width: auto!important;
-  }
-  
+
   /* intro wrapper */
   
   body .intro-wrapper {
@@ -1990,7 +1987,6 @@ filter:invert(100);
   .ai-101 .ai-101-wrapper .ai-101-container article {
     display: block!important;
     height: 100%!important;
-    margin: 5%!important;
     overflow-y: hidden;
   }
 
@@ -2020,10 +2016,6 @@ filter:invert(100);
     margin-top: -10%;
   }
 
-  .ai-101 .ai-101-wrapper footer .image-container img {
-    width: 70vw!important;
-    height: 50%!important;
-  }
 
   .ai-101 .ai-101-wrapper .section-header-wrapper {
     position: relative;
@@ -2050,7 +2042,6 @@ filter:invert(100);
 
   .ai-101-container #ml-icon {
     position: relative!important;
-    width: 80%!important;
   }
 
   .ai-101-a, .ai-101-b, .ai-101-c, .ai-101-d {
@@ -2066,7 +2057,6 @@ filter:invert(100);
 
   #mimic-icon, #process-icon {
     position: relative!important;
-    width: 45%!important;
   }
 
   .ai-101-a h3 {
@@ -2141,13 +2131,8 @@ filter:invert(100);
 
   /* ai-101 */
 
-  .ai-101 .ai-101-wrapper footer .image-container img {
-    width: 65vw;
-  }
-
   .ai-101-container #ml-icon {
     position: relative!important;
-    width: 80%!important;
   }
 
   .ai-101-a {
@@ -2161,7 +2146,6 @@ filter:invert(100);
 
   #mimic-icon, #process-icon {
     position: relative!important;
-    width: 45%!important;
   }
 
   .ai-101-a h3 {
