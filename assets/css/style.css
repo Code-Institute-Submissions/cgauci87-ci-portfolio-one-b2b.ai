@@ -1614,7 +1614,6 @@ filter:invert(100);
     width: auto!important;
     height: auto!important;
     padding: 15% 0!important;
-    margin:0!important;
   }
 
   .nav > .nav-btn > label > span {
@@ -1679,7 +1678,7 @@ filter:invert(100);
   
   .subscribe {
     display: grid;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 15% 80% 10%;
     background-position: 50% 50%!important;
     background-size: cover!important;
     height: 60rem;
@@ -1793,7 +1792,7 @@ filter:invert(100);
   
   .contact {
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 15% 90%;
     height: 60rem;
     background-image: url('../images/contact_bg.png');
     background-position: 50%!important;

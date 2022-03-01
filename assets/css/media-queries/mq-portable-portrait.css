@@ -1,19 +1,22 @@
-/* smartphones, iPhone, portrait 320x480 phones > WIP <*/
+/* smartphones, iPhone, portrait 320x480 phones > clone <*/
 @media (max-width: 360px) and (max-height: 640px)
 and (orientation: portrait) { 
 
 
   /*----------#intro section---------------*/
   
-  .nav > .nav-btn > label {
-    margin-left: -100%;
-    margin-top: -3%;
+  .nav > .nav-header > .nav-title {
+    font-size: calc(20px + (7 - 4) * (100vw - 400px) / (800 - 400) );   /*new*/
   }
-  
-  .nav > .nav-links {
-    top: 31px;
-  }   
 
+  .nav > .nav-btn > label {
+    margin-left: -5%;
+    margin-top: 20%;
+  }
+
+  .nav > .nav-links {
+    margin-top: 2.5%;
+  }
 
   #intro {
     background-size:contain;
@@ -26,7 +29,7 @@ and (orientation: portrait) {
     letter-spacing: calc( 14px + (12 - 8) * (100vw - 400px) / (800 - 400) ); /*new*/
     line-height:  calc( 16px + (16 - 12) * (100vw - 400px) / (800 - 400) ); /*new*/
     font-weight: 900;
-    margin-top: 0%;
+    margin-top: 4%;
     padding-bottom: 16%;
     padding-left: 2%;
     padding-right: 0%;
@@ -68,7 +71,7 @@ and (orientation: portrait) {
   /*---------#ai-101 section-----------*/
 /*--------#ai-101 header-------*/
 .section-header-wrapper {
-  margin-top: 2%;
+  margin-top: 5%;
   height: 24vh;
 }
 
@@ -171,12 +174,9 @@ display: none;
   padding-top: 2%;
 }
 
-
 .image-container img {
   width: 100%;
 }
-
-
 
 /*----------#industries section------------*/
 
@@ -188,7 +188,7 @@ display: none;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   max-height: 20vh;
-  margin-top: 6%;
+  margin-top: 10%;
   }
 
 #adjust-footer {
@@ -359,11 +359,8 @@ display: none;
     margin-bottom: 0%;
   }
 
-
   
-  
-  
-/*==============#podcasts==================wip=========*/
+/*-----------#podcasts section---------*/
 
 
 .podcasts {
@@ -378,7 +375,7 @@ display: none;
   margin: 0%;
   text-align: center;
   width: 100%;
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .top-image-wrapper img {
@@ -441,7 +438,8 @@ height: 20vh;
     margin-top: -4%;
   }
 
-  /*---------->footer<--------------------------- */
+
+/*----------#footer section---------------- */
 
 #footer {
   background: rgba(0,0,0,0.6);
@@ -465,3 +463,77 @@ height: 20vh;
 }
 
 }
+
+/*[P1] Portrait 320x568 phones i.e. iPhone5/SE -> WIP <- */
+@media (min-width: 320px) and (max-width:360px) and (min-height: 568px) and (max-height: 640px)
+and (orientation: portrait) { 
+
+  
+  /*----------#intro section------------*/
+  
+  #intro {
+    background-size:contain;
+    background-position: 0 90%;
+  }
+
+  .nav > .nav-header > .nav-title {
+    font-size: calc(20px + (7 - 4) * (100vw - 400px) / (800 - 400) );   /*new*/
+  }
+
+  .nav > .nav-btn > label {
+    margin-left: -5%;
+    margin-top: 19%;
+  }
+  
+  .nav > .nav-links {
+    margin-top: 2.5%;
+  }
+    
+.line-wrapper-2 .line-2 {
+    margin-top: 0%;
+  }	
+
+.section-footer {
+  margin-top: 2%;
+  padding-top: 5%;
+  }
+
+.spike#spike1 {
+    height: 6vh;
+    margin-top: -8%;
+  }
+
+/*---------#ai-101 section---------*/
+
+.ai-101 .ai-101-wrapper .ai-101-container article {
+  margin-top: 20%;
+  padding-right: 8%;
+  }
+
+.form2-wrapper {
+  position: absolute;
+  display: flex;
+  margin-top: -20%;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*--------#podcasts section-------*/
+
+.podcasts {
+  display: grid;
+  grid-template-rows: 20% 40% 35%;
+}
+
+.playlist {
+  height: 60vh;
+}
+
+iframe {
+  height: 15vh;
+}
+
+}
+
+
+/*==============================================================================================================*/
