@@ -1003,7 +1003,6 @@ filter:saturate(25%);
 color: darkblue;
 font-weight:bolder;
 text-align:center;
-font-size: smaller;
 font-size: calc( 12px + (10 - 5) * (100vw - 400px) / (800 - 400) ); /*new*/
 line-height: 28px;
 }
