@@ -1539,7 +1539,7 @@ filter:invert(100);
   body {
     height: calc(var(--theight) + 2vh)!important;
     max-height: 100%;
-    overflow-y: hidden!important;
+    overflow-y:scroll !important;
   }
   
   body section {
