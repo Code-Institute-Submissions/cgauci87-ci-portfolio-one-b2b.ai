@@ -1627,14 +1627,10 @@ filter:invert(100);
     cursor: pointer;
   }
 
-  body .intro-wrapper main .intro #intro-h1 { /**/
+  body .intro-wrapper main .intro #intro-h1 {
     grid-row: 1;
     align-self: center;
-    letter-spacing: calc( 8px + (24 - 16) * (100vw - 400px) / (800 - 400) )!important;
-    line-height: calc( 52px + (24 - 16) * (100vw - 400px) / (800 - 400) )!important;
-    font-size: calc( 48px + (22 - 12) * (100vw - 400px) / (800 - 400) )!important;
     padding: 0;
-    padding-bottom: 1%!important;
   }
   
   /* podcasts */
@@ -1663,7 +1659,6 @@ filter:invert(100);
   .podcasts footer {
     position: relative!important;
     display: block;
-    margin-top: 20%!important;
     height:100%!important;
   }
 
@@ -1895,15 +1890,6 @@ filter:invert(100);
     left: 2%;
     font-size: 3.8rem;
   }
-  
-  .industries .grid-template-rows-1  {
-    position: relative!important;
-    height: 100%!important;
-    min-height: 100%!important;
-    grid-template-columns: auto auto!important;
-    grid-template-rows: auto!important;
-    margin-top: 0!important;
-  }
 
   .industries .section-footer  {
     align-self: center;
@@ -1951,16 +1937,13 @@ filter:invert(100);
   }
 
   .ai-101 .ai-101-wrapper footer {
-    position: relative!important;
     grid-row: 3;
     align-self: center;
-    height: 100%!important;
   }
 
   .ai-101 .ai-101-wrapper footer .image-container {
     height: 50%!important;
     overflow: hidden;
-    margin-top: -10%;
   }
 
 
@@ -1990,11 +1973,6 @@ filter:invert(100);
     position: relative!important;
   }
 
-  .ai-101-a, .ai-101-b, .ai-101-c, .ai-101-d {
-    display: block!important;
-    float: unset!important;
-    margin-top: 7%!important;
-  }
 
   .ai-101-a img {
     margin:0!important;
@@ -2020,15 +1998,6 @@ filter:invert(100);
     font-size: 3vw!important;
   }
 
-  .ai-101-b img {
-    margin: 0!important;
-    padding: 0!important;
-    position: relative!important;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 12vw!important;
-    font-size: 3vw!important;
-  }
 
   .ai-101-c h3 {
     margin: 0!important;
@@ -2046,17 +2015,7 @@ filter:invert(100);
     transform: translateX(-50%);
   }
 
-  .ai-101-d {
-    margin: 0!important;
-  }
 
-
-  .ai-101-d h3 img {
-    padding: 0!important;
-    position: relative!important;
-    margin: 2% 4%!important;
-    width: 13%!important;
-  }
 }
 
 @media (max-width: 470px) {

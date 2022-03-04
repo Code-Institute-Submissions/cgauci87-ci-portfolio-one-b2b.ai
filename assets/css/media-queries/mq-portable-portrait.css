@@ -2,8 +2,7 @@
 @media (max-width: 415px)
 and (orientation: portrait) { 
 
-
-  /*----------#intro section---------------*/
+/*----------#intro section---------------*/
   
   .nav > .nav-header > .nav-title {
     font-size: calc(20px + (7 - 4) * (100vw - 400px) / (800 - 400) );   /*new*/
@@ -1274,7 +1273,8 @@ display: none;
       font-size: calc( 18px + (6 - 3) * (100vw - 400px) / (800 - 400) );
       }
   
-    /*--------#podcasts section-------*/
+
+/*--------#podcasts section-------*/
 
 .podcasts {
   display: grid;
