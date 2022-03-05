@@ -1166,7 +1166,7 @@ and (orientation: landscape) {
 }
 
 /* ---------- iPhone 6+, 7+ and 8+ 736x414 / Google Pixel 731x411 -----------  */
-/* Landscape -> CLONE -<*/
+/* Landscape -> PASS -<*/
 @media screen 
 and (min-width  : 667px)
 and (max-width: 736px)
@@ -1375,11 +1375,225 @@ font-size: calc( 9px + (6 - 3) * (100vw - 400px) / (800 - 400) );
   margin-top: 0%;
   padding: 1%;
 }
+}
+
+/* ---------- OnePlus 6T 700x384 ----------- */
+/*  -> PASS <-*/
+@media screen 
+and (min-width: 700px)
+and (min-height: 384px)
+and (orientation: landscape) {
+
+/*----------#intro section---------------*/
+
+body .intro-wrapper .main-intro .intro {
+  grid-template-rows: 28% 10% 32% 20%;
+}
+
+#intro {
+  background-size:cover;
+  background-position: 0 40px;
+}
+
+.intro > h1 {
+  margin-top: 4%;
+}
+
+.line-wrapper-1 .line-1 {
+  line-height: calc( 10px + (5 - 2) * (100vw - 400px) / (800 - 400) );
+  margin-top: 0%;
+}	
+  
+.line-wrapper-2 .line-2 {
+  margin-top: 3%;
+  height: 20vh;
+}	
+
+.section-footer {
+margin-top: -10%;
+padding-top: 4%;
+}
+
+.goto-btn-txt {
+  font-size: calc( 10px + (6 - 3) * (100vw - 400px) / (800 - 400) );
+  letter-spacing: calc( 4px + (2 - 1) * (100vw - 400px) / (800 - 400) );
+}
+
+.spike#spike1 {
+  height: 10vh;
+  margin-top: -12%;
+}
+
+/*------------#ai-101 section------------*/
+
+/*---------header---------*/
+
+.author {
+  width: 101%;
+}
+.section-header-wrapper {
+  height: 24vh;
+  margin-top: 5%;
+}
+
+.section-heading {
+  margin-top: 2%;
+  margin-left: 55%;
+}
+
+.audio-player {
+  margin-top: 18%;
+}
+
+#ai-101-listen{
+  white-space: nowrap;
+  letter-spacing: 2px;
+  padding-left: 20%;
+}
+
+
+/*-----#ai-101 article-------*/
+
+.ai-101 .ai-101-wrapper {
+  grid-template-rows: 10% 80% 80%; 
+}
+
+.ai-101-container {
+  margin-top: 15%;
+}
+
+.ai-101-b {
+  margin-top: -32%;
+  display: flex;
+  float: left;
+}
+
+.ai-101-c {
+  margin-top: -24%;
+  float: left;
+}
+
+
+.ai-101-d {
+  margin-top: -18%;
+  display: flex;
+  float: left;
+} 
+
+.form2-wrapper { 
+  margin-top: -22%;
+}
+
+.goto-btn-ai101 {
+  margin-top: -13%;
+}
+
+/*--------------------#industries section---------------------*/
+
+.industries {
+  display: grid;
+  grid-template-rows: 40% 120%;
+}
+#header-industries {
+  margin-top: 4.5%;
+  margin-left: .5%;
+  }
+
+.grid-template-rows-1 , .grid { 
+grid-template-columns: 348px 348px;
+margin-top: 10%;
+}
+
+.grid-template-rows-1{
+grid-template-rows: 110px 110px;
+}
+
+.grid-span { 
+font-size: calc( 10px + (4 - 2) * (100vw - 400px) / (800 - 400) );
+line-height: calc( 9px + (3 - 2) * (100vw - 400px) / (800 - 400) ); 
+margin-left: -10%;
+}
+
+.grid a {
+font-size: calc( 9px + (6 - 3) * (100vw - 400px) / (800 - 400) );
+}
+
+#adjust-footer {
+  margin-top: -5%;
+}
+
+/*--------------pop-up-------------------*/
+/*----------header------------*/
+
+.article-header-wrapper {
+  height: 18vh;
+}
+
+  .article-heading h2 {
+    margin-top: -.5%;
+  }
+  
+    
+    .article-header-wrapper > .author-pu{
+      margin-top: 0%;
+    }
+
+    .article-header-wrapper > .audio {
+      margin-top: -15%;
+      margin-left: 12%;
+    }
+
+    .article-header-wrapper  .listen-in{
+      padding-left: 0%;
+      letter-spacing: 1px;
+      margin-left: -15%;
+    }
+    
+
+/*-----popup article----*/
+
+.popup-footer {
+ display: none;
+}
+
+
+/*-----------#podcasts section----------*/
+
+.podcasts {
+  grid-template-rows: 20% 50% 30%;
+}
+
+.playlist {
+  height: 60vh;
+  }
+  
+#footer-pd {
+  margin-top: 8%;
+}
+
+#wave1 {
+  height: 5vh;
+  padding-top: .5%;
+  margin:0%;
+}
+
+/*----------#footer section---------------- */
+
+#footer {
+  margin-top:-5%;
+  padding: 0%;
+  min-height: 50px;
+}
+
+.social-icon {
+  margin-top: 0%;
+  padding: 1%;
+}
 
 }
 
   /* ----------- iPhone X ----------- */
-/* Landscape 812x375  > WIP < */
+/* Landscape 812x375  > PASS < */
 @media only screen
 and (min-width: 736px)
 and (max-width: 813px)
@@ -1592,4 +1806,5 @@ font-size: calc( 9px + (6 - 3) * (100vw - 400px) / (800 - 400) );
 
 }
 
-  /*================================================wip============================================*/
+  /*============================================================================================*/
+  /*============================================================================================*/
