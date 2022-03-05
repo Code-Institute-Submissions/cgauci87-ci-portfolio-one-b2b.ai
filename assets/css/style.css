@@ -1855,7 +1855,6 @@ filter:invert(100);
 
   .industries .popup-main-container .popup-article a {
     right: 0;
-    margin: 0!important;
   }
 
   .industries .popup-main-container .popup-article header {
@@ -1905,7 +1904,7 @@ filter:invert(100);
   
   .ai-101 .ai-101-wrapper {
     display: grid;
-    grid-template-rows: 21% 80% 15%; /*wip*/
+    grid-template-rows: 21% 80% 15%;
     height: 100%!important;
   }
 
@@ -2111,7 +2110,7 @@ filter:invert(100);
 
 @media (min-width:320px) and (max-width:1024px) {
 
-.nav { /*wip*/
+.nav {
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
