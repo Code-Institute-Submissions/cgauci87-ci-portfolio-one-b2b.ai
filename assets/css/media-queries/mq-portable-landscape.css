@@ -1,4 +1,4 @@
-/* smartphones, iPhone, landscape 480x320 phones  > CLONE <*/
+/* smartphones, iPhone, landscape 480x320 phones  > PASS <*/
 /*Media queries for portable portrait phone devices*/
 @media (max-width: 892px) and (max-height: 415px) and (orientation: landscape) {
 
@@ -634,7 +634,7 @@ font-weight: 300;
 
 /*============================================================================================*/
 
-/* 568x320 phones i.e. iPhone5/SE -> PASS <- */
+/* 568x320 phones i.e. iPhone5/SE -> clone <- */
 @media screen and (min-width:567px) and (max-width:640px) and (min-height: 320px) and (max-height:360px)
 and (orientation : landscape) {
 
@@ -837,13 +837,96 @@ font-size: calc( 9px + (6 - 3) * (100vw - 400px) / (800 - 400) );
 /*----------#footer section---------------- */
 
 #footer {
-margin-top:-2%;
-padding: 0%;
+  margin-top:-7%;
+  padding: 0%;
+  min-height: 50px;
+}
+
+.social-icon {
+  margin-top: 0%;
+  padding: 1%;
+}
+      
+}
+
+/* ----------- Samsung Galaxy S5/S6/S7 ----------- */
+/* Landscape 640x360  -> PASS <-*/
+@media (min-width: 640px)  and (max-width: 667px) 
+and (min-height: 359px) and (max-height: 375px)
+and (orientation: landscape) {
+
+  /*---------#intro section-----------*/
+
+  .line-wrapper-2 .line-2 {
+    margin-top: 7%;
+  }	
+
+  /*------------#ai-101 section------------*/
+
+/*---------header---------*/
+
+.author {
+  width: 101%;
+}
+.section-header-wrapper {
+  height: 24vh;
+  margin-top: 5%;
+}
+
+.section-heading {
+  margin-top: 1.5%;
+  margin-left: 57%;
+}
+
+.audio-player {
+  margin-top: 12.5%;
 }
 
 
+  /*-------#ai-101 article-------*/
 
+  .ai-101-b {
+    margin-top: -34%;
+  }
+  
+  .ai-101-c {
+    margin-top: -26%;
+  }
+  
+  
+  .ai-101-d {
+    margin-top: -17%;
+  } 
+  
+
+/*--------------------#industries section---------------------*/
+
+.grid-template-rows-1 , .grid { 
+grid-template-columns: 317px 317px;
+}
+
+.grid-template-rows-1{
+grid-template-rows: 115px 115px;
 }
 
 
+#adjust-footer {
+  margin-top: 41%;
+}
+
+/*----------#footer section---------------- */
+
+#footer {
+  margin-top:-7%;
+  padding: 0%;
+  min-height: 50px;
+  }
+
+    .social-icon {
+      margin-top: 0%;
+      padding: 1%;
+      }
+      
+
+}
   /*================================================wip============================================*/
