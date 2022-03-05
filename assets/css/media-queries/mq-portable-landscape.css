@@ -1136,4 +1136,32 @@ display: none;
       
 
 }
+
+
+/* [L3]--------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Landscape 667x375 -> WIP <- */
+@media screen 
+and (min-width: 640px) and (max-width: 668px)
+and (min-height: 375px)
+and (orientation: landscape) { 
+
+/*-----#industries section-----*/
+
+.industries {
+  grid-template-rows: 10% 80% 10%;
+}
+ 
+.grid-template-rows-1 , .grid { 
+  grid-template-columns: 331px 331px;
+}
+
+.grid-template-rows-1{
+  grid-template-rows: 120px 120px;
+}
+
+#adjust-footer {
+  margin-top: 52%;
+}
+
+}
   /*================================================wip============================================*/
