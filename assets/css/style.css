@@ -1905,6 +1905,7 @@ filter:invert(100);
     display: grid;
     grid-template-rows: 21% 80% 15%;
     height: 100%!important;
+    overflow-y: auto !important;
   }
 
   .ai-101 .ai-101-wrapper header {
