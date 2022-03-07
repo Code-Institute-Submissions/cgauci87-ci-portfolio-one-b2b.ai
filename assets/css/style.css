@@ -1230,7 +1230,7 @@ iframe:hover {
     background-blend-mode:multiply;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -550px -300px; /*mq*/
+    background-position: -550px -300px;
   }
   
    .subscribe-form {
