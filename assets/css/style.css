@@ -1659,7 +1659,6 @@ filter:invert(100);
   .podcasts footer {
     position: relative!important;
     display: block;
-    height:100%!important;
   }
 
   .podcasts footer .wave {
