@@ -48,7 +48,9 @@ body {
   max-width: 100%;
   position: fixed;
   top: 0;
-  z-index: 30;}
+  z-index: 30;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
 
 .nav > .nav-header {
   display: inline;
@@ -2108,10 +2110,6 @@ filter:invert(100);
 }
 
 @media (min-width:320px) and (max-width:1024px) {
-
-.nav {
-  border: 2px solid rgba(0, 0, 0, 0.1);
-}
 
 .nav > .nav-btn {
   display: inline-block;
