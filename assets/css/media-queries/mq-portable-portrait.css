@@ -23,9 +23,9 @@ and (orientation: portrait) {
   }
 
   .intro > h1 {
-    font-size: calc( 20px + (16 - 12) * (100vw - 400px) / (800 - 400) );
-    letter-spacing: calc( 14px + (12 - 8) * (100vw - 400px) / (800 - 400) );
-    line-height:  calc( 16px + (16 - 12) * (100vw - 400px) / (800 - 400) );
+    font-size: calc( 24px + (16 - 12) * (100vw - 400px) / (800 - 400) );
+    letter-spacing: calc( 18px + (12 - 8) * (100vw - 400px) / (800 - 400) );
+    line-height:  calc( 22px + (16 - 12) * (100vw - 400px) / (800 - 400) );
     font-weight: 900;
     margin-top: -10%;
     padding-bottom: 16%;
@@ -36,8 +36,8 @@ and (orientation: portrait) {
     .line-wrapper-1 .line-1 {
         margin-top: -18%;
         padding-bottom: 0.5%;
-        font-size: calc( 10px + (5 - 4) * (100vw - 400px) / (800 - 400) );
-        line-height:  calc( 10px + (4 - 2) * (100vw - 400px) / (800 - 400) );
+        font-size: calc( 14px + (5 - 4) * (100vw - 400px) / (800 - 400) );
+        line-height:  calc( 14px + (4 - 2) * (100vw - 400px) / (800 - 400) );
 
       }	
     
@@ -907,7 +907,7 @@ display: none;
   display: none;
 }
 
-/*----------#industries section------wip------*/
+/*----------#industries section------------*/
 
 .industries {
   grid-template-rows: 13% 75% 13%;
@@ -1200,7 +1200,7 @@ and (orientation: portrait) {
 }
 
 .section-heading {
-  margin-top: 18%;
+  margin-top: 22%;
   margin-left: 50%;
 }
 
@@ -1243,18 +1243,13 @@ font-size: calc( 14px + (4 - 2) * (100vw - 400px) / (800 - 400) );
   position: absolute;
   display: inline-block;
   max-height: 12%;
-  margin-top: -25%;
+  margin-top: -22%;
   padding-left: 1%;
   padding-right: 5%;
 }
 
 #ai-img-2 {
-  position: absolute;
-  display: inline-block;
-  max-height: 12%;
-  margin-top: 5%;
-  margin-left: -5%;
-  padding-right: 7%;
+display: none;
 }
 
 #xxl {
@@ -1277,10 +1272,10 @@ display: none;
 .form2-wrapper {
   position: absolute;
   display: flex;
-  margin-top: -65%;
-  height: 5vh;
+  margin-top: 160%;
+  height: 10vh;
   background-color: rgba(0, 0, 0, 0.3);
-  padding-bottom: 2.5%;
+  padding-top: 7%;
 }
 
 
@@ -1324,7 +1319,7 @@ display: none;
   }
 
 #adjust-footer {
-  margin-top: 0%;
+  margin-top: 155%;
   padding: 0%;
 }
 
@@ -1333,17 +1328,18 @@ display: none;
     /*-------header---------*/
 
     .article-heading h2{
-      font-size: calc( 18px + (6 - 3) * (100vw - 400px) / (800 - 400) );
+      font-size: calc( 16px + (6 - 3) * (100vw - 400px) / (800 - 400) );
       }
 
       .article-header-wrapper span , .article-header-wrapper p , .article-header-wrapper aside{
-        font-size: calc(14px + (7 - 3) * (100vw - 400px) / (800 - 400) ); 
+        font-size: calc(10px + (5 - 3) * (100vw - 400px) / (800 - 400) ); 
       }
 
       .article-header-wrapper > .audio {
-        margin-top: 28.5%;
+        margin-top: 0%;
+        margin-left: 36%;
       }
-      
+
       
    .author-pu > .profile-photo img {
     width: 60px;
@@ -1366,13 +1362,13 @@ display: none;
       padding: 0%;
       height:max-content;
       width: max-content;
-      z-index: 888888888 !important;
+      z-index: 100;
     }
     
     .popup-article article {
       padding: .5%;
       margin-bottom: 2%;
-      height: 66%; /*mq*/
+      height: 66%;
       border-radius: 0px;
       font-size: calc( 14px + (11 - 7) * (100vw - 400px) / (800 - 400) ); 
     }
@@ -1397,6 +1393,18 @@ display: none;
 iframe {
   height: 15vh;
 }
+
+  
+#footer-pd {
+  margin-top: 20%;
+}
+
+  #wave1 {
+    height: 10vh;
+    padding-top: 6%;
+    padding-bottom: 0%;
+    margin-top: -4%;
+  }
 
 }
 
