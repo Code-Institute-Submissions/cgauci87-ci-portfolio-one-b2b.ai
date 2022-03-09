@@ -1,4 +1,4 @@
-/* smartphones, iPhone, landscape 480x320 phones  > PASS <*/
+/* smartphones, iPhone, landscape 480x320 phones  > WIP <*/
 /*Media queries for portable portrait phone devices*/
 @media (max-width: 892px) and (max-height: 415px) and (orientation: landscape) {
 
@@ -19,8 +19,8 @@
 }
 
 #intro {
-  background-size:contain;
-  background-position: -10px 80px;
+  background-size:cover;
+  background-position: 0 80px;
 }
 
 .intro > h1 {
@@ -233,7 +233,7 @@ width: 120%;
    .form2-wrapper { 
     position: relative;
     display: flex;
-    margin-top: -22%;
+    margin-top: -32%;
   }
 
   .goto-btn-ai101 {
@@ -485,7 +485,7 @@ overflow-y: scroll;
 scroll-behavior: smooth;
 scrollbar-color:rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
 height: 60vh;
-width: 100%;
+width: 96%;
 }
 
 iframe {
