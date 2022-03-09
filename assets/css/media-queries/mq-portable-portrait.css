@@ -779,7 +779,7 @@ and (orientation: portrait) {
 }
 
   /* ---------- iPhone X -----375x812------ */
-/* Portrait  -> WIP <-*/
+/* Portrait  -> PASS <-*/
 @media screen
 and (min-width: 375px) and (max-width: 384px) and (min-height: 812px) and (orientation: portrait) { 
 
@@ -1047,14 +1047,14 @@ and (orientation: portrait) {
 /*---------#ai-101 section---------*/
 
 .ai-101 .ai-101-wrapper .ai-101-container article {
-  margin-top: 30%;
+  margin-top: 18%;
   padding-right: 4%;
   }
 
 .form2-wrapper {
   position: absolute;
   display: flex;
-  margin-top: -20%;
+  margin-top: 160%;
   height: 10vh;
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -1068,8 +1068,9 @@ and (orientation: portrait) {
 #header-industries {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
-  max-height: 10vh;
-  margin-top: 14%;
+  max-height: 5vh;
+  margin-top: 10%;
+  padding-top: 1.5%;
 }
 
   .grid h3 {
@@ -1088,7 +1089,7 @@ and (orientation: portrait) {
   }
 
 #adjust-footer {
-  margin-top: -5%;
+  margin-top: 130%;
 }
 
 /*---------- popup--------------*/
@@ -1100,8 +1101,8 @@ and (orientation: portrait) {
 }
 
 .article-header-wrapper > .audio {
-  margin-top: 20%;
-  margin-left: 28%;
+  margin-top: 10%;
+  margin-left: 35%;
 }
 
 
@@ -1121,6 +1122,18 @@ and (orientation: portrait) {
   font-size: calc( 16px + (6 - 3) * (100vw - 400px) / (800 - 400) );
 }
   
+
+  
+#footer-pd {
+  margin-top: 30%;
+}
+
+  #wave1 {
+    height: 10vh;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    margin-top: -4%;
+  }
 
 /*----------#footer section---------------- */
 
