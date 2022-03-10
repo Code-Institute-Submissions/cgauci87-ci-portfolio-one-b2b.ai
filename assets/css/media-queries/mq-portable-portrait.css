@@ -546,7 +546,7 @@ and (orientation: portrait) {
   }
   
   .ai-101-d {
-    margin-top: -70%;
+    margin-top: -50%;
     margin-left: 20%;
   } 
   
@@ -766,7 +766,7 @@ form .field textarea {
 }
 
 .ai-101-d {
-  margin-top: -70%;
+  margin-top: -50%;
   margin-left: 20%;
 } 
 
@@ -943,7 +943,7 @@ font-size: calc( 14px + (4 - 2) * (100vw - 400px) / (800 - 400) );
 }
 
 .ai-101-d {
-  margin-top: -55%;
+  margin-top: -45%;
   margin-left: 20%;
 } 
 
@@ -1047,10 +1047,6 @@ display: none;
   
 
 /*--------#podcasts section-------*/
-
-.podcasts {
-  grid: 10% 40% 20%;
-}
 
 .playlist {
   height: 55vh;
@@ -1192,7 +1188,7 @@ and (orientation: portrait) {
   }
   
   .ai-101-d {
-    margin-top: -70%;
+    margin-top: -50%;
     margin-left: 20%;
   } 
   
@@ -1403,7 +1399,7 @@ font-size: calc( 14px + (4 - 2) * (100vw - 400px) / (800 - 400) );
 }
 
 .ai-101-d {
-  margin-top: -55%;
+  margin-top: -35%;
   margin-left: 20%;
 } 
 
