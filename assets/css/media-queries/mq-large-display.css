@@ -53,7 +53,7 @@
 		width: 100%;
 	}
 	.audio-player {
-		margin-top: 14%;
+		margin-top: 5%;
 		margin-left: -55%;
 	}
 	#ai-101-audio {
@@ -66,7 +66,7 @@
 	}
 	/*------#ai-101 article-------*/
 	.ai-101-container {
-		margin-top: 7%;
+		margin-top: 3%;
 	}
 	.ai-101-d {
 		margin-top: -38%;
@@ -88,7 +88,7 @@
 	.form2-wrapper {
 		position: absolute;
 		display: flex;
-		margin-top: -10%;
+		margin-top: -15%;
 		height: 20vh;
 	}
 	/*------------#industries section------------*/
@@ -97,6 +97,7 @@
 	}
 	#header-industries {
 		margin-left: -22%;
+		margin-top: -5%;
 	}
 	.grid-template-rows-1,
 	.grid {
@@ -129,11 +130,12 @@
 		height: 60px;
 	}
 	.article-header-wrapper>.audio {
-		margin-top: 10%;
-		margin-left: 28%;
+		margin-top: 0%;
+		margin-left: 20%;
 	}
 	.article-header-wrapper .listen-in {
 		letter-spacing: 1px;
+		padding-left: 50px;
 	}
 	.article-audio {
 		height: 24px;
@@ -308,10 +310,10 @@
 		height: 20vh;
 	}
 	.section-footer {
-		margin-top: -8%;
+		margin-top: -5%;
 	}
 	.spike#spike1 {
-		height: 26vh;
+		height: 25vh;
 		margin-top: 0%;
 	}
 	/*---------#ai-101 section-----------*/
@@ -329,7 +331,7 @@
 		width: 100%;
 	}
 	.audio-player {
-		margin-top: 15%;
+		margin-top: 3%;
 		margin-left: -55%;
 	}
 	#ai-101-audio {
@@ -372,7 +374,8 @@
 		grid-template-rows: 20% 60% 20%;
 	}
 	#header-industries {
-		margin-left: -22%;
+		margin-left: -24%;
+		margin-top: 0%;
 	}
 	.grid-template-rows-1,
 	.grid {
@@ -405,15 +408,16 @@
 		height: 60px;
 	}
 	.article-header-wrapper>.audio {
-		margin-top: -2%;
-		margin-left: 34%;
+		margin-top: -12%;
+		margin-left: 10%;
 	}
 	.article-header-wrapper .listen-in {
 		letter-spacing: .5px;
+		margin-left: 8%;
 	}
 	.article-audio {
-		height: 24px;
-		width: 160px;
+		height: 30px;
+		width: 180px;
 		border: 2px solid turquoise;
 		border-radius: 50px;
 	}
@@ -634,7 +638,7 @@
 	}
 	.form2-wrapper {
 		position: relative;
-		margin-top: -7.5%;
+		margin-top: -6%;
 		height: 15vh;
 	}
 	.image-container img {
@@ -643,9 +647,9 @@
 	}
 	/*------------#industries section----------*/
 	#header-industries {
-		margin-top: 2.5%;
+		margin-top: -20%;
 		margin-left: -10%;
-		padding-top: 2.5%;
+		padding-top: 0%;
 		width: 100%
 	}
 	#industry-icon {
@@ -687,7 +691,7 @@
 		margin-left: 55%;
 		white-space: nowrap;
 		padding-top: 0%;
-		margin-top: -5%;
+		margin-top: 40%;
 		letter-spacing: 2px;
 	}
 	.article-audio {
@@ -695,8 +699,8 @@
 		border: 2px solid turquoise;
 		border-radius: 50px;
 		position: absolute;
-		margin-left: -15.5%;
-		margin-top: -4.5%;
+		margin-left: -20%;
+		margin-top: 0%;
 	}
 	.cancel {
 		margin-left: 96%;
@@ -886,20 +890,33 @@
 		font-family: Arial, Helvetica, sans-serif;
 		font-weight: 800;
 	}
-	.ai-101-container #ml-icon,
-	#mimic-icon,
-	#process-icon {
-		margin-top: 0%;
-		margin-left: -2%;
+	#ml-icon {
+		margin-top: 20%;
+		margin-left: 10%;
 		width: 100px;
 	}
+
+
+	#mimic-icon {
+		margin-top: 20%;
+		margin-left: 20%;
+		width: 100px;
+	}
+
+	#process-icon {
+		margin-top: 20%;
+		margin-left: 30%;
+		width: 100px;
+	}
+
+
 	.ai-101-container h3 {
 		display: none;
 	}
 	.form2-wrapper {
 		position: absolute;
 		display: flex;
-		margin-top: -20%;
+		margin-top: -10.5%;
 		height: 10vh;
 		background-color: rgba(0, 0, 0, 0.3);
 	}
@@ -915,7 +932,7 @@
 	
 	/*------------#industries section------------*/
 	#adjust-footer {
-		margin-top: 40%;
+		margin-top: 52%;
 	}
 	/*==================article popup===================================*/
 	/*--------header--------*/
@@ -928,13 +945,13 @@
 		height: 100px;
 	}
 	.article-audio {
-		margin-left: -14%;
-		margin-top: -2%;
+		margin-left: -24%;
+		margin-top: -1.5%;
 	}
 	.article-header-wrapper .listen-in {
 		letter-spacing: 1px;
-		padding-left: 20%;
-		margin-top: 30%;
+		padding-left: 34%;
+		margin-top: 35%;
 	}
 	.cancel {
 		margin-top: -0.5%;
@@ -1042,8 +1059,8 @@
 		height: 100px;
 	}
 	.article-audio {
-		margin-left: -14%;
-		margin-top: -4%;
+		margin-left: -20%;
+		margin-top: 0%;
 	}
 	.article-header-wrapper .listen-in {
 		letter-spacing: 1px;
@@ -1143,18 +1160,18 @@
 	}
 	/*------------#industries section------------*/
 	#header-industries {
-		padding-top: 14%;
-		width: 72.5%;
+		padding-top: 0%;
+		width: 100%;
 	}
 	#industry-icon {
 		display: none;
 	}
 	.grid-template-rows-1,
 	.grid {
-		margin-top: 6%;
+		margin-top: 10%;
 	}
 	#adjust-footer {
-		margin-top: 56%;
+		margin-top: 58%;
 	}
 	/*-------------article popup-----------*/
 	/*--------header--------*/
@@ -1173,13 +1190,13 @@
 	}
 	.article-audio {
 		position: absolute;
-		margin-left: -10%;
-		margin-top: -2.5%;
+		margin-left: -15%;
+		margin-top: 0%;
 	}
 	.article-header-wrapper .listen-in {
 		letter-spacing: .5px;
 		margin-left: 65%;
-		padding-top: 1.5%;
+		margin-top: 35%;
 		white-space: nowrap;
 		font-weight: 900;
 	}

@@ -55,7 +55,7 @@ body {
 	display: inline-block;
 	color: #fff;
 	padding: 8px 4px 6px 4px;
-	font-size: calc( 12px + (4 - 2) * (100vw - 400px) / (800 - 400));
+	font-size: calc( 16px + (8 - 5) * (100vw - 400px) / (800 - 400));
 	letter-spacing: calc( 2px + (1 - 0.5) * (100vw - 400px) / (800 - 400));
 }
 
@@ -71,7 +71,7 @@ body {
 .nav>.nav-links {
 	display: inline;
 	float: right;
-	font-size: calc(14px + (2 - 1) * (100vw - 400px) / (800 - 400));
+	font-size: calc(10px + (5 - 2.5) * (100vw - 400px) / (800 - 400));
 	letter-spacing: calc(2px + (1 - 0.5) * (100vw - 400px) / (800 - 400));
 	font-weight: 100;
 	padding-right: 1.5%;
@@ -191,7 +191,7 @@ a:hover {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: calc( 10px + (2 - 1) * (100vw - 400px) / (800 - 400));
+	font-size: calc( 12px + (6 - 3) * (100vw - 400px) / (800 - 400));
 	letter-spacing: calc( 5px + (2 - 1) * (100vw - 400px) / (800 - 400));
 }
 
@@ -425,7 +425,7 @@ audio::-webkit-media-controls-play-button:hover {
 	color: white;
 	font-size: calc(6px + (3 - 1) * (100vw - 400px) / (800 - 400));
 	letter-spacing: 3.5px;
-	padding-left: 70%;
+	padding-left: 50%;
 }
 
 .read {
@@ -841,7 +841,7 @@ audio::-webkit-media-controls-play-button:hover {
 	margin-left: -40%;
 }
 .article-header-wrapper .listen-in {
-	padding-left: 12%;
+	padding-left: 50%;
 	letter-spacing: 0.5px;
 }
 .article-audio {
