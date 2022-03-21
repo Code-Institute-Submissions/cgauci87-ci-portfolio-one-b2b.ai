@@ -866,7 +866,7 @@
 	/*----header----*/
 	.audio-player {
 		padding-top: 0%;
-		margin-top: 32%;
+		margin-top: 28%;
 		margin-left: 105%;
 	}
 	#ai-101-listen {
@@ -927,7 +927,7 @@
 	.form2-wrapper {
 		position: absolute;
 		display: flex;
-		margin-top: -10.5%;
+		margin-top: -20%;
 		height: 10vh;
 		background-color: rgba(0, 0, 0, 0.3);
 	}
@@ -942,9 +942,25 @@
 
 	
 	/*------------#industries section------------*/
-	#adjust-footer {
-		margin-top: 52%;
+	.industries {
+		grid-template-rows: 20% 60% 20%;
 	}
+	#header-industries {
+		margin-left: -22%;
+		margin-top: -5%;
+	}
+	.grid-template-rows-1,
+	.grid {
+		margin-top: 11%;
+	}
+	.grid-template-rows-1 {
+		grid-template-rows: 242px 242px;
+	}
+	#adjust-footer {
+		margin-top: 44%;
+		padding-top: 0%;
+	}
+
 	/*==================article popup===================================*/
 	/*--------header--------*/
 
@@ -956,13 +972,13 @@
 		height: 100px;
 	}
 	.article-audio {
-		margin-left: -24%;
-		margin-top: -1.5%;
+		margin-left: -10%;
+		margin-top: 1%;
 	}
 	.article-header-wrapper .listen-in {
 		letter-spacing: 1px;
-		padding-left: 34%;
-		margin-top: 35%;
+		padding-left: 64%;
+		margin-top: 45%;
 	}
 	.cancel {
 		margin-top: -0.5%;
