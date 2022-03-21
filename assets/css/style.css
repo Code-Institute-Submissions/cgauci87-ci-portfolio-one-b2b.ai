@@ -491,6 +491,17 @@ audio::-webkit-media-controls-play-button:hover {
 	margin-left: 0.5%;
 }
 
+
+.ai-101-container span {
+transition: box-shadow 0.5ms ease-in-out, color 0.9ms ease-in-out;
+box-sizing: border-box;
+appearance: none;
+background-color: rgba(127, 221, 252, 0.932);
+border: transparent 3px solid;
+border-radius: 0.6em;
+}
+
+
 .spike#spike1 {
 	height: 22vh;
 	margin-top: 0%;
