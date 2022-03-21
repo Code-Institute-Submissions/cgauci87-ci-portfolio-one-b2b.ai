@@ -16,7 +16,7 @@
   }
   
   .nav > .nav-links {
-    margin-top: 2.5%;
+    margin-top: 2%;
   }
   
   #intro {
@@ -42,8 +42,8 @@
         }	
       
   .line-wrapper-2 .line-2 {
-      margin-top: 5%;
-      height: 22vh;
+      margin-top: 6.5%;
+      height: 30vh;
     }	
   
     
@@ -82,7 +82,10 @@
   font-size: calc( 10px + (5 - 2) * (100vw - 400px) / (800 - 400) );
   margin-top: 14%;
   padding-left: 2.5%;
-  width: 98%;
+  }
+
+  .author-name { 
+  width: 120%;
   }
   
   .profile-photo img {
@@ -91,7 +94,7 @@
   }
   
   .audio-player {
-      margin-top: 70%;
+      margin-top: 50%;
       margin-left: -60%;
     }
   
@@ -108,7 +111,7 @@
   }
   
   #ai-101-listen{
-    padding-left: 10%;
+    padding-left: 1%;
     white-space: nowrap;
     font-size: calc( 8px + (4 - 2) * (100vw - 400px) / (800 - 400) );
     letter-spacing: calc( 1px + (.5 - .2) * (100vw - 400px) / (800 - 400) );
@@ -120,7 +123,7 @@
   /*------#ai-101 article-------*/
   
   .ai-101 .ai-101-wrapper .ai-101-container article {
-  margin-top: 8%;
+  margin-top: 4%;
   padding-right: 10%;
   padding-left: 10%;
   }
@@ -131,8 +134,8 @@
   
   
   .ai-101-d {
-    margin-top: -70%;
-    padding-left: 17%;
+    margin-top: -100%;
+    padding-left: 35%;
   }
   
   #xxl {
@@ -151,9 +154,9 @@
   }
   
   .ai-101-container #ml-icon , #mimic-icon, #process-icon{
-    margin-top: -2%;
-    margin-left: -2%;
-    width: 32px;
+    margin-top: -20%;
+    margin-left: 5%;
+    width: 60px;
   }
   
   .ai-101-container h3 {
@@ -248,14 +251,14 @@
     .article-header-wrapper > .audio {
       grid-column: 4 / 4;
       padding-top: 0%;
-      margin-top: -40%;
-      margin-left: 30%;
+      margin-top: -34%;
+      margin-left: 10%;
     }
     
      
     .article-header-wrapper  .listen-in{
       padding-left: 0%;
-      margin-left: -30%;
+      margin-left: 0%;
       letter-spacing: 0.5px;
     }
     
@@ -640,12 +643,16 @@
   /*--------#ai-101 header-------*/
   
   .audio-player {
-      margin-top: 60%;
+      margin-top: 50%;
       margin-left: -60%;
     }
   
   /*-----#ai-101 article-----*/
   
+  .ai-101 .ai-101-wrapper .ai-101-container article {
+    margin-top: 0%;
+    }
+
     .form2-wrapper {
       position: absolute;
       display: flex;
@@ -772,7 +779,7 @@
   /*--------#ai-101 header-------*/
   
   .section-heading {
-    margin-top: 17%;
+    margin-top: 18%;
     margin-left: 55%;
   }
   
@@ -781,7 +788,7 @@
   }
   
   .audio-player {
-    margin-top: 65%;
+    margin-top: 55%;
   }
   
   #ai-101-listen{
@@ -791,7 +798,7 @@
   /*------#ai-101 article-------*/
   
   .ai-101 .ai-101-wrapper .ai-101-container article {
-  margin-top: 18%;
+  margin-top: 0%;
   }
   
   .form2-wrapper {
@@ -821,7 +828,7 @@
   
     
     .article-header-wrapper > .audio {
-      margin-top: -15%;
+      margin-top: -40%;
     }
     
   /*-----------------#podcasts section-----------------*/
@@ -900,7 +907,7 @@
   }
   
   .audio-player {
-      margin-top: -4%;
+      margin-top: -15%;
       margin-left: -60%;
     }
   
@@ -911,14 +918,14 @@
   /*------#ai-101 article-------*/
   
   .ai-101 .ai-101-wrapper .ai-101-container article {
-  margin-top: 8%;
+  margin-top: 2.5%;
   padding-right: 5%;
   padding-left: 5%;
   }
   
   .ai-101-container p {
     font-size: calc( 12px + (7 - 4) * (100vw - 400px) / (800 - 400) );
-    line-height: calc( 10px + (7 - 4) * (100vw - 400px) / (800 - 400) );
+    line-height: calc( 12px + (7 - 4) * (100vw - 400px) / (800 - 400) );
   
   }
   
@@ -980,7 +987,7 @@
   } 
     
   .grid-template-rows-1{
-      grid-template-rows:  170px 170px;
+      grid-template-rows:  153px 153px;
   }
   
   
@@ -996,12 +1003,12 @@
   
       
   .article-header-wrapper > .author-pu{
-    width: 110%;
+    width: 100%;
   }
     
     .article-header-wrapper > .audio {
-      margin-top: 36%;
-      margin-left: 50%;
+      margin-top: 30%;
+      margin-left: 30%;
     }
     
   
@@ -1064,7 +1071,7 @@
     .contact {
       grid-template-rows: 15% 60%;
     }
-    
+
     .contact-container form .field label {
       height: 7vh;
     }
@@ -1141,7 +1148,11 @@
   }
   
   /*-----#ai-101 section-----*/
-  
+  .ai-101-d {
+    margin-top: -60%;
+    padding-left: 25%;
+  }
+
   .form2-wrapper {
     position: absolute;
     display: flex;
@@ -1150,13 +1161,11 @@
     background-color: rgba(0, 0, 0, 0.3);
   }
   
-  
   #adjust-footer {
     margin-top: 60%;
     height: 10vh;
     padding-top: 15%;
   }
-  
   
   /*------------#industries section------------*/
   
@@ -1184,12 +1193,12 @@
   } 
     
   .grid-template-rows-1{
-      grid-template-rows: 180px 180px;
+      grid-template-rows: 192px 192px;
   }
   
   
     #adjust-footer {
-      margin-top: 0%;
+      margin-top: -5%;
       height: 10vh;
       padding-top: 15%;
     }
@@ -1280,7 +1289,7 @@
   }
   
   .audio-player {
-      margin-top: 13%;
+      margin-top: 3%;
       margin-left: -55%;
     }
   
@@ -1299,12 +1308,11 @@
   /*------#ai-101 article-------*/
   
   .ai-101-container {
-  margin-top: 7%;
+  margin-top: 3%;
   }
   
-  
   .ai-101-d {
-    margin-top: -38%;
+    margin-top: -48%;
     padding-left: 25%;
   }
   
@@ -1325,7 +1333,7 @@
   .form2-wrapper {
     position: absolute;
     display: flex;
-    margin-top: -9.5%;
+    margin-top: -16%;
     height: 10vh;
   }
   
@@ -1337,6 +1345,7 @@
   }
   
   #header-industries {
+    margin-top: -10%;
     margin-left: -22%;
     }
   
@@ -1378,8 +1387,8 @@
     }
   
       .article-header-wrapper > .audio {
-      margin-top: 6%;
-      margin-left: 28%;
+      margin-top: -3%;
+      margin-left: 10%;
     }
      
     .article-header-wrapper  .listen-in{
@@ -1457,9 +1466,8 @@
      }
    
      #header-subscribe {
-      padding-top: 5.5%;
-      width: 100%;
-      margin: 0%;
+      margin-top: 5%;
+      padding-top: 0%;
      }
   
      .subscribe-form {
@@ -1627,7 +1635,7 @@
   }
   
   .audio-player {
-      margin-top: 13%;
+      margin-top: 5%;
       margin-left: -55%;
     }
   
@@ -1684,6 +1692,7 @@
   }
   
   #header-industries {
+    margin-top: -12%;
     margin-left: -22%;
     }
   
@@ -1725,8 +1734,8 @@
     }
   
       .article-header-wrapper > .audio {
-      margin-top: 6%;
-      margin-left: 28%;
+      margin-top: 5%;
+      margin-left: 10%;
     }
      
     .article-header-wrapper  .listen-in{
