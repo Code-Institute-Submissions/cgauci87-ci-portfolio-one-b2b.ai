@@ -39,13 +39,9 @@
 		margin-top: 0%;
 		padding-top: 1%;
 	}
-	.goto-btn-txt {
-		text-decoration: none;
-		text-align: center;
-		text-transform: uppercase;
-		font-weight: 600;
-		font-size: calc( 10px + (6 - 3) * (100vw - 400px) / (800 - 400));
-		letter-spacing: calc( 4px + (2 - 1) * (100vw - 400px) / (800 - 400));
+
+	.goto-btn {
+		display: none;
 	}
 	.spike#spike1 {
 		height: 15vh;
@@ -1371,9 +1367,9 @@
 		margin-top: -4%;
 		padding-top: 2.5%;
 	}
-	.goto-btn-txt {
-		font-size: calc( 10px + (6 - 3) * (100vw - 400px) / (800 - 400));
-		letter-spacing: calc( 4px + (2 - 1) * (100vw - 400px) / (800 - 400));
+
+	.goto-btn {
+		display: none;
 	}
 	.spike#spike1 {
 		height: 15vh;
