@@ -112,7 +112,7 @@ a:hover {
 
 #intro {
 	background-color: rgba(18, 42, 49, 1);
-	background-image: url("/assets/images/intro_img.png");
+	background-image: url("../images/background/intro-bg.webp");
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -263,7 +263,7 @@ a:hover {
 	position: relative;
 	display: block;
 	width: 100%;
-	background: url("/assets/images/spikes_anim_img.png");
+	background: url("../images/section/spikes-img.webp");
 	background-repeat: repeat;
 	background-size: cover;
 	z-index: 10;
@@ -302,7 +302,7 @@ a:hover {
 
 .ai-101 {
 	background-color: rgba(176, 221, 236, 0.966);
-	background-image: url("../images/ai_101_bg.png");
+	background-image: url("../images/background/ai-101-bg.webp");
 	background-blend-mode: color-dodge;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -663,7 +663,7 @@ border-radius: 0.6em;
 }
 
 #healthph {
-	background-image: url("../images/healthcare_img.png");
+	background-image: url("../images/section/healthcare-img.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-blend-mode: overlay;
@@ -675,7 +675,7 @@ border-radius: 0.6em;
 }
 
 #bankfin {
-	background-image: url("../images/bank_img.png");
+	background-image: url("../images/section/bank-img.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-blend-mode: overlay;
@@ -687,7 +687,7 @@ border-radius: 0.6em;
 }
 
 #retailecom {
-	background-image: url("../images/ecom_img.png");
+	background-image: url("../images/section/ecom-img.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-blend-mode: overlay;
@@ -699,7 +699,7 @@ border-radius: 0.6em;
 }
 
 #manufacturing {
-	background-image: url("../images/manufacturing_img.png");
+	background-image: url("../images/section/manufacturing-img.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-blend-mode: overlay;
@@ -1070,7 +1070,7 @@ border-radius: 0.6em;
 	width: 100%;
 	height: 100vh;
 	background-color: rgba(176, 221, 236, 0.966);
-	background-image: url("../images/ai_101_bg.png");
+	background-image: url("../images/background/ai-101-bg.webp");
 	background-blend-mode: color-dodge;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1149,7 +1149,7 @@ iframe:hover {
 }
 
 .wave {
-	background: url("../images/ai_wave.png");
+	background: url("../images/section/ai-wave-img.webp");
 	background-size: 1000px 100px;
 	width: 100%;
 	height: 60px;
@@ -1193,7 +1193,7 @@ iframe:hover {
 	width: 100%;
 	height: 100vh;
 	color: #ffffff;
-	background-image: url("../images/subscribe_bg.png");
+	background-image: url("../images/background/subscribe-bg.webp");
 	background-color: rgb(18, 42, 49);
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
@@ -1313,7 +1313,7 @@ iframe:hover {
 	height: 100vh;
 	box-sizing: border-box;
 	color: #fff;
-	background-image: url("../images/contact_bg.png");
+	background-image: url("../images/background/contact-bg.webp");
 	background-color: rgba(0, 0, 0, 0.5);
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
@@ -1716,7 +1716,7 @@ form .field textarea {
 		display: grid;
 		grid-template-rows: 15% 90%;
 		height: 60rem;
-		background-image: url('../images/contact_bg.png');
+		background-image: url('../images/background/contact-bg.webp');
 		background-position: 50%!important;
 		background-size: cover!important;
 		max-height: 100vh !important;
