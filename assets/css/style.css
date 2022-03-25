@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,700|Bungee+Shade|Josefin+Sans:400';
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -16,13 +15,13 @@ html {
 	scroll-behavior: smooth;
 	scroll-padding-top: .01%;
 }
-
+ 
 body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100vh;
-	background-color: rgb(18, 42, 49);
+	background-color: rgba(18, 42, 49, 1);
 	overflow: hidden;
 }
 
@@ -36,7 +35,7 @@ body {
 }
 
 .nav {
-	background-color: rgb(18, 42, 49, 1);
+	background-color: rgba(18, 42, 49, 1);
 	font-family: Arial, Helvetica, sans-serif;
 	height: auto;
 	width: 100%;
@@ -53,7 +52,7 @@ body {
 
 .nav>.nav-header>.nav-title {
 	display: inline-block;
-	color: #fff;
+	color: rgba(255, 255, 255, .75);
 	padding: 8px 4px 6px 4px;
 	font-size: calc( 16px + (8 - 5) * (100vw - 400px) / (800 - 400));
 	letter-spacing: calc( 2px + (1 - 0.5) * (100vw - 400px) / (800 - 400));
@@ -81,7 +80,7 @@ body {
 	display: inline-block;
 	padding: 13px 10px 13px 10px;
 	text-decoration: none;
-	color: #efefef;
+	color: rgba(255, 255, 255, .75);
 }
 
 .nav>.nav-links>a:hover {
@@ -94,7 +93,7 @@ body {
 }
 
 a {
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	text-decoration: none;
 }
 
@@ -146,7 +145,7 @@ a:hover {
 	z-index: 10;
 	color: rgba(255, 255, 255, .75);
 	font-family: 'Anonymous Pro', monospace;
-	background-color: rgb(25, 25, 25);
+	background-color: rgba(25, 25, 25, 1);
 	box-sizing: border-box;
 	width: 100%;
 	border-left: 1px solid rgba(255, 255, 255, .75);
@@ -169,10 +168,10 @@ a:hover {
 	transition: box-shadow 0.5ms ease-in-out, color 0.9ms ease-in-out;
 	box-sizing: border-box;
 	appearance: none;
-	background-color: rgb(18, 42, 49);
+	background-color: rgba(18, 42, 49, 1);
 	border: transparent 3px solid;
 	border-radius: 0.6em;
-	color: whitesmoke;
+	color: rgba(255, 255, 255, 1);
 	cursor: pointer;
 	display: flex;
 	align-items: center;
@@ -202,7 +201,7 @@ a:hover {
 .section-footer {
 	position: relative;
 	width: 100%;
-	background: rgb(18, 42, 49, .3);
+	background: rgba(18, 42, 49, .3);
 	justify-content: center;
 	align-items: center;
 	z-index: 0;
@@ -321,7 +320,7 @@ a:hover {
 	grid-template-columns: repeat(4, 1fr);
 	grid-auto-rows: minmax(100px, auto);
 	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	height: auto;
 	padding: 0;
 	line-height: normal;
@@ -378,7 +377,7 @@ aside>span {
 	border: none;
 	border-radius: 50%;
 	overflow: hidden;
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	filter: saturate(25%);
 	margin-top: 0%;
 	margin-right: 0.5%;
@@ -423,7 +422,7 @@ audio::-webkit-media-controls-play-button:hover {
 
 .listen-in {
 	background: transparent;
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	font-size: calc(6px + (3 - 1) * (100vw - 400px) / (800 - 400));
 	letter-spacing: 3.5px;
 	padding-left: 52%;
@@ -448,7 +447,7 @@ audio::-webkit-media-controls-play-button:hover {
 /*-------#ai-101 article---------*/
 
 .ai-101-container article {
-	color: rgb(18, 42, 49);
+	color: rgba(18, 42, 49, 1);
 	margin-left: 1%;
 	margin-right: 1%;
 	text-align: justify;
@@ -471,14 +470,14 @@ audio::-webkit-media-controls-play-button:hover {
 	padding-right: 1%;
 }
 
-.ai-101-container h3 {
+.ai-101-container h2 {
 	float: left;
 	text-align: right;
 	font-size: calc( 14px + (8 - 4) * (100vw - 400px) / (800 - 400));
 	font-weight: 700;
 	vertical-align: middle;
 	display: inline;
-	color: rgb(18, 42, 49);
+	color: rgba(18, 42, 49, 1);
 	padding-bottom: 20%;
 	margin-top: 0.5%;
 }
@@ -487,7 +486,7 @@ audio::-webkit-media-controls-play-button:hover {
 	font-size: calc( 11px + (5 - 2) * (100vw - 400px) / (800 - 400));
 	font-weight: 600;
 	display: inline;
-	color: black;
+	color: rgba(0, 0, 0, 0.9);
 	margin-left: 0.5%;
 }
 
@@ -514,6 +513,7 @@ border-radius: 0.6em;
 
 #ml-icon {
 	width: 80px;
+	height: 80px;
 	float: left;
 	position: absolute;
 	display: flex;
@@ -523,6 +523,7 @@ border-radius: 0.6em;
 
 #mimic-icon {
 	width: 64px;
+	height: 64px;
 	float: left;
 	position: absolute;
 	display: flex;
@@ -533,6 +534,7 @@ border-radius: 0.6em;
 
 #process-icon {
 	width: 48px;
+	height: 48px;
 	float: left;
 	position: absolute;
 	display: flex;
@@ -543,6 +545,7 @@ border-radius: 0.6em;
 
 #ux-icon {
 	width: 40px;
+	height: 40px;
 	float: left;
 	position: absolute;
 	display: flex;
@@ -552,6 +555,7 @@ border-radius: 0.6em;
 
 #big-data-icon {
 	width: 38px;
+	height: 38px;
 	float: left;
 	position: absolute;
 	display: flex;
@@ -561,6 +565,7 @@ border-radius: 0.6em;
 
 #bus-mgt-icon {
 	width: 38px;
+	height: 38px;
 	float: left;
 	position: absolute;
 	display: flex;
@@ -570,6 +575,7 @@ border-radius: 0.6em;
 
 #op-icon {
 	width: 38px;
+	height: 38px;
 	float: left;
 	position: absolute;
 	display: flex;
@@ -579,6 +585,7 @@ border-radius: 0.6em;
 
 #elv-icon {
 	width: 38px;
+	height: 38px;
 	float: left;
 	position: absolute;
 	display: flex;
@@ -588,6 +595,7 @@ border-radius: 0.6em;
 
 #growth-icon {
 	width: 38px;
+	height: 38px;
 	float: left;
 	position: absolute;
 	display: flex;
@@ -622,7 +630,7 @@ border-radius: 0.6em;
 
 .industries {
 	background: rgba(18, 42, 49, 1);
-	color: #fff;
+	color: rgba(255, 255, 255, .75);
 	margin: 0%;
 	height: 100vh;
 }
@@ -658,7 +666,7 @@ border-radius: 0.6em;
 	min-height: 60vh;
 	height: 65vh;
 	border: none;
-	background-color: rgb(25, 25, 25);
+	background-color: rgba(25, 25, 25, 1);
 	margin-top: 10%;
 }
 
@@ -716,7 +724,7 @@ border-radius: 0.6em;
 	font-size: 1.5em;
 	position: relative;
 	text-align: center;
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	background: rgba(0, 0, 0, 0.6);
 }
 
@@ -727,7 +735,7 @@ border-radius: 0.6em;
 	font-weight: 600;
 	background-color: inherit;
 	filter: invert(10%);
-	color: white;
+	color: rgba(255, 255, 255, .75);
 }
 
 .grid p {
@@ -743,7 +751,7 @@ border-radius: 0.6em;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	background: rgba(0, 0, 0, 0.6);
 	text-align: left;
 	font-size: calc( 11px + (5 - 2) * (100vw - 400px) / (800 - 400));
@@ -779,7 +787,7 @@ border-radius: 0.6em;
 	grid-template-columns: repeat(4, 1fr);
 	grid-auto-rows: minmax(100px, auto);
 	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	height: auto;
 	padding: 0;
 	line-height: normal;
@@ -803,7 +811,7 @@ border-radius: 0.6em;
 }
 
 .article-heading>h2 {
-	color: whitesmoke;
+	color: rgba(255, 255, 255, .75);
 	text-align: center;
 	max-width: 100%;
 	height: auto;
@@ -834,7 +842,7 @@ border-radius: 0.6em;
 	border: none;
 	border-radius: 50%;
 	overflow: hidden;
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	filter: saturate(25%);
 	margin-top: 0%;
 	margin-right: 0.5%;
@@ -879,7 +887,7 @@ border-radius: 0.6em;
 	position: absolute;
 	display: block;
 	background: transparent;
-	color: whitesmoke;
+	color: rgba(255, 255, 255, .75);
 	height: 30px;
 	width: 35px;
 	font-size: 38px;
@@ -892,7 +900,7 @@ border-radius: 0.6em;
 }
 
 .cancel:hover {
-	color: red;
+	color: rgba(235, 17, 17, .7);
 	background-color: transparent;
 }
 
@@ -927,8 +935,8 @@ border-radius: 0.6em;
 	margin-top: -4%;
 	position: absolute;
 	display: none;
-	background: #424242;
-	border: 5px solid whitesmoke;
+	background: rgba(0, 0, 0, 0.1);
+	border: 5px solid rgba(255, 255, 255, .75);
 	border-radius: 10px;
 	overflow-y: hidden;
 	overflow-x: hidden;
@@ -936,7 +944,7 @@ border-radius: 0.6em;
 }
 
 .popup-article article {
-	background-color: white;
+	background-color: rgba(255, 255, 255, .75);
 	overflow-y: scroll;
 	overflow-x: hidden;
 	border-radius: 50px;
@@ -966,7 +974,7 @@ border-radius: 0.6em;
 	display: inline;
 	padding-left: 33%;
 	margin-top: 0.5%;
-	color: black;
+	color: rgba(0, 0, 0, 0.9);
 }
 
 .quote-wrapper {
@@ -977,7 +985,7 @@ border-radius: 0.6em;
 }
 
 .quote {
-	color: darkblue;
+	color:rgba(7, 3, 48, .6);
 	font-weight: bolder;
 	text-align: center;
 	font-size: calc( 12px + (10 - 5) * (100vw - 400px) / (800 - 400));
@@ -985,7 +993,7 @@ border-radius: 0.6em;
 }
 
 .q-caption {
-	color: black;
+	color: rgba(0, 0, 0, 0.9);
 	text-align: center;
 }
 
@@ -1001,7 +1009,7 @@ border-radius: 0.6em;
 	float: right;
 	display: inline;
 	padding-left: 33%;
-	color: black;
+	color: rgba(0, 0, 0, 0.9);
 }
 
 .article-p2 p {
@@ -1014,14 +1022,14 @@ border-radius: 0.6em;
 
 .article-p2 h3 {
 	color: white;
-	background: #0e101f;
+	background:rgba(0, 0, 0, 0.9);
 	text-align: center;
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
 
 .btm-image-wrapper img {
-	background: #0e101f;
+	background: rgba(0, 0, 0, 0.6);
 	padding-left: 3%;
 	padding-right: 3%;
 	margin-top: 5%;
@@ -1079,7 +1087,7 @@ border-radius: 0.6em;
 
 #header-podcasts {
 	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	padding-top: 3.8%;
 	text-align: center;
 	height: 18vh;
@@ -1192,9 +1200,9 @@ iframe:hover {
 	padding: 0;
 	width: 100%;
 	height: 100vh;
-	color: #ffffff;
+	color: rgba(255, 255, 255, .75);
 	background-image: url("../images/background/subscribe-bg.webp");
-	background-color: rgb(18, 42, 49);
+	background-color: rgba(18, 42, 49,1);
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1210,7 +1218,7 @@ iframe:hover {
 #header-subscribe {
 	background-color: rgba(0, 0, 0, 0.5);
 	font-family: Arial, Helvetica, sans-serif;
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	padding-top: 3.8%;
 	text-align: center;
 	width: 100%;
@@ -1221,7 +1229,7 @@ iframe:hover {
 .subscribe-form>h2 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: calc( 32px + (28 - 14) * (100vw - 400px) / (800 - 400));
-	color: white;
+	color:rgba(255, 255, 255, .75);
 	margin-top: 20%;
 }
 
@@ -1232,7 +1240,7 @@ iframe:hover {
 	margin-bottom: 2%;
 	font-weight: 600;
 	white-space: pre-line;
-	color: white;
+	color: rgba(255, 255, 255, .75);
 	text-transform: uppercase;
 }
 
@@ -1246,7 +1254,7 @@ iframe:hover {
 	height: 10vh;
 	width: 500px;
 	text-align: center;
-	color: #0e101f;
+	color: rgba(0, 0, 0, 0.9);
 	margin-left: 70%;
 	margin-top: 20%;
 	font-family: 'Anonymous Pro', monospace;
@@ -1258,9 +1266,9 @@ iframe:hover {
 	position: relative;
 	display: flex;
 	margin-top: 0;
-	background: #0e101f;
-	color: white;
-	border: 2px solid white;
+	background: rgba(1, 8, 12, 1);
+	color: rgba(255, 255, 255, .75);
+	border: 2px solid rgba(255, 255, 255, .75);
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 	border-bottom-left-radius: 5px;
@@ -1282,8 +1290,8 @@ iframe:hover {
 
 .subscribe-form label {
 	font-size: calc(10px + (8 - 4) * (100vw - 400px) / (800 - 400));
-	background-color: #0e101f;
-	color: white;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: rgba(255, 255, 255, .75);
 	font-weight: 200;
 	padding: 0%;
 	width: 100%;
@@ -1312,7 +1320,7 @@ iframe:hover {
 	width: 100%;
 	height: 100vh;
 	box-sizing: border-box;
-	color: #fff;
+	color: rgba(255, 255, 255, .75);
 	background-image: url("../images/background/contact-bg.webp");
 	background-color: rgba(0, 0, 0, 0.5);
 	background-blend-mode: multiply;
@@ -1323,7 +1331,7 @@ iframe:hover {
 
 #header-contact {
 	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
+	color:rgba(255, 255, 255, .75);
 	padding-top: 3.8%;
 	text-align: center;
 	height: 18vh;
@@ -1388,7 +1396,7 @@ form .field textarea {
 	height: 64px;
 	margin: 0;
 	padding-left: 19.5%;
-	color: #313a3d;
+	color: rgba(25, 25, 25, 1);
 }
 
 .contact-container form #msg {
@@ -1424,14 +1432,13 @@ form .field textarea {
 
 .contact-container form input[type="submit"]:hover,
 .contact-container form input[type="submit"]:focus {
-	background: rgb(18, 42, 49);
-	color: whitesmoke;
+	background: rgba(18, 42, 49, 1);
+	color: rgba(255, 255, 255, .75);
 }
-
 #send-btn {
 	width: 100%;
-	background: #0e101f;
-	color: white;
+	background: rgba(0, 0, 0, 0.9);
+	color: rgba(255, 255, 255, .75);
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 500;
 }
@@ -1468,7 +1475,7 @@ form .field textarea {
 
 .social-icon__link {
 	font-size: calc( 12px + (10 - 5) * (100vw - 400px) / (800 - 400));
-	color: #fff;
+	color: rgba(255, 255, 255, .75);
 	margin: 0 10px;
 	display: inline-block;
 	transition: 0.5s;
@@ -1480,7 +1487,7 @@ form .field textarea {
 
 .menu__link {
 	font-size: calc( 12px + (10 - 5) * (100vw - 400px) / (800 - 400));
-	color: #fff;
+	color: rgba(255, 255, 255, .75);
 	margin: 0 10px;
 	display: inline-block;
 	transition: 0.5s;
@@ -1494,7 +1501,7 @@ form .field textarea {
 }
 
 .footer p {
-	color: #fff;
+	color: rgba(255, 255, 255, .75);
 	margin: 15px 0 10px 0;
 	font-size: 1rem;
 	font-weight: 300;
@@ -1572,7 +1579,7 @@ form .field textarea {
 		display: block;
 		width: 25px;
 		height: 8px;
-		border-top: 2px solid #eee;
+		border-top: 2px solid rgba(255, 255, 255, .75);
 	}
 	.nav>.nav-btn>label:hover,
 	.nav #nav-check:checked~.nav-btn>label {
@@ -1683,8 +1690,8 @@ form .field textarea {
 		grid-row-end: 4;
 		grid-column-start: 2;
 		grid-column-end: 3;
-		background-color: #0e101f;
-		color: white;
+		background-color: rgba(0, 0, 0, 0.9);
+		color: rgba(255, 255, 255, .75);
 		white-space: inherit;
 	}
 	.subscribe .subscribe-container .subscribe-form form input[type="email"] {
@@ -1875,26 +1882,26 @@ form .field textarea {
 	#process-icon {
 		position: relative!important;
 	}
-	.ai-101-a h3 {
+	.ai-101-a h2 {
 		margin: 0!important;
 		padding: 0!important;
 		width: 22vw!important;
 		font-size: 3vw!important;
 		text-align: center;
 	}
-	.ai-101-b h3 {
+	.ai-101-b h2 {
 		margin: 0!important;
 		padding: 0!important;
 		width: 30vw!important;
 		font-size: 3vw!important;
 	}
-	.ai-101-c h3 {
+	.ai-101-c h2 {
 		margin: 0!important;
 		padding: 0!important;
 		width: 13vw!important;
 		text-align: center!important;
 	}
-	.ai-101-c h3 img {
+	.ai-101-c h2 img {
 		margin: 0!important;
 		padding: 0!important;
 		width: 8vw!important;
@@ -1924,14 +1931,14 @@ form .field textarea {
 	#process-icon {
 		position: relative!important;
 	}
-	.ai-101-a h3 {
+	.ai-101-a h2 {
 		margin: 0!important;
 		padding: 0!important;
 		width: 22vw!important;
 		font-size: 3vw!important;
 		text-align: center;
 	}
-	.ai-101-b h3 {
+	.ai-101-b h2 {
 		margin: 0!important;
 		padding: 0!important;
 		width: 30vw!important;
@@ -1946,13 +1953,13 @@ form .field textarea {
 		width: 12vw!important;
 		font-size: 3vw!important;
 	}
-	.ai-101-c h3 {
+	.ai-101-c h2 {
 		margin: 0!important;
 		padding: 0!important;
 		width: 13vw!important;
 		text-align: center!important;
 	}
-	.ai-101-c h3 img {
+	.ai-101-c h2 img {
 		margin: 0!important;
 		padding: 0!important;
 		width: 8vw!important;
@@ -1960,7 +1967,7 @@ form .field textarea {
 		left: 50%;
 		transform: translateX(-50%);
 	}
-	.ai-101-d h3 img {
+	.ai-101-d h2 img {
 		padding: 0!important;
 		position: relative!important;
 		margin: 2% 4%!important;

@@ -383,7 +383,7 @@
 	/*-----------#podcasts section----------*/
 	.podcasts {
 		background-color: rgba(14, 16, 31, 1);
-		background-image: url("/assets/images/podcasts_img.png");
+		background-image: url("/assets/images/section/podcasts-img.webp");
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: 0 80px;
