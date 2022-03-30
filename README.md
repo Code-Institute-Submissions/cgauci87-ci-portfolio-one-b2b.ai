@@ -8,7 +8,7 @@ This project is a Front End website for a B2B Company. The main purpose of this 
 [Live Project Here](https://cgauci87.github.io/portfolio_project_1/index.html)
 
 
-<p align="center"><img src="./assets/images/readme-images/devices-mockup.jpg" alt="b2b.ai Webpage on multiple devices"></p>
+<p align="center"><img src="./assets/images/readme/b2b.ai-responsiveness.JPG" alt="b2b.ai Webpage on multiple devices"></p>
 
 ## README Table Content
 
@@ -73,13 +73,12 @@ This project is a Front End website for a B2B Company. The main purpose of this 
 ## Design
 
 ### Website Structure
-B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podcasts, Subscribe and Contact. The Intro Section is the Intro section. The Home Page has 8 sections: (1) Trust, (2) About, (3) Banner Bali, (4) Top Trips, (5) Banner Maldives, (6) City Breaks, (7) Partners and Footer. This page, is linked to all the pages in the website by the Navigation Menu on the top. The Contact Page has the Menu at the top and 3 sections: (1) Contact Form, (2) Partners (3) Footer. The Submitted Form Page has two sections: (1) 'Thanks' message and (2) Footer.
+B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podcasts, Subscribe and Contact.
 
 #### Colour Scheme
- ![Intro Section](./assets/images/readme-images/color-pallete.jpg)
- There are four main colours used: (1 ) white (#ffffff), (2) a variation of rgba(18, 42, 49, 1) . The white is used for text while the rgba(18, 42, 49, 1) and its variation colour tone is being used in background of the respective sections. When the user hovers, the latter is used for the button background.
- Background-blend-mode property is dominantly used in background of the sections to blend with each other and with the element's background color.
-
+ <img src="./assets/images/readme/color-pallete.JPG">
+ There are four main colours used: (1 ) Charleston Green #122a31 color RGB value is (18,42,49), used as a background color of the respective sections. (2) Sky Blue #7fddfc color RGB value is (127,221,252), mainly used to highlight text and also being used when the user hovers on buttons. (3) Alice Blue #ebf4f7 color RGB value is (235,244,247), used on text. (4) Black #000000 color RGB value is (0,0,0), mainly used as a background of headings. Background-blend-mode property is dominantly used to blend with each other and with the element's background color.
+ 
 #### Typography
 * Anonymous Pro, monospace is used as the main font for the whole website for content.
 * The Arial, Helvetica, sans-serif is used for navigation-menu and headings across the page.
