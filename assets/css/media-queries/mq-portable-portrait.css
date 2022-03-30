@@ -66,7 +66,7 @@
 	.section-header-wrapper span,
 	.section-header-wrapper p,
 	.section-header-wrapper aside {
-		font-size: calc(9px + (6 - 4) * (100vw - 400px) / (800 - 400));
+		font-size: calc(12px + (1 - .5) * (100vw - 400px) / (800 - 400));
 	}
 	.read {
 		float: left;
@@ -160,8 +160,8 @@
 	}
 
 	.ai-101-container p {
-		font-size: calc( 9px + (3 - 2) * (100vw - 400px) / (800 - 400));
-		line-height: calc( 9px + (3 - 2) * (100vw - 400px) / (800 - 400));
+		font-size: calc( 12px + (1 - .5) * (100vw - 400px) / (800 - 400));
+		line-height: calc( 12px + (1 - .5) * (100vw - 400px) / (800 - 400));
 		font-weight: 400;
 	}
 
@@ -203,8 +203,8 @@
 	}
 
 	.grid-span {
-		font-size: calc( 11px + (3 - 2) * (100vw - 400px) / (800 - 400));
-		line-height: calc( 10px + (6 - 3) * (100vw - 400px) / (800 - 400));
+		font-size: calc( 12px + (3 - 2) * (100vw - 400px) / (800 - 400));
+		line-height: calc( 12px + (3 - 2) * (100vw - 400px) / (800 - 400));
 		margin-left: -15%;
 		font-weight: 200;
 	}
@@ -679,7 +679,7 @@
 	.section-header-wrapper {
 		margin-top: 8%;
 		height: 24vh;
-		font-size: calc( 10px + (8 - 4) * (100vw - 400px) / (800 - 400));
+		font-size: calc( 12px + (8 - 4) * (100vw - 400px) / (800 - 400));
 	}
 	.section-heading {
 		margin-top: 18%;
@@ -812,14 +812,14 @@
 		font-size: calc( 24px + (18 - 10) * (100vw - 400px) / (800 - 400));
 	}
 	.section-header span {
-		font-size: calc( 10px + (5 - 2.5) * (100vw - 400px) / (800 - 400));
+		font-size: calc( 12px + (1 - .5) * (100vw - 400px) / (800 - 400));
 	}
 	.author>.profile-photo img {
 		max-width: 60px;
 		max-height: 60px;
 	}
 	#ai-101-listen {
-		font-size: calc( 8px + (4 - 2) * (100vw - 400px) / (800 - 400));
+		font-size: calc( 12px + (1 - .5) * (100vw - 400px) / (800 - 400));
 		letter-spacing: calc( 1px + (.5 - .2) * (100vw - 400px) / (800 - 400));
 	}
 	/*------#ai-101 article-------*/
@@ -1011,7 +1011,7 @@
 		font-size: calc( 22px + (12 - 6) * (100vw - 400px) / (800 - 400));
 	}
 	.section-heading span {
-		font-size: calc( 9px + (3 - 2) * (100vw - 400px) / (800 - 400));
+		font-size: calc( 12px + (1 - .5) * (100vw - 400px) / (800 - 400));
 	}
 	.profile-photo img {
 		max-width: 50px;
@@ -1083,7 +1083,7 @@
 	.article-header-wrapper span,
 	.article-header-wrapper p,
 	.article-header-wrapper aside {
-		font-size: calc(11px + (6 - 4) * (100vw - 400px) / (800 - 400));
+		font-size: calc(12px + (1 - .5) * (100vw - 400px) / (800 - 400));
 	}
 	/*-------article-------*/
 	.popup-article article,
@@ -1167,7 +1167,7 @@
 		font-size: calc( 24px + (18 - 10) * (100vw - 400px) / (800 - 400));
 	}
 	.section-header span {
-		font-size: calc( 10px + (5 - 2.5) * (100vw - 400px) / (800 - 400));
+		font-size: calc( 12px + (1 - .5) * (100vw - 400px) / (800 - 400));
 	}
 	.profile-photo img {
 		max-width: 60px;
@@ -1177,7 +1177,7 @@
 		margin-top: 10%;
 	}
 	#ai-101-listen {
-		font-size: calc( 8px + (4 - 2) * (100vw - 400px) / (800 - 400));
+		font-size: calc( 12px + (1 - .5) * (100vw - 400px) / (800 - 400));
 		letter-spacing: calc( 1px + (.5 - .2) * (100vw - 400px) / (800 - 400));
 	}
 	/*------#ai-101 article-------*/
@@ -1274,7 +1274,7 @@
 	.article-header-wrapper span,
 	.article-header-wrapper p,
 	.article-header-wrapper aside {
-		font-size: calc(10px + (5 - 3) * (100vw - 400px) / (800 - 400));
+		font-size: calc(12px + (1 - .5) * (100vw - 400px) / (800 - 400));
 	}
 	.article-header-wrapper>.audio {
 		margin-top: 15%;

@@ -1,7 +1,7 @@
 # b2b.ai - Website
 
 # Introduction
-Portfolio Project 1 for Code Institute Full-stack development program: HTML/CSS Essentials
+Portfolio Project 1 for Code Institute Full-stack development program: HTML/CSS Essentials.
 
 This project is a Front End website for a B2B Company. The main purpose of this website is to provide expert insights into artificial intelligence, machine learning and beyond. The website is interactive and user-friendly allowing the user to interact with the company through a contact form, subscribe form and social media channels.
 
@@ -26,13 +26,11 @@ This project is a Front End website for a B2B Company. The main purpose of this 
 * [Features](#features)  
     * [Intro Section](#intro)
     * [AI-101 Section](#ai-101)
-    * [Industries Section](#industries) 
-    * [Industries - Popup Article](#popup-article)
+    * [Industries Section](#industries)
     * [Podcasts Section](#podcasts)
     * [Subscribe Section](#subscribe)
     * [Contact Section](#contact)
     * [Footer](#footer)
-    * [Contact Page](#Contact-page)
     * [Submitted Form Page](#submitted-form)
 * [Future Features](#future-features)
     * [Search Bar](#search-bar)
@@ -84,11 +82,15 @@ B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podca
 * The Arial, Helvetica, sans-serif is used for navigation-menu and headings across the page.
          
 #### Imagery
-* 3 background images one in the Header and another 2 in the Banner Section.
-* 2 images in the AI-101 Section with the size of 680px by 410px.
-* 12 images for the Industries - Popup Article with the size of 950px by 713px.
-* 8 Images in the Contact Section with the size of 580px by 280px.
-* Please Note (All images were compressed to ensure maximum performance).
+* 1 background image in Intro Section
+* 1 background image in AI-101 Section along with article images (depends on the screen size).
+* 4 images as a background in Industries Section.
+* 2 images in the pop-up article.
+* 1 image in Podcasts section.
+* 1 background image in Subscribe section.
+* 1 background image in Contact section.
+* Icons are displayed mainly in articles of AI-101 and Industries section.
+* All images were resized and compressed using progressive compression to ensure maximum performance.
 
 ###  Audio
 * The AI-101 Section has one audio player with disabled auto-play. The user has the option to listen to the AI-101 article.
@@ -104,81 +106,78 @@ B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podca
 
 ### Intro Section 
 
-![Intro Section](./assets/images/readme-images/intro-mockup.jpg)
+![Intro Section](./assets/images/readme/intro-section.jpg)
 
-* The Intro Section is .. <br>
+* The Intro Section is the first encounter once the user land to the site. The intro has a brief heading and also features typewriter animation to make this site look tech-savvy.  <br>
+[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/index.html)
 
 
 ### Navigation Menu
 
-![Navigation Menu](./assets/images/readme-images/navigation-menu.jpg)
+![Navigation Menu](./assets/images/readme/nav-menu.jpg)
 * At the top of the website, a fixed navigation menu is displayed on desktop and large displays. The navbar is fully responsive in smaller devices and user will find a toogle on top right side to open the menu.
  In this navigation menu users can navigate to all sections while the b2b.ai logo on the left side is clickable and users can refer to it when they need to go back to #intro<br>
-[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/index.html#intro)
+[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/index.html)
 
 ### AI-101 Section
 
-![AI-101 Section](./assets/images/readme-images/home-page-ai-101.jpg)
+![AI-101 Section](./assets/images/readme/ai-101-section.jpg)
 
-* In this section, users .. <br>
-[Live Feature Here](https://)
+* AI-101 section is an educational resource where users can get insightful information about artificial intelligence technologies being used in the business world. <br>
+[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#ai-101)
 
 ### Industries Section
 
-![Industries Section](./assets/images/readme-images/industries-mockup.jpg)
+![Industries Section](./assets/images/readme/industries-section.jpg)
 
-* This Section showcase industries which .. <br>
-[Live Feature Here](https://)
+* This section showcase four industries which use artificial intelligence solutions as part of their business operations. Once user clicks on "Read full article"; a pop-up will be invoked and an article of the chosen industry will open. <br>
+[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#industries)
 
-### Industries - Popup Article
-
-![Industries - Popup Article](./assets/images/readme-images/popup-article-mockup.jpg)
-
-* This feature is .. <br>
-[Live Feature Here](https://)
 
 ### Podcasts Section
 
-![Podcasts Section](./assets/images/readme-images/podcasts-mockup.jpg)
+![Podcasts Section](./assets/images/readme/podcasts-section.jpg)
 
-* This Section has .. <br>
-[Live Feature Here](https://)
+* Podcasts section features a playlist where user can listen to AI-related podcasts. <br>
+[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#podcasts)
 
 ### Subscribe Section
 
-![Subscribe Section](./assets/images/readme-images/subscribe-mockup.jpg)
+![Subscribe Section](./assets/images/readme/subscribe-section.jpg)
 
-* This section has.. <br>
-[Live Feature Here](https://)
+* This section has a form where user can sign up to receive email updates on new articles and podcasts. <br>
+[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#subscribe)
 
 ### Contact Section
 
-![Contact Section](./assets/images/readme-images/contact-mockup.jpg)
+![Contact Section](./assets/images/readme/contact-section.jpg)
 
-* In this section users can see .. <br>
-[Live Feature Here](https://)
+* Users can reach b2b.ai by inputting their Name, email address and write their feedback or query through the form provided in this section. <br>
+[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#contact)
 
 ### Footer
 
-![Footer](./assets/images/readme-images/footer-mockup.jpg)
+![Footer](./assets/images/readme/footer.jpg)
 
-* This feature is .. <br>
-[Live Feature Here](https://)
+* The footer is positioned at the bottom part of the contact section. It contains social media links where user can learn more about b2b.ai company. At the foot of the page, user can find the copyright message. <br>
+[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#contact)
 
 
 ### Submitted Form Page
 
-![Contact Page](./assets/images/readme-images/submitted-form.jpg)
+![Submitted Form](./assets/images/readme/submitted-form.jpg)
 
-* Once the user successfully submits a submit form or contact form, they will land on this submission form Page.<br>
-[Live Feature Here](https://)
+* Once the user successfully complete and submit a subscribe form or contact form, they will land on the submission form page as per above example.<br>
 
 ## Future Features
   
 ### Search Bar
 
-* Add a Search Bar in the Home page. This would allow users to.. 
+* Add a Search Bar in the navigation menu. This would allow users to searh using keywords related to the site content.
 
+### Dark/Light Mode Theme Toggle
+
+* Add a toggle so users may be able to switch theme in Dark or Light mode to view content according to their preference.
 
 ## Technologies Used
 
@@ -205,7 +204,7 @@ B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podca
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 * [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results](https://)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://).
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://)
 
 Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
@@ -253,11 +252,12 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 
    ## Bugs
 
-* I was unable to ..
+
+* Initially, I was unable to produce the ideal responsive design of the forms in Subscribe and Contact sections. The bug has since been fixed permanently by using more relative units.
 
    ## Website Development Issues
 
-* At the initial stages of my project ..
+* At the start of this project, I was not familiar with git commands and therefore I was unsure if I had used the commands correctly in my initial commits. Following a call with my mentor, he guided me to use the right procedures.
 
 ## Deployment of This Project
 
@@ -288,7 +288,7 @@ The website development was created in the "main" branch. This branch was deploy
 
 1. Open [GitHub](https://github.com/).
 2. Click on the project to be cloned.
-3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
+3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL.
 4. Once you click the button the fork will be in your repository.
 5. Open a new terminal.
 6. Change the current working directory to the location that you want the cloned directory.
@@ -308,7 +308,9 @@ The website development was created in the "main" branch. This branch was deploy
 
 ## Content
 
-* All the text content is original. The quotes in the articles are from [CG](https://www.).
+* The quotes in the articles are from:
+ [medium.com](https://medium.com/bytehealth-ai/applications-of-ai-in-healthcare-industry-79366661714e), [sciencedaily.com](https://www.sciencedaily.com/releases/2016/08/160829122106.htm), [mayoclinic.org](https://www.mayoclinic.org/tests-procedures/robotic-surgery/about/pac-20394974), [forbes.com](https://www.forbes.com/sites/louiscolumbus/2020/10/31/the-state-of-ai-adoption-in-financial-services/?sh=4d0a74822aac), [globenewswire.com](https://www.globenewswire.com/news-release/2015/09/28/771442/31614/en/Study-Finds-Sales-and-Marketing-Wasting-50-of-Time-and-Money-on-Leads.html), [deloitte.com](https://www2.deloitte.com/cn/en/pages/consumer-industrial-products/articles/ai-manufacturing-application-survey.html).
+
 
 ### Images
 
@@ -317,10 +319,19 @@ The website development was created in the "main" branch. This branch was deploy
 ### Audio
 
 * The audio was processed by Chrome Screen reader extension [chrome.google.com](https://chrome.google.com/webstore/category/extensions).
+* Podcasts source is [soundcloud.com](https://soundcloud.com/).
 
-### Trust Section Icons
+### Icons
 
 * All the icons were provided and used under the Fontawesome License [Fontawesome.com](https://fontawesome.com/license/free).
+
+### Animation
+
+* Typewriter animation inspired by [geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-create-typewriter-animation-using-html-and-css/).
+
+### Form
+
+* Submitted form page has been sourced from [codeinstitute.net](https://codeinstitute.net/).
   
 ## Special Thanks
 
