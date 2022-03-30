@@ -366,7 +366,6 @@
   /*-----------------#podcasts section-----------------*/
   
   .podcasts {
-    background-image: url("/assets/images/section/podcasts-img.webp");
     background-blend-mode:color-dodge;
     background-repeat: repeat;
     background-attachment: scroll;
