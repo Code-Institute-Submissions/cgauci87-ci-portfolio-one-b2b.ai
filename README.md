@@ -5,7 +5,7 @@ Portfolio Project 1 for Code Institute Full-stack development program: HTML/CSS 
 
 This project is a Front End website for a B2B Company. The main purpose of this website is to provide expert insights into artificial intelligence, machine learning and beyond. The website is interactive and user-friendly allowing the user to interact with the company through a contact form, subscribe form and social media channels.
 
-[Live Project Here](https://cgauci87.github.io/portfolio_project_1/index.html)
+[Live Project Here](https://cgauci87.github.io/ci-portfolio-one-b2b.ai/)
 
 
 <p align="center"><img src="./assets/images/readme/b2b.ai-responsiveness.JPG" alt="b2b.ai Webpage on multiple devices"></p>
@@ -109,7 +109,7 @@ B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podca
 ![Intro Section](./assets/images/readme/intro-section.jpg)
 
 * The Intro Section is the first encounter once the user land to the site. The intro has a brief heading and also features typewriter animation to make this site look tech-savvy.  <br>
-[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/index.html)
+[Live Feature Here](https://cgauci87.github.io/ci-portfolio-one-b2b.ai/index.html)
 
 
 ### Navigation Menu
@@ -117,21 +117,21 @@ B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podca
 ![Navigation Menu](./assets/images/readme/nav-menu.jpg)
 * At the top of the website, a fixed navigation menu is displayed on desktop and large displays. The navbar is fully responsive in smaller devices and user will find a toogle on top right side to open the menu.
  In this navigation menu users can navigate to all sections while the b2b.ai logo on the left side is clickable and users can refer to it when they need to go back to #intro<br>
-[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/index.html)
+[Live Feature Here](https://cgauci87.github.io/ci-portfolio-one-b2b.ai/index.html)
 
 ### AI-101 Section
 
 ![AI-101 Section](./assets/images/readme/ai-101-section.jpg)
 
 * AI-101 section is an educational resource where users can get insightful information about artificial intelligence technologies being used in the business world. <br>
-[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#ai-101)
+[Live Feature Here](https://cgauci87.github.io/ci-portfolio-one-b2b.ai/index.html?#ai-101)
 
 ### Industries Section
 
 ![Industries Section](./assets/images/readme/industries-section.jpg)
 
 * This section showcase four industries which use artificial intelligence solutions as part of their business operations. Once user clicks on "Read full article"; a pop-up will be invoked and an article of the chosen industry will open. <br>
-[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#industries)
+[Live Feature Here](https://cgauci87.github.io/ci-portfolio-one-b2b.ai/index.html?#industries)
 
 
 ### Podcasts Section
@@ -139,28 +139,28 @@ B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podca
 ![Podcasts Section](./assets/images/readme/podcasts-section.jpg)
 
 * Podcasts section features a playlist where user can listen to AI-related podcasts. <br>
-[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#podcasts)
+[Live Feature Here](https://cgauci87.github.io/ci-portfolio-one-b2b.ai/index.html?#podcasts)
 
 ### Subscribe Section
 
 ![Subscribe Section](./assets/images/readme/subscribe-section.jpg)
 
 * This section has a form where user can sign up to receive email updates on new articles and podcasts. <br>
-[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#subscribe)
+[Live Feature Here](https://cgauci87.github.io/ci-portfolio-one-b2b.ai/index.html?#subscribe)
 
 ### Contact Section
 
 ![Contact Section](./assets/images/readme/contact-section.jpg)
 
 * Users can reach b2b.ai by inputting their Name, email address and write their feedback or query through the form provided in this section. <br>
-[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#contact)
+[Live Feature Here](https://cgauci87.github.io/ci-portfolio-one-b2b.ai/index.html?#contact)
 
 ### Footer
 
 ![Footer](./assets/images/readme/footer.jpg)
 
 * The footer is positioned at the bottom part of the contact section. It contains social media links where user can learn more about b2b.ai company. At the foot of the page, user can find the copyright message. <br>
-[Live Feature Here](https://cgauci87.github.io/portfolio_project_1/#contact)
+[Live Feature Here](https://cgauci87.github.io/ci-portfolio-one-b2b.ai/index.html?#contact)
 
 
 ### Submitted Form Page
@@ -196,15 +196,15 @@ B2b.ai website is a one page with six sections: Intro, AI-101, Industries, Podca
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub:](https://github.com/)
     * GitHub is used to store the project's code after being pushed from Git.
-* [PIXLR:](https://pixlr.com/pt/)
+* [PIXLR:](https://pixlr.com/)
     * PIXLR was used to create, modify and resize all images on this website.
   
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Website Results](https://)
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Website Results](https://)
+* [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) - [Website Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcgauci87.github.io%2Fci-portfolio-one-b2b.ai%2F)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) - [Website Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcgauci87.github.io%2Fci-portfolio-one-b2b.ai%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
@@ -235,11 +235,11 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 
 * Desktop Results:
 
-  ![Lighthouse Destop Result](./assets/images/readme-images/desktop-results.jpg).
+  ![Lighthouse Destop Result](./assets/images/readme/b2b.ai-lighthouse-results-desktop.JPG)
 
 * Mobile Results:
 
-  ![Lighthouse Mobile Result](./assets/images/readme-images/mobile-results.jpg).
+  ![Lighthouse Mobile Result](./assets/images/readme/b2b.ai-lighthouse-results-mobile.JPG)
 
    ## Functionality
 * All links have been hovered and clicked to ensure accessibility.
@@ -299,11 +299,11 @@ The website development was created in the "main" branch. This branch was deploy
 
 ### Information Sources/Resources
 
-* [W3Schools](https://www.w3schools.com/).
+* [W3Schools](https://www.w3schools.com/)
 
-* [Stack Overflow](https://stackoverflow.com/).
+* [Stack Overflow](https://stackoverflow.com/)
 
-* [CSS-Tricks](https://css-tricks.com/).
+* [CSS-Tricks](https://css-tricks.com/)
   
 
 ## Content
